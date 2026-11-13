@@ -1,6 +1,6 @@
 {
   "host": "old.amdm.gov.md",
-  "auditedAt": "2026-11-13T20:31:35.996Z",
+  "auditedAt": "2026-11-13T20:39:21.084Z",
   "url": "https://old.amdm.gov.md/",
   "finalHost": "old.amdm.gov.md",
   "status": 200,
@@ -47,7 +47,7 @@
     "forms": 0,
     "requests": 11,
     "transferBytes": 968,
-    "domContentLoaded": 1080,
+    "domContentLoaded": 1045,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -66,5 +66,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4561
+  "durationMs": 4922
 }

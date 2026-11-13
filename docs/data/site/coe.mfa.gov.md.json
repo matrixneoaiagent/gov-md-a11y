@@ -1,6 +1,6 @@
 {
   "host": "coe.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:30:17.797Z",
+  "auditedAt": "2026-11-13T20:37:44.493Z",
   "url": "https://coe.mfa.gov.md/",
   "finalHost": "coe.mfa.gov.md",
   "status": 200,
@@ -72,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 128,
-    "transferBytes": 497910,
-    "domContentLoaded": 1345,
+    "transferBytes": 497915,
+    "domContentLoaded": 1442,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://coe.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700ital",
@@ -94,5 +94,5 @@
     "mobile": 100,
     "overall": 82
   },
-  "durationMs": 5349
+  "durationMs": 5617
 }

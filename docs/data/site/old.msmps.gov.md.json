@@ -1,10 +1,11 @@
 {
   "host": "old.msmps.gov.md",
-  "auditedAt": "2026-11-13T20:18:11.221Z",
+  "auditedAt": "2026-11-13T20:40:18.119Z",
   "url": "https://old.msmps.gov.md/",
   "finalHost": "old.msmps.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -110,8 +111,8 @@
     "imagesNoAlt": 5,
     "forms": 1,
     "requests": 92,
-    "transferBytes": 2079966,
-    "domContentLoaded": 2906,
+    "transferBytes": 2079965,
+    "domContentLoaded": 2972,
     "mobileOverflowPx": 659,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -134,5 +135,5 @@
     "mobile": 55,
     "overall": 51
   },
-  "durationMs": 8383
+  "durationMs": 9378
 }

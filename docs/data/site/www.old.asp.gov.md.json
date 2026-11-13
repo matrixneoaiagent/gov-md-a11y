@@ -1,6 +1,6 @@
 {
   "host": "www.old.asp.gov.md",
-  "auditedAt": "2026-11-13T20:31:50.781Z",
+  "auditedAt": "2026-11-13T20:40:42.242Z",
   "url": "https://www.old.asp.gov.md/",
   "finalHost": "www.old.asp.gov.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 45786
+  "durationMs": 45676
 }

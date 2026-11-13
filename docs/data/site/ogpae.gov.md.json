@@ -1,10 +1,11 @@
 {
   "host": "ogpae.gov.md",
-  "auditedAt": "2026-11-13T20:17:34.702Z",
+  "auditedAt": "2026-11-13T20:39:52.658Z",
   "url": "https://ogpae.gov.md/",
   "finalHost": "ogpae.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -64,8 +65,8 @@
     "imagesNoAlt": 0,
     "forms": 2,
     "requests": 62,
-    "transferBytes": 6913850,
-    "domContentLoaded": 1201,
+    "transferBytes": 6914590,
+    "domContentLoaded": 1592,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -80,7 +81,7 @@
       "Failed to load resource: net::ERR_FAILED"
     ],
     "failedRequests": [
-      "https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/styles__ltr.css (net::ERR_FAILED)"
+      "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/styles__ltr.css (net::ERR_FAILED)"
     ]
   },
   "flags": [
@@ -94,5 +95,5 @@
     "mobile": 100,
     "overall": 55
   },
-  "durationMs": 6427
+  "durationMs": 5763
 }

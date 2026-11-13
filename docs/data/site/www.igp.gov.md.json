@@ -1,6 +1,6 @@
 {
   "host": "www.igp.gov.md",
-  "auditedAt": "2026-11-13T20:30:46.270Z",
+  "auditedAt": "2026-11-13T20:43:44.579Z",
   "url": "https://www.igp.gov.md/",
   "finalHost": "www.igp.gov.md",
   "status": 200,
@@ -85,7 +85,7 @@
     "forms": 1,
     "requests": 172,
     "transferBytes": 14589467,
-    "domContentLoaded": 2311,
+    "domContentLoaded": 2366,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -110,5 +110,5 @@
     "mobile": 100,
     "overall": 62
   },
-  "durationMs": 7741
+  "durationMs": 6578
 }

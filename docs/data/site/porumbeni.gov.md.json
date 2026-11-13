@@ -1,10 +1,11 @@
 {
   "host": "porumbeni.gov.md",
-  "auditedAt": "2026-11-13T20:19:11.849Z",
+  "auditedAt": "2026-11-13T20:40:55.481Z",
   "url": "https://cncps.maia.gov.md/",
   "finalHost": "cncps.maia.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -71,9 +72,9 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
         "nodes": 30,
         "sample": [
-          ".flex-active-slide[data-thumb-alt=\"\"] > .prettyphoto[rel=\"prettyPhoto[rel-428092843]\"]",
-          "li[data-thumb-alt=\"\"]:nth-child(2) > .prettyphoto[rel=\"prettyPhoto[rel-428092843]\"]",
-          "li[data-thumb-alt=\"\"]:nth-child(3) > .prettyphoto[rel=\"prettyPhoto[rel-428092843]\"]"
+          ".flex-active-slide[data-thumb-alt=\"\"] > .prettyphoto[rel=\"prettyPhoto[rel-321128409]\"]",
+          "li[data-thumb-alt=\"\"]:nth-child(2) > .prettyphoto[rel=\"prettyPhoto[rel-321128409]\"]",
+          "li[data-thumb-alt=\"\"]:nth-child(3) > .prettyphoto[rel=\"prettyPhoto[rel-321128409]\"]"
         ]
       },
       {
@@ -108,8 +109,8 @@
     "imagesNoAlt": 3,
     "forms": 0,
     "requests": 84,
-    "transferBytes": 2372726,
-    "domContentLoaded": 2033,
+    "transferBytes": 2372723,
+    "domContentLoaded": 2131,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -135,5 +136,5 @@
     "mobile": 100,
     "overall": 54
   },
-  "durationMs": 6520
+  "durationMs": 6653
 }

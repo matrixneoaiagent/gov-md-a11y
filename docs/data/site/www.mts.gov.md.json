@@ -1,6 +1,6 @@
 {
   "host": "www.mts.gov.md",
-  "auditedAt": "2026-11-13T20:30:32.589Z",
+  "auditedAt": "2026-11-13T20:40:51.517Z",
   "url": "https://www.mts.gov.md/",
   "finalHost": "www.mts.gov.md",
   "status": 200,
@@ -15,7 +15,7 @@
   "redirects": 1,
   "axe": {
     "version": "4.14.0",
-    "passes": 27,
+    "passes": 18,
     "incomplete": 2,
     "violations": [
       {
@@ -35,7 +35,7 @@
         "help": "Links must have discernible text",
         "description": "Ensure links have discernible text",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
-        "nodes": 41,
+        "nodes": 39,
         "sample": [
           ".selected > .views-field-field-feature-image.views-field > .field-content > a",
           ".next > .views-field-field-feature-image.views-field > .field-content > a",
@@ -108,23 +108,19 @@
     "images": 54,
     "imagesNoAlt": 1,
     "forms": 1,
-    "requests": 190,
-    "transferBytes": 2808107,
-    "domContentLoaded": 1588,
+    "requests": 192,
+    "transferBytes": 3229765,
+    "domContentLoaded": 1526,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_1g_FO\" [Caught in: Module \"__elem_a588f507_1_0_Rj\"]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, ",
-      "ErrorUtils caught an error:\n\nDataStore.get: namespace is required, got undefined\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 725, clientTime: 1794601837, extr",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_2_yu\" [Caught in: Module \"__elem_9fc087ed_1_0_RR\"]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, c",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_2_yu\" [Caught in: Module \"__elem_9fc087ed_1_0_RR\"] [Caught in: Requiring module \"__elem_9fc087ed_1_0_RR\" which threw an exception]\n\nSubsequent ",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_1_RA\" [Caught in: Module \"__elem_9fc087ed_1_1_xq\"]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, c",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_1_RA\" [Caught in: Module \"__elem_9fc087ed_1_1_xq\"] [Caught in: Requiring module \"__elem_9fc087ed_1_1_xq\" which threw an exception]\n\nSubsequent ",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_0_ty\" [Caught in: Module \"__elem_9fc087ed_1_2_ga\"]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. {column: 180, c",
-      "ErrorUtils caught an error:\n\nCould not find element \"u_1_0_ty\" [Caught in: Module \"__elem_9fc087ed_1_2_ga\"] [Caught in: Requiring module \"__elem_9fc087ed_1_2_ga\" which threw an exception]\n\nSubsequent "
+      "Failed to load resource: the server responded with a status of 400 ()",
+      "Refused to display 'https://www.facebook.com/' in a frame because it set 'X-Frame-Options' to 'deny'."
     ],
-    "failedRequests": []
+    "failedRequests": [
+      "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fhref%3Dhttps%253A%252F%252Fww (net::ERR_BLOCKED_BY_RESPONSE)"
+    ]
   },
   "flags": [
     "no-lang",
@@ -134,9 +130,9 @@
   "scores": {
     "a11y": 39,
     "security": 0,
-    "performance": 78,
+    "performance": 75,
     "mobile": 100,
     "overall": 42
   },
-  "durationMs": 6172
+  "durationMs": 6358
 }

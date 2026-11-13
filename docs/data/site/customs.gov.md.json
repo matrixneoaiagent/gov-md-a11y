@@ -1,6 +1,6 @@
 {
   "host": "customs.gov.md",
-  "auditedAt": "2026-11-13T20:30:59.981Z",
+  "auditedAt": "2026-11-13T20:38:32.908Z",
   "url": "https://customs.gov.md/ro",
   "finalHost": "customs.gov.md",
   "status": 200,
@@ -112,7 +112,7 @@
     "forms": 0,
     "requests": 55,
     "transferBytes": 1137515,
-    "domContentLoaded": 2325,
+    "domContentLoaded": 1617,
     "mobileOverflowPx": 126,
     "consoleErrors": [
       "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin",
@@ -137,5 +137,5 @@
     "mobile": 55,
     "overall": 47
   },
-  "durationMs": 6092
+  "durationMs": 5251
 }

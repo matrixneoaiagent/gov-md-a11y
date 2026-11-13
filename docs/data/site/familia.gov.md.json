@@ -1,10 +1,11 @@
 {
   "host": "familia.gov.md",
-  "auditedAt": "2026-11-13T20:16:22.658Z",
+  "auditedAt": "2026-11-13T20:38:02.394Z",
   "url": "https://familia.gov.md/",
   "finalHost": "familia.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -74,7 +75,7 @@
     "forms": 0,
     "requests": 35,
     "transferBytes": 1655603,
-    "domContentLoaded": 2068,
+    "domContentLoaded": 2388,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -98,5 +99,5 @@
     "mobile": 100,
     "overall": 61
   },
-  "durationMs": 5572
+  "durationMs": 6467
 }

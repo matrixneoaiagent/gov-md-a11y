@@ -1,10 +1,11 @@
 {
   "host": "old.mf.gov.md",
-  "auditedAt": "2026-11-13T20:18:18.834Z",
+  "auditedAt": "2026-11-13T20:39:24.601Z",
   "url": "https://old.mf.gov.md/",
   "finalHost": "old.mf.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -109,7 +110,7 @@
     "forms": 1,
     "requests": 57,
     "transferBytes": 1568740,
-    "domContentLoaded": 1133,
+    "domContentLoaded": 1119,
     "mobileOverflowPx": 810,
     "consoleErrors": [],
     "failedRequests": [
@@ -129,5 +130,5 @@
     "mobile": 55,
     "overall": 53
   },
-  "durationMs": 4619
+  "durationMs": 5177
 }

@@ -1,6 +1,6 @@
 {
   "host": "msign.gov.md",
-  "auditedAt": "2026-11-13T20:30:19.492Z",
+  "auditedAt": "2026-11-13T20:40:57.951Z",
   "url": "https://msign.gov.md/#/",
   "finalHost": "msign.gov.md",
   "status": 200,
@@ -47,8 +47,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 102,
-    "transferBytes": 574457,
-    "domContentLoaded": 1751,
+    "transferBytes": 574308,
+    "domContentLoaded": 2412,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -66,5 +66,5 @@
     "mobile": 100,
     "overall": 90
   },
-  "durationMs": 5320
+  "durationMs": 5901
 }

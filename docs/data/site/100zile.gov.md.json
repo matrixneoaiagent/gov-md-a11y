@@ -1,6 +1,6 @@
 {
   "host": "100zile.gov.md",
-  "auditedAt": "2026-11-13T20:30:00.472Z",
+  "auditedAt": "2026-11-13T20:37:26.092Z",
   "url": "http://100zile.gov.md/",
   "finalHost": "100zile.gov.md",
   "status": 301,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 48968
+  "durationMs": 46506
 }

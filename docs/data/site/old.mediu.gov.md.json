@@ -1,10 +1,11 @@
 {
   "host": "old.mediu.gov.md",
-  "auditedAt": "2026-11-13T20:20:50.186Z",
+  "auditedAt": "2026-11-13T20:42:13.486Z",
   "url": "https://old.mediu.gov.md/",
   "finalHost": "old.mediu.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -32,6 +33,17 @@
         "help": "Elements must only use supported ARIA attributes",
         "description": "Ensure an element's role supports its ARIA attributes",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".media-youtube-1 > iframe"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
         "nodes": 1,
         "sample": [
           ".media-youtube-1 > iframe"
@@ -99,7 +111,7 @@
       }
     ],
     "impactCounts": {
-      "critical": 1,
+      "critical": 2,
       "serious": 4,
       "moderate": 1,
       "minor": 0
@@ -119,7 +131,7 @@
     "forms": 2,
     "requests": 153,
     "transferBytes": 5866133,
-    "domContentLoaded": 1200,
+    "domContentLoaded": 1160,
     "mobileOverflowPx": 830,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -139,11 +151,11 @@
     "mobile-overflow"
   ],
   "scores": {
-    "a11y": 43,
+    "a11y": 39,
     "security": 65,
     "performance": 66,
     "mobile": 55,
-    "overall": 53
+    "overall": 51
   },
-  "durationMs": 5614
+  "durationMs": 5563
 }

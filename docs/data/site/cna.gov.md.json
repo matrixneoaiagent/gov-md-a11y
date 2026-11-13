@@ -1,6 +1,6 @@
 {
   "host": "cna.gov.md",
-  "auditedAt": "2026-11-13T20:30:25.113Z",
+  "auditedAt": "2026-11-13T20:38:10.789Z",
   "url": "https://cna.md/ro",
   "finalHost": "cna.md",
   "status": 200,
@@ -61,8 +61,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 44,
-    "transferBytes": 834663,
-    "domContentLoaded": 2042,
+    "transferBytes": 834667,
+    "domContentLoaded": 1759,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -87,5 +87,5 @@
     "mobile": 100,
     "overall": 80
   },
-  "durationMs": 10014
+  "durationMs": 8258
 }

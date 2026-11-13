@@ -1,10 +1,11 @@
 {
   "host": "mecc.gov.md",
-  "auditedAt": "2026-11-13T20:18:09.396Z",
+  "auditedAt": "2026-11-13T20:39:14.624Z",
   "url": "https://mecc.gov.md/",
   "finalHost": "mecc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -116,9 +117,9 @@
     "images": 54,
     "imagesNoAlt": 1,
     "forms": 1,
-    "requests": 188,
+    "requests": 190,
     "transferBytes": 2808399,
-    "domContentLoaded": 1076,
+    "domContentLoaded": 1149,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -141,5 +142,5 @@
     "mobile": 100,
     "overall": 60
   },
-  "durationMs": 4988
+  "durationMs": 5415
 }

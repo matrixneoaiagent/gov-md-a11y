@@ -1,6 +1,6 @@
 {
   "host": "www.ism.gov.md",
-  "auditedAt": "2026-11-13T20:31:32.244Z",
+  "auditedAt": "2026-11-13T20:43:56.675Z",
   "url": "https://www.ism.gov.md/",
   "finalHost": "www.ism.gov.md",
   "status": 400,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 791
+  "durationMs": 958
 }

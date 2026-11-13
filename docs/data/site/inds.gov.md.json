@@ -1,10 +1,11 @@
 {
   "host": "inds.gov.md",
-  "auditedAt": "2026-11-13T20:17:18.714Z",
+  "auditedAt": "2026-11-13T20:39:03.954Z",
   "url": "https://inds.gov.md/ro/nsdi-homepage-ro/",
   "finalHost": "inds.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -83,7 +84,7 @@
     "forms": 4,
     "requests": 111,
     "transferBytes": 1078412,
-    "domContentLoaded": 1398,
+    "domContentLoaded": 1628,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -109,5 +110,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 5487
+  "durationMs": 5693
 }

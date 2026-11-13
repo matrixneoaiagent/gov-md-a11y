@@ -1,10 +1,11 @@
 {
   "host": "old.border.gov.md",
-  "auditedAt": "2026-11-13T20:16:50.045Z",
+  "auditedAt": "2026-11-13T20:38:15.976Z",
   "url": "https://old.border.gov.md/",
   "finalHost": "old.border.gov.md",
   "status": 200,
   "ok": true,
+  "stub": true,
   "error": null,
   "tls": {
     "ok": false,
@@ -44,9 +45,9 @@
     "images": 2,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 11,
+    "requests": 10,
     "transferBytes": 968,
-    "domContentLoaded": 830,
+    "domContentLoaded": 762,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -55,6 +56,7 @@
     "failedRequests": []
   },
   "flags": [
+    "stub",
     "tls-error"
   ],
   "scores": {
@@ -64,5 +66,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4283
+  "durationMs": 4086
 }

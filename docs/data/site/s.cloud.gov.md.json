@@ -1,10 +1,11 @@
 {
   "host": "s.cloud.gov.md",
-  "auditedAt": "2026-11-13T20:17:07.696Z",
+  "auditedAt": "2026-11-13T20:40:20.063Z",
   "url": "https://s.cloud.gov.md/",
   "finalHost": "s.cloud.gov.md",
   "status": 502,
   "ok": false,
+  "stub": false,
   "error": "http 502",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3940
+  "durationMs": 3797
 }

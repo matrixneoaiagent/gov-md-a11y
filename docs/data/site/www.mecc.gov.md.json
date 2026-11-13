@@ -1,6 +1,6 @@
 {
   "host": "www.mecc.gov.md",
-  "auditedAt": "2026-11-13T20:30:47.074Z",
+  "auditedAt": "2026-11-13T20:41:03.949Z",
   "url": "https://www.mecc.gov.md/",
   "finalHost": "www.mecc.gov.md",
   "status": 200,
@@ -119,7 +119,7 @@
     "forms": 1,
     "requests": 189,
     "transferBytes": 2808370,
-    "domContentLoaded": 1441,
+    "domContentLoaded": 1110,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -142,5 +142,5 @@
     "mobile": 100,
     "overall": 60
   },
-  "durationMs": 6017
+  "durationMs": 5447
 }

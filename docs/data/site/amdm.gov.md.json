@@ -1,6 +1,6 @@
 {
   "host": "amdm.gov.md",
-  "auditedAt": "2026-11-13T20:30:09.583Z",
+  "auditedAt": "2026-11-13T20:37:36.861Z",
   "url": "https://amdm.gov.md/ro",
   "finalHost": "amdm.gov.md",
   "status": 200,
@@ -24,7 +24,7 @@
   "redirects": 1,
   "axe": {
     "version": "4.14.0",
-    "passes": 31,
+    "passes": 29,
     "incomplete": 1,
     "violations": [
       {
@@ -57,11 +57,11 @@
         "help": "Elements must meet minimum color contrast ratio thresholds",
         "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
-        "nodes": 20,
+        "nodes": 21,
         "sample": [
           ".custom-menu-btn",
           ".text-success:nth-child(1)",
-          "span:nth-child(3)"
+          "p > span:nth-child(3)"
         ]
       },
       {
@@ -132,9 +132,9 @@
     "images": 23,
     "imagesNoAlt": 1,
     "forms": 2,
-    "requests": 110,
-    "transferBytes": 6518540,
-    "domContentLoaded": 3436,
+    "requests": 106,
+    "transferBytes": 6502831,
+    "domContentLoaded": 2370,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -160,5 +160,5 @@
     "mobile": 100,
     "overall": 50
   },
-  "durationMs": 14769
+  "durationMs": 10888
 }

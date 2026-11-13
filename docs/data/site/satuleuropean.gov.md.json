@@ -1,10 +1,11 @@
 {
   "host": "satuleuropean.gov.md",
-  "auditedAt": "2026-11-13T20:18:17.924Z",
+  "auditedAt": "2026-11-13T20:38:25.139Z",
   "url": "https://satuleuropean.gov.md/",
   "finalHost": "satuleuropean.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -34,9 +35,9 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-parent?application=playwright",
         "nodes": 6,
         "sample": [
-          "#brz-tabs-tab-1794601101622-4h3jqisz2pl-0",
-          "#brz-tabs-tab-1794601101622-4h3jqisz2pl-1",
-          "#brz-tabs-tab-1794601101622-4h3jqisz2pl-2"
+          "#brz-tabs-tab-1794602308382-aw5dnmynhvi-0",
+          "#brz-tabs-tab-1794602308382-aw5dnmynhvi-1",
+          "#brz-tabs-tab-1794602308382-aw5dnmynhvi-2"
         ]
       },
       {
@@ -117,8 +118,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 30,
-    "transferBytes": 583139,
-    "domContentLoaded": 2344,
+    "transferBytes": 583137,
+    "domContentLoaded": 2282,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -144,5 +145,5 @@
     "mobile": 100,
     "overall": 59
   },
-  "durationMs": 6306
+  "durationMs": 6186
 }

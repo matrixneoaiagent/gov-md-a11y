@@ -1,6 +1,6 @@
 {
   "host": "www.msmps.gov.md",
-  "auditedAt": "2026-11-13T20:31:34.209Z",
+  "auditedAt": "2026-11-13T20:40:30.283Z",
   "url": "https://ms.gov.md/",
   "finalHost": "www.msmps.gov.md",
   "status": 200,
@@ -183,7 +183,7 @@
     "forms": 2,
     "requests": 87,
     "transferBytes": 1563211,
-    "domContentLoaded": 3566,
+    "domContentLoaded": 3418,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -210,5 +210,5 @@
     "mobile": 100,
     "overall": 27
   },
-  "durationMs": 8027
+  "durationMs": 8061
 }

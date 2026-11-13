@@ -1,6 +1,6 @@
 {
   "host": "www.vpn.asp.gov.md",
-  "auditedAt": "2026-11-13T20:32:51.506Z",
+  "auditedAt": "2026-11-13T20:40:15.661Z",
   "url": "https://www.vpn.asp.gov.md/+CSCOE+/logon.html?a0=86&a1=&a2=&a3=1&reason=1#form_title_text",
   "finalHost": "www.vpn.asp.gov.md",
   "status": 200,
@@ -73,14 +73,14 @@
     "imagesNoAlt": 2,
     "forms": 0,
     "requests": 13,
-    "transferBytes": 31741,
-    "domContentLoaded": 2898,
+    "transferBytes": 31740,
+    "domContentLoaded": 3746,
     "mobileOverflowPx": 114,
     "consoleErrors": [
-      "Loading the script 'https://1751636341shutdown.relay.webvpn./nonexistent.js' violates the following Content Security Policy directive: \"default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob:\". N"
+      "Loading the script 'https://1150550709shutdown.relay.webvpn./nonexistent.js' violates the following Content Security Policy directive: \"default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob:\". N"
     ],
     "failedRequests": [
-      "https://1751636341shutdown.relay.webvpn./nonexistent.js (csp)"
+      "https://1150550709shutdown.relay.webvpn./nonexistent.js (csp)"
     ]
   },
   "flags": [
@@ -96,5 +96,5 @@
     "mobile": 55,
     "overall": 54
   },
-  "durationMs": 17690
+  "durationMs": 19017
 }

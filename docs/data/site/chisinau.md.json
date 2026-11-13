@@ -1,6 +1,6 @@
 {
   "host": "chisinau.md",
-  "auditedAt": "2026-11-13T20:30:31.184Z",
+  "auditedAt": "2026-11-13T20:37:38.497Z",
   "url": "https://www.chisinau.md/",
   "finalHost": "www.chisinau.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2005
+  "durationMs": 1550
 }

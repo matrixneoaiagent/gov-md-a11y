@@ -1,10 +1,11 @@
 {
   "host": "particip.gov.md",
-  "auditedAt": "2026-11-13T20:17:30.744Z",
+  "auditedAt": "2026-11-13T20:38:46.708Z",
   "url": "https://particip.gov.md/ro",
   "finalHost": "particip.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -86,7 +87,7 @@
     "forms": 1,
     "requests": 95,
     "transferBytes": 4888908,
-    "domContentLoaded": 2300,
+    "domContentLoaded": 2902,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -112,5 +113,5 @@
     "mobile": 100,
     "overall": 63
   },
-  "durationMs": 7209
+  "durationMs": 8226
 }

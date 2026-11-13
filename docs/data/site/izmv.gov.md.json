@@ -1,10 +1,11 @@
 {
   "host": "izmv.gov.md",
-  "auditedAt": "2026-11-13T20:17:54.963Z",
+  "auditedAt": "2026-11-13T20:39:08.545Z",
   "url": "https://izmv.gov.md/",
   "finalHost": "izmv.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -80,8 +81,8 @@
     "imagesNoAlt": 1,
     "forms": 1,
     "requests": 106,
-    "transferBytes": 467005,
-    "domContentLoaded": 1388,
+    "transferBytes": 467002,
+    "domContentLoaded": 1422,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://izmv.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,",
@@ -102,5 +103,5 @@
     "mobile": 100,
     "overall": 83
   },
-  "durationMs": 5533
+  "durationMs": 5357
 }

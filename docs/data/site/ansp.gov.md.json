@@ -1,6 +1,6 @@
 {
   "host": "ansp.gov.md",
-  "auditedAt": "2026-11-13T20:30:04.369Z",
+  "auditedAt": "2026-11-13T20:37:37.512Z",
   "url": "https://ansp.gov.md/",
   "finalHost": "ansp.gov.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 45839
+  "durationMs": 45623
 }

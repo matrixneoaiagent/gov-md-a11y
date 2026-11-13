@@ -1,6 +1,6 @@
 {
   "host": "doc.anta.gov.md",
-  "auditedAt": "2026-11-13T20:30:23.146Z",
+  "auditedAt": "2026-11-13T20:38:07.908Z",
   "url": "https://doc.anta.gov.md/",
   "finalHost": "doc.anta.gov.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2608
+  "durationMs": 2777
 }

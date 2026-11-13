@@ -1,10 +1,11 @@
 {
   "host": "essc.servicii.gov.md",
-  "auditedAt": "2026-11-13T20:17:17.563Z",
+  "auditedAt": "2026-11-13T20:39:28.825Z",
   "url": "https://essc.servicii.gov.md/",
   "finalHost": "essc.servicii.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66101
+  "durationMs": 66106
 }

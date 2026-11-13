@@ -1,10 +1,11 @@
 {
   "host": "mec.gov.md",
-  "auditedAt": "2026-11-13T20:20:39.250Z",
+  "auditedAt": "2026-11-13T20:42:02.309Z",
   "url": "https://mec.gov.md/",
   "finalHost": "mec.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -116,9 +117,9 @@
     "images": 54,
     "imagesNoAlt": 1,
     "forms": 1,
-    "requests": 190,
-    "transferBytes": 2808191,
-    "domContentLoaded": 1218,
+    "requests": 192,
+    "transferBytes": 3229849,
+    "domContentLoaded": 1162,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -137,9 +138,9 @@
   "scores": {
     "a11y": 39,
     "security": 70,
-    "performance": 78,
+    "performance": 75,
     "mobile": 100,
     "overall": 60
   },
-  "durationMs": 5480
+  "durationMs": 5665
 }

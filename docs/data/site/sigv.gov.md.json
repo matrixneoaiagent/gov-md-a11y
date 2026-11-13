@@ -1,0 +1,21 @@
+{
+  "host": "sigv.gov.md",
+  "auditedAt": "2026-11-13T20:40:31.171Z",
+  "url": "https://sigv.gov.md/",
+  "finalHost": "sigv.gov.md",
+  "status": 403,
+  "ok": false,
+  "stub": false,
+  "error": "http 403",
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 4058
+}

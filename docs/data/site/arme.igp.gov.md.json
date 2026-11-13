@@ -1,6 +1,6 @@
 {
   "host": "arme.igp.gov.md",
-  "auditedAt": "2026-11-13T20:30:24.356Z",
+  "auditedAt": "2026-11-13T20:37:47.751Z",
   "url": "https://arme.igp.gov.md/",
   "finalHost": "arme.igp.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66110
+  "durationMs": 66094
 }

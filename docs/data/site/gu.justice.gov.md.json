@@ -1,6 +1,6 @@
 {
   "host": "gu.justice.gov.md",
-  "auditedAt": "2026-11-13T20:31:37.239Z",
+  "auditedAt": "2026-11-13T20:37:53.651Z",
   "url": "http://gu.justice.gov.md/",
   "finalHost": "gu.justice.gov.md",
   "status": 301,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1915
+  "durationMs": 2296
 }

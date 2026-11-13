@@ -1,6 +1,6 @@
 {
   "host": "controlezfactura.gov.md",
-  "auditedAt": "2026-11-13T20:31:36.973Z",
+  "auditedAt": "2026-11-13T20:39:01.248Z",
   "url": "https://controlezfactura.gov.md/",
   "finalHost": "controlezfactura.gov.md",
   "status": 404,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 266
+  "durationMs": 598
 }

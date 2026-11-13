@@ -1,10 +1,11 @@
 {
   "host": "mtender.gov.md",
-  "auditedAt": "2026-11-13T20:19:20.264Z",
+  "auditedAt": "2026-11-13T20:41:02.843Z",
   "url": "https://mtender.gov.md/",
   "finalHost": "mtender.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -84,7 +85,7 @@
     "forms": 0,
     "requests": 40,
     "transferBytes": 2637991,
-    "domContentLoaded": 1434,
+    "domContentLoaded": 1146,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin",
@@ -112,5 +113,5 @@
     "mobile": 100,
     "overall": 80
   },
-  "durationMs": 5027
+  "durationMs": 4646
 }

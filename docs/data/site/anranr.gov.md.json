@@ -1,6 +1,6 @@
 {
   "host": "anranr.gov.md",
-  "auditedAt": "2026-11-13T20:29:59.076Z",
+  "auditedAt": "2026-11-13T20:37:31.443Z",
   "url": "https://anranr.gov.md/ro",
   "finalHost": "anranr.gov.md",
   "status": 200,
@@ -71,9 +71,9 @@
     "images": 37,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 60,
+    "requests": 62,
     "transferBytes": 1342864,
-    "domContentLoaded": 1583,
+    "domContentLoaded": 1823,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -98,5 +98,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 6330
+  "durationMs": 6314
 }

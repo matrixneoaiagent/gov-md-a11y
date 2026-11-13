@@ -1,0 +1,72 @@
+{
+  "host": "www.cert.gov.md",
+  "auditedAt": "2026-11-13T20:43:32.791Z",
+  "url": "https://www.cert.gov.md/",
+  "finalHost": "www.cert.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 3,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Coming Soon",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 6,
+    "links": 0,
+    "badLinkText": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 2,
+    "transferBytes": 443,
+    "domContentLoaded": 693,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 94,
+    "security": 0,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 72
+  },
+  "durationMs": 4767
+}

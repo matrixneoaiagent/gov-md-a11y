@@ -1,6 +1,6 @@
 {
   "host": "harta-ig.agepi.gov.md",
-  "auditedAt": "2026-11-13T20:30:20.041Z",
+  "auditedAt": "2026-11-13T20:39:10.053Z",
   "url": "https://harta-ig.agepi.gov.md/",
   "finalHost": "harta-ig.agepi.gov.md",
   "status": 200,
@@ -75,7 +75,7 @@
     "forms": 0,
     "requests": 24,
     "transferBytes": 397987,
-    "domContentLoaded": 1173,
+    "domContentLoaded": 1394,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: the server responded with a status of 404 ()",
@@ -93,5 +93,5 @@
     "mobile": 100,
     "overall": 66
   },
-  "durationMs": 4733
+  "durationMs": 5083
 }

@@ -1,6 +1,6 @@
 {
   "host": "demo.transplant.gov.md",
-  "auditedAt": "2026-11-13T20:30:09.681Z",
+  "auditedAt": "2026-11-13T20:37:43.605Z",
   "url": "https://demo.transplant.gov.md/",
   "finalHost": "demo.transplant.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66118
+  "durationMs": 66119
 }

@@ -1,10 +1,11 @@
 {
   "host": "pcs.gov.md",
-  "auditedAt": "2026-11-13T20:16:35.296Z",
+  "auditedAt": "2026-11-13T20:38:08.021Z",
   "url": "https://pcs.gov.md/",
   "finalHost": "pcs.gov.md",
   "status": 200,
   "ok": false,
+  "stub": false,
   "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3317
+  "durationMs": 3454
 }

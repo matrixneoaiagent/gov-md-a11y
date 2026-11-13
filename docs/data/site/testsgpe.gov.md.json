@@ -1,0 +1,21 @@
+{
+  "host": "testsgpe.gov.md",
+  "auditedAt": "2026-11-13T20:41:24.504Z",
+  "url": "https://testsgpe.gov.md/",
+  "finalHost": "testsgpe.gov.md",
+  "status": null,
+  "ok": false,
+  "stub": false,
+  "error": "probe: UND_ERR_CONNECT_TIMEOUT",
+  "tls": {
+    "ok": false,
+    "error": "timeout"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 66114
+}

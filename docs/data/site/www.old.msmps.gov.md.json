@@ -1,6 +1,6 @@
 {
   "host": "www.old.msmps.gov.md",
-  "auditedAt": "2026-11-13T20:32:34.571Z",
+  "auditedAt": "2026-11-13T20:44:36.756Z",
   "url": "https://www.old.msmps.gov.md/",
   "finalHost": "www.old.msmps.gov.md",
   "status": 200,
@@ -111,10 +111,11 @@
     "imagesNoAlt": 5,
     "forms": 1,
     "requests": 92,
-    "transferBytes": 2079978,
-    "domContentLoaded": 3160,
+    "transferBytes": 2079971,
+    "domContentLoaded": 2667,
     "mobileOverflowPx": 659,
     "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
@@ -134,5 +135,5 @@
     "mobile": 55,
     "overall": 51
   },
-  "durationMs": 9459
+  "durationMs": 8904
 }

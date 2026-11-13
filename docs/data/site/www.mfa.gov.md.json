@@ -1,6 +1,6 @@
 {
   "host": "www.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:30:28.764Z",
+  "auditedAt": "2026-11-13T20:42:37.651Z",
   "url": "https://www.mfa.gov.md/",
   "finalHost": "www.mfa.gov.md",
   "status": 200,
@@ -108,7 +108,7 @@
     "forms": 1,
     "requests": 68,
     "transferBytes": 28491768,
-    "domContentLoaded": 2061,
+    "domContentLoaded": 2151,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -132,5 +132,5 @@
     "mobile": 100,
     "overall": 55
   },
-  "durationMs": 6522
+  "durationMs": 6079
 }

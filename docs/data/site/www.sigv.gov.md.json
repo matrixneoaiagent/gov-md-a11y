@@ -1,6 +1,6 @@
 {
   "host": "www.sigv.gov.md",
-  "auditedAt": "2026-11-13T20:33:07.144Z",
+  "auditedAt": "2026-11-13T20:43:57.766Z",
   "url": "https://www.sigv.gov.md/",
   "finalHost": "www.sigv.gov.md",
   "status": 403,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 4680
+  "durationMs": 4139
 }

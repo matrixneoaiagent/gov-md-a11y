@@ -1,6 +1,6 @@
 {
   "host": "age.gov.md",
-  "auditedAt": "2026-11-13T20:29:53.094Z",
+  "auditedAt": "2026-11-13T20:37:24.656Z",
   "url": "https://age.gov.md/",
   "finalHost": "age.gov.md",
   "status": 400,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 860
+  "durationMs": 531
 }

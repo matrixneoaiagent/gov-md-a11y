@@ -1,6 +1,6 @@
 {
   "host": "www.justice.gov.md",
-  "auditedAt": "2026-11-13T20:31:26.315Z",
+  "auditedAt": "2026-11-13T20:40:21.196Z",
   "url": "https://www.justice.gov.md/ro",
   "finalHost": "www.justice.gov.md",
   "status": 200,
@@ -85,8 +85,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 188,
-    "transferBytes": 3212883,
-    "domContentLoaded": 2206,
+    "transferBytes": 3212890,
+    "domContentLoaded": 3102,
     "mobileOverflowPx": 441,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -115,5 +115,5 @@
     "mobile": 55,
     "overall": 60
   },
-  "durationMs": 7894
+  "durationMs": 9086
 }

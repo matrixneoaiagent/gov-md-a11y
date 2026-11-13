@@ -1,10 +1,11 @@
 {
   "host": "e-permis.border.gov.md",
-  "auditedAt": "2026-11-13T20:17:39.288Z",
+  "auditedAt": "2026-11-13T20:38:49.725Z",
   "url": "https://epermis.border.gov.md/",
   "finalHost": "epermis.border.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -58,8 +59,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 29,
-    "transferBytes": 304037,
-    "domContentLoaded": 1980,
+    "transferBytes": 296595,
+    "domContentLoaded": 1934,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -84,5 +85,5 @@
     "mobile": 100,
     "overall": 89
   },
-  "durationMs": 6134
+  "durationMs": 6414
 }

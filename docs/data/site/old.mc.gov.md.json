@@ -1,10 +1,11 @@
 {
   "host": "old.mc.gov.md",
-  "auditedAt": "2026-11-13T20:18:43.553Z",
+  "auditedAt": "2026-11-13T20:41:03.853Z",
   "url": "https://old.mc.gov.md/",
   "finalHost": "old.mc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -120,8 +121,8 @@
     "imagesNoAlt": 8,
     "forms": 1,
     "requests": 195,
-    "transferBytes": 703037,
-    "domContentLoaded": 2657,
+    "transferBytes": 703040,
+    "domContentLoaded": 3182,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://old.mc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700itali",
@@ -143,5 +144,5 @@
     "mobile": 100,
     "overall": 54
   },
-  "durationMs": 9018
+  "durationMs": 9033
 }

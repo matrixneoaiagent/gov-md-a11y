@@ -1,10 +1,11 @@
 {
   "host": "www.fism.gov.md",
-  "auditedAt": "2026-11-13T20:17:49.154Z",
+  "auditedAt": "2026-11-13T20:43:39.061Z",
   "url": "https://www.fism.gov.md/",
   "finalHost": "www.fism.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -98,7 +99,7 @@
     "forms": 1,
     "requests": 77,
     "transferBytes": 1313117,
-    "domContentLoaded": 997,
+    "domContentLoaded": 1304,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -116,5 +117,5 @@
     "mobile": 100,
     "overall": 67
   },
-  "durationMs": 5748
+  "durationMs": 5432
 }

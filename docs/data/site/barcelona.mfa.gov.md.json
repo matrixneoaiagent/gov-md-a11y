@@ -1,6 +1,6 @@
 {
   "host": "barcelona.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:30:19.127Z",
+  "auditedAt": "2026-11-13T20:38:05.503Z",
   "url": "https://barcelona.mfa.gov.md/",
   "finalHost": "barcelona.mfa.gov.md",
   "status": 200,
@@ -72,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 128,
-    "transferBytes": 561257,
-    "domContentLoaded": 1533,
+    "transferBytes": 561261,
+    "domContentLoaded": 1561,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://barcelona.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,7",
@@ -94,5 +94,5 @@
     "mobile": 100,
     "overall": 77
   },
-  "durationMs": 5985
+  "durationMs": 5286
 }

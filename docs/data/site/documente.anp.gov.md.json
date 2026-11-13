@@ -1,10 +1,11 @@
 {
   "host": "documente.anp.gov.md",
-  "auditedAt": "2026-11-13T20:17:45.219Z",
+  "auditedAt": "2026-11-13T20:39:01.846Z",
   "url": "https://documente.anp.gov.md/",
   "finalHost": "documente.anp.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2760
+  "durationMs": 2988
 }

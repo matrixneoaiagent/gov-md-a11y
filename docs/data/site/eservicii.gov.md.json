@@ -1,10 +1,11 @@
 {
   "host": "eservicii.gov.md",
-  "auditedAt": "2026-11-13T20:16:33.031Z",
+  "auditedAt": "2026-11-13T20:38:12.135Z",
   "url": "https://eservicii.gov.md/",
   "finalHost": "eservicii.gov.md",
   "status": 404,
   "ok": false,
+  "stub": false,
   "error": "http 404",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 802
+  "durationMs": 754
 }

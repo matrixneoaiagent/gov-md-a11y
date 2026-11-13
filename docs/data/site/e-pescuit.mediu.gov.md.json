@@ -1,10 +1,11 @@
 {
   "host": "e-pescuit.mediu.gov.md",
-  "auditedAt": "2026-11-13T20:16:31.871Z",
+  "auditedAt": "2026-11-13T20:38:37.664Z",
   "url": "https://e-pescuit.mediu.gov.md/",
   "finalHost": "e-pescuit.mediu.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -46,8 +47,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 49,
-    "transferBytes": 2328987,
-    "domContentLoaded": 2243,
+    "transferBytes": 2328984,
+    "domContentLoaded": 2313,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -68,5 +69,5 @@
     "mobile": 100,
     "overall": 90
   },
-  "durationMs": 5657
+  "durationMs": 5547
 }

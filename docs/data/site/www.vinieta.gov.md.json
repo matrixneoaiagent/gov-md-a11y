@@ -1,6 +1,6 @@
 {
   "host": "www.vinieta.gov.md",
-  "auditedAt": "2026-11-13T20:31:32.797Z",
+  "auditedAt": "2026-11-13T20:42:26.549Z",
   "url": "https://www.vinieta.gov.md/#step-1",
   "finalHost": "www.vinieta.gov.md",
   "status": 200,
@@ -74,8 +74,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 40,
-    "transferBytes": 1431732,
-    "domContentLoaded": 8388,
+    "transferBytes": 1431737,
+    "domContentLoaded": 7868,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -94,5 +94,5 @@
     "mobile": 100,
     "overall": 67
   },
-  "durationMs": 12961
+  "durationMs": 14230
 }

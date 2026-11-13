@@ -1,10 +1,11 @@
 {
   "host": "old.madrm.gov.md",
-  "auditedAt": "2026-11-13T20:17:33.351Z",
+  "auditedAt": "2026-11-13T20:39:18.833Z",
   "url": "https://old.madrm.gov.md/",
   "finalHost": "old.madrm.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -143,7 +144,7 @@
     "forms": 2,
     "requests": 197,
     "transferBytes": 1400883,
-    "domContentLoaded": 1346,
+    "domContentLoaded": 1431,
     "mobileOverflowPx": 10,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -171,5 +172,5 @@
     "mobile": 55,
     "overall": 45
   },
-  "durationMs": 6193
+  "durationMs": 6060
 }

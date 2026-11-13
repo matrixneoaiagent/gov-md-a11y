@@ -1,6 +1,6 @@
 {
   "host": "www.harta-ig.agepi.gov.md",
-  "auditedAt": "2026-11-13T20:30:24.813Z",
+  "auditedAt": "2026-11-13T20:43:36.886Z",
   "url": "https://www.harta-ig.agepi.gov.md/",
   "finalHost": "www.harta-ig.agepi.gov.md",
   "status": 404,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3945
+  "durationMs": 4069
 }

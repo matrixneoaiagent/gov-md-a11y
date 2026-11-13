@@ -1,10 +1,11 @@
 {
   "host": "www.e-servicii.agepi.gov.md",
-  "auditedAt": "2026-11-13T20:20:02.655Z",
+  "auditedAt": "2026-11-13T20:39:56.997Z",
   "url": "https://www.e-servicii.agepi.gov.md/",
   "finalHost": "www.e-servicii.agepi.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -97,7 +98,7 @@
     "forms": 1,
     "requests": 43,
     "transferBytes": 510147,
-    "domContentLoaded": 2658,
+    "domContentLoaded": 2375,
     "mobileOverflowPx": 850,
     "consoleErrors": [
       "Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://www.e-servicii.agepi.gov.md' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the re",
@@ -121,5 +122,5 @@
     "mobile": 55,
     "overall": 41
   },
-  "durationMs": 6252
+  "durationMs": 6147
 }

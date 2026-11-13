@@ -1,10 +1,11 @@
 {
   "host": "mconnect.gov.md",
-  "auditedAt": "2026-11-13T20:18:32.816Z",
+  "auditedAt": "2026-11-13T20:40:52.454Z",
   "url": "https://mconnect.gov.md/ro/catalog",
   "finalHost": "mconnect.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -69,8 +70,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 75,
-    "transferBytes": 1798421,
-    "domContentLoaded": 1518,
+    "transferBytes": 1798567,
+    "domContentLoaded": 1759,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -83,5 +84,5 @@
     "mobile": 100,
     "overall": 92
   },
-  "durationMs": 5391
+  "durationMs": 5496
 }

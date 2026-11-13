@@ -1,10 +1,11 @@
 {
   "host": "dtc.gov.md",
-  "auditedAt": "2026-11-13T20:16:05.928Z",
+  "auditedAt": "2026-11-13T20:37:50.704Z",
   "url": "https://dtc.gov.md/",
   "finalHost": "dtc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -84,8 +85,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 229,
-    "transferBytes": 4542960,
-    "domContentLoaded": 2005,
+    "transferBytes": 4542962,
+    "domContentLoaded": 2540,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://dtc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,8",
@@ -107,5 +108,5 @@
     "mobile": 100,
     "overall": 64
   },
-  "durationMs": 6678
+  "durationMs": 7121
 }

@@ -1,6 +1,6 @@
 {
   "host": "ancd.gov.md",
-  "auditedAt": "2026-11-13T20:29:54.343Z",
+  "auditedAt": "2026-11-13T20:37:36.046Z",
   "url": "https://ancd.gov.md/ro",
   "finalHost": "ancd.gov.md",
   "status": 200,
@@ -121,9 +121,9 @@
     "images": 91,
     "imagesNoAlt": 44,
     "forms": 2,
-    "requests": 140,
-    "transferBytes": 5585588,
-    "domContentLoaded": 1823,
+    "requests": 139,
+    "transferBytes": 5584848,
+    "domContentLoaded": 1988,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -138,8 +138,7 @@
       "Failed to load resource: net::ERR_FAILED"
     ],
     "failedRequests": [
-      "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d (net::ERR_BLOCKED_BY_ORB)",
-      "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/styles__ltr.css (net::ERR_FAILED)"
+      "https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/styles__ltr.css (net::ERR_FAILED)"
     ]
   },
   "flags": [
@@ -152,5 +151,5 @@
     "mobile": 100,
     "overall": 54
   },
-  "durationMs": 9919
+  "durationMs": 13948
 }

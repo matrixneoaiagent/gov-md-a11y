@@ -1,10 +1,11 @@
 {
   "host": "registru.ansa.gov.md",
-  "auditedAt": "2026-11-13T20:17:39.545Z",
+  "auditedAt": "2026-11-13T20:39:29.779Z",
   "url": "https://registru.ansa.gov.md/",
   "finalHost": "registru.ansa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": true,
   "error": null,
   "tls": {
     "ok": false,
@@ -44,9 +45,9 @@
     "images": 2,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 11,
+    "requests": 10,
     "transferBytes": 968,
-    "domContentLoaded": 769,
+    "domContentLoaded": 792,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -55,6 +56,7 @@
     "failedRequests": []
   },
   "flags": [
+    "stub",
     "tls-error"
   ],
   "scores": {
@@ -64,5 +66,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4069
+  "durationMs": 4179
 }

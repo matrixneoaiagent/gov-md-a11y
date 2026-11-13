@@ -1,10 +1,11 @@
 {
   "host": "docs.msmps.gov.md",
-  "auditedAt": "2026-11-13T20:16:17.833Z",
+  "auditedAt": "2026-11-13T20:37:51.874Z",
   "url": "http://docs.msmps.gov.md/",
   "finalHost": "docs.msmps.gov.md",
   "status": 404,
   "ok": false,
+  "stub": false,
   "error": "http 404",
   "tls": {
     "ok": false,
@@ -24,5 +25,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1256
+  "durationMs": 963
 }

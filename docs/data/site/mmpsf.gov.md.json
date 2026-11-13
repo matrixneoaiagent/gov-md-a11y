@@ -1,10 +1,11 @@
 {
   "host": "mmpsf.gov.md",
-  "auditedAt": "2026-11-13T20:16:41.408Z",
+  "auditedAt": "2026-11-13T20:38:08.334Z",
   "url": "https://ms.gov.md/",
   "finalHost": "ms.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -189,9 +190,9 @@
     "images": 59,
     "imagesNoAlt": 19,
     "forms": 2,
-    "requests": 88,
+    "requests": 87,
     "transferBytes": 1563211,
-    "domContentLoaded": 3270,
+    "domContentLoaded": 2002,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -217,5 +218,5 @@
     "mobile": 100,
     "overall": 42
   },
-  "durationMs": 8636
+  "durationMs": 7641
 }

@@ -1,10 +1,11 @@
 {
   "host": "www.incluziune.edu.gov.md",
-  "auditedAt": "2026-11-13T20:19:44.609Z",
+  "auditedAt": "2026-11-13T20:41:00.064Z",
   "url": "https://www.incluziune.edu.gov.md/",
   "finalHost": "www.incluziune.edu.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -71,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 129,
-    "transferBytes": 537860,
-    "domContentLoaded": 1448,
+    "transferBytes": 537851,
+    "domContentLoaded": 1474,
     "mobileOverflowPx": 319,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -94,5 +95,5 @@
     "mobile": 55,
     "overall": 72
   },
-  "durationMs": 5511
+  "durationMs": 5890
 }

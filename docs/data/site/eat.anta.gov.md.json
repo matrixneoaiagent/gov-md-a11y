@@ -1,6 +1,6 @@
 {
   "host": "eat.anta.gov.md",
-  "auditedAt": "2026-11-13T20:30:51.478Z",
+  "auditedAt": "2026-11-13T20:39:28.331Z",
   "url": "https://eat.anta.gov.md/",
   "finalHost": "eat.anta.gov.md",
   "status": 200,
@@ -94,7 +94,7 @@
     "forms": 1,
     "requests": 42,
     "transferBytes": 1501140,
-    "domContentLoaded": 1368,
+    "domContentLoaded": 1362,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -119,5 +119,5 @@
     "mobile": 100,
     "overall": 81
   },
-  "durationMs": 4768
+  "durationMs": 4794
 }

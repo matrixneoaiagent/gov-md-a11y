@@ -1,10 +1,11 @@
 {
   "host": "old.stisc.gov.md",
-  "auditedAt": "2026-11-13T20:17:41.135Z",
+  "auditedAt": "2026-11-13T20:39:58.422Z",
   "url": "https://old.stisc.gov.md/",
   "finalHost": "old.stisc.gov.md",
   "status": 503,
   "ok": false,
+  "stub": false,
   "error": "http 503",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 609
+  "durationMs": 597
 }

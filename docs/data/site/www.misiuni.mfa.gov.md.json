@@ -1,6 +1,6 @@
 {
   "host": "www.misiuni.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:31:16.725Z",
+  "auditedAt": "2026-11-13T20:42:11.133Z",
   "url": "https://www.misiuni.mfa.gov.md/",
   "finalHost": "www.misiuni.mfa.gov.md",
   "status": 200,
@@ -76,8 +76,8 @@
     "imagesNoAlt": 5,
     "forms": 1,
     "requests": 135,
-    "transferBytes": 524571,
-    "domContentLoaded": 1983,
+    "transferBytes": 524578,
+    "domContentLoaded": 1801,
     "mobileOverflowPx": 38,
     "consoleErrors": [
       "Mixed Content: The page at 'https://www.misiuni.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic",
@@ -100,5 +100,5 @@
     "mobile": 55,
     "overall": 44
   },
-  "durationMs": 6706
+  "durationMs": 6303
 }

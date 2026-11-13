@@ -1,6 +1,6 @@
 {
   "host": "www.edu.gov.md",
-  "auditedAt": "2026-11-13T20:30:56.246Z",
+  "auditedAt": "2026-11-13T20:43:50.969Z",
   "url": "https://www.edu.gov.md/",
   "finalHost": "www.edu.gov.md",
   "status": 200,
@@ -117,9 +117,9 @@
     "images": 54,
     "imagesNoAlt": 1,
     "forms": 1,
-    "requests": 190,
+    "requests": 189,
     "transferBytes": 2808248,
-    "domContentLoaded": 1280,
+    "domContentLoaded": 1339,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -142,5 +142,5 @@
     "mobile": 100,
     "overall": 60
   },
-  "durationMs": 5507
+  "durationMs": 5705
 }

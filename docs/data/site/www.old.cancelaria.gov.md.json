@@ -1,6 +1,6 @@
 {
   "host": "www.old.cancelaria.gov.md",
-  "auditedAt": "2026-11-13T20:31:37.385Z",
+  "auditedAt": "2026-11-13T20:42:09.929Z",
   "url": "https://www.old.cancelaria.gov.md/login_up.php",
   "finalHost": "www.old.cancelaria.gov.md",
   "status": 200,
@@ -70,8 +70,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 21,
-    "transferBytes": 2311539,
-    "domContentLoaded": 2691,
+    "transferBytes": 2311538,
+    "domContentLoaded": 2287,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -93,5 +93,5 @@
     "mobile": 100,
     "overall": 68
   },
-  "durationMs": 6311
+  "durationMs": 5964
 }

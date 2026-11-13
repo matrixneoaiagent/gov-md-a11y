@@ -1,0 +1,152 @@
+{
+  "host": "raportare.gov.md",
+  "auditedAt": "2026-11-13T20:40:57.097Z",
+  "url": "https://raportare.gov.md/",
+  "finalHost": "raportare.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "May  8 09:50:52 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=63072000",
+    "content-security-policy": "frame-ancestors 'self';",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": "no-referrer-when-downgrade",
+    "permissions-policy": "microphone=(), camera=(), fullscreen=(self)"
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 25,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".prevI",
+          ".nextI"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 21,
+        "sample": [
+          ".logo-link",
+          ".move-bottom",
+          ".cloned.owl-item:nth-child(1) > .item[href$=\"fisc.md/\"][target=\"_blank\"]"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "description": "Ensure that lists are structured correctly",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".event-list"
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "help": "Interactive controls must not be nested",
+        "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".download-pdf"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#fp-nav > ul > li:nth-child(2) > a[href=\"#\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 5,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Ghișeu unic de raportare electronică - raportare.gov.md",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 3,
+    "nodes": 719,
+    "links": 63,
+    "badLinkText": 0,
+    "images": 25,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 51,
+    "transferBytes": 388646,
+    "domContentLoaded": 2052,
+    "mobileOverflowPx": 7,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://raportare.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Droid+Sans+Mono'. This request has been block",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Droid+Sans+Mono (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Droid+Sans+Mono (mixed-content)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "many-h1"
+  ],
+  "scores": {
+    "a11y": 45,
+    "security": 100,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 73
+  },
+  "durationMs": 5355
+}

@@ -1,6 +1,6 @@
 {
   "host": "anre.md",
-  "auditedAt": "2026-11-13T20:30:11.325Z",
+  "auditedAt": "2026-11-13T20:38:09.796Z",
   "url": "https://anre.md/",
   "finalHost": "anre.md",
   "status": 200,
@@ -72,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 2,
     "requests": 39,
-    "transferBytes": 2741511,
-    "domContentLoaded": 2517,
+    "transferBytes": 2741513,
+    "domContentLoaded": 2314,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -99,5 +99,5 @@
     "mobile": 100,
     "overall": 74
   },
-  "durationMs": 7814
+  "durationMs": 8324
 }

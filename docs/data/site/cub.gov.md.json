@@ -1,6 +1,6 @@
 {
   "host": "cub.gov.md",
-  "auditedAt": "2026-11-13T20:30:35.129Z",
+  "auditedAt": "2026-11-13T20:38:19.048Z",
   "url": "https://cub.gov.md/",
   "finalHost": "cub.gov.md",
   "status": 403,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3582
+  "durationMs": 3681
 }

@@ -1,10 +1,11 @@
 {
   "host": "old.cnpdc.gov.md",
-  "auditedAt": "2026-11-13T20:16:51.905Z",
+  "auditedAt": "2026-11-13T20:38:28.552Z",
   "url": "https://old.cnpdc.gov.md/",
   "finalHost": "old.cnpdc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -97,8 +98,8 @@
     "imagesNoAlt": 15,
     "forms": 1,
     "requests": 149,
-    "transferBytes": 1713616,
-    "domContentLoaded": 1841,
+    "transferBytes": 1713618,
+    "domContentLoaded": 1261,
     "mobileOverflowPx": 171,
     "consoleErrors": [
       "Mixed Content: The page at 'https://old.cnpdc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700it",
@@ -121,5 +122,5 @@
     "mobile": 55,
     "overall": 50
   },
-  "durationMs": 6535
+  "durationMs": 5569
 }

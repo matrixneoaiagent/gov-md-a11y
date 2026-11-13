@@ -1,6 +1,6 @@
 {
   "host": "cloud.gov.md",
-  "auditedAt": "2026-11-13T20:30:19.943Z",
+  "auditedAt": "2026-11-13T20:38:19.125Z",
   "url": "https://cloud.gov.md/",
   "finalHost": "cloud.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 65799
+  "durationMs": 66133
 }

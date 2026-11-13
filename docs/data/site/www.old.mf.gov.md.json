@@ -1,6 +1,6 @@
 {
   "host": "www.old.mf.gov.md",
-  "auditedAt": "2026-11-13T20:30:35.291Z",
+  "auditedAt": "2026-11-13T20:42:43.732Z",
   "url": "https://www.old.mf.gov.md/",
   "finalHost": "www.old.mf.gov.md",
   "status": 200,
@@ -101,7 +101,7 @@
     "forms": 1,
     "requests": 57,
     "transferBytes": 1568739,
-    "domContentLoaded": 1322,
+    "domContentLoaded": 1279,
     "mobileOverflowPx": 810,
     "consoleErrors": [],
     "failedRequests": [
@@ -122,5 +122,5 @@
     "mobile": 55,
     "overall": 38
   },
-  "durationMs": 6228
+  "durationMs": 5467
 }

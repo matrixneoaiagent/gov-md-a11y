@@ -1,10 +1,11 @@
 {
   "host": "mf.gov.md",
-  "auditedAt": "2026-11-13T20:16:40.535Z",
+  "auditedAt": "2026-11-13T20:38:02.371Z",
   "url": "https://mf.gov.md/ro",
   "finalHost": "mf.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -108,8 +109,8 @@
     "imagesNoAlt": 27,
     "forms": 1,
     "requests": 251,
-    "transferBytes": 1507713,
-    "domContentLoaded": 6167,
+    "transferBytes": 1507718,
+    "domContentLoaded": 5320,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://mf.gov.md/ro' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,",
@@ -136,5 +137,5 @@
     "mobile": 100,
     "overall": 61
   },
-  "durationMs": 13532
+  "durationMs": 11858
 }

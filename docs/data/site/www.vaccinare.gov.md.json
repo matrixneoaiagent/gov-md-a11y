@@ -1,6 +1,6 @@
 {
   "host": "www.vaccinare.gov.md",
-  "auditedAt": "2026-11-13T20:31:06.562Z",
+  "auditedAt": "2026-11-13T20:41:17.471Z",
   "url": "https://www.vaccinare.gov.md/",
   "finalHost": "www.vaccinare.gov.md",
   "status": 200,
@@ -72,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 51,
-    "transferBytes": 6319645,
-    "domContentLoaded": 2179,
+    "transferBytes": 6321356,
+    "domContentLoaded": 1470,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -89,5 +89,5 @@
     "mobile": 100,
     "overall": 74
   },
-  "durationMs": 6217
+  "durationMs": 5364
 }

@@ -1,10 +1,11 @@
 {
   "host": "servicii.gov.md",
-  "auditedAt": "2026-11-13T20:19:00.545Z",
+  "auditedAt": "2026-11-13T20:42:16.987Z",
   "url": "https://evo.gov.md/acasa?showModal=true",
   "finalHost": "evo.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -45,9 +46,9 @@
     "images": 39,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 171,
-    "transferBytes": 4730722,
-    "domContentLoaded": 3472,
+    "requests": 173,
+    "transferBytes": 4786709,
+    "domContentLoaded": 3608,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -67,9 +68,9 @@
   "scores": {
     "a11y": 100,
     "security": 100,
-    "performance": 70,
+    "performance": 69,
     "mobile": 100,
     "overall": 97
   },
-  "durationMs": 11330
+  "durationMs": 12870
 }

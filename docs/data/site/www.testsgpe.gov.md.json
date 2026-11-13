@@ -1,6 +1,6 @@
 {
   "host": "www.testsgpe.gov.md",
-  "auditedAt": "2026-11-13T20:30:41.520Z",
+  "auditedAt": "2026-11-13T20:42:49.207Z",
   "url": "https://www.testsgpe.gov.md/",
   "finalHost": "www.testsgpe.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66114
+  "durationMs": 66046
 }

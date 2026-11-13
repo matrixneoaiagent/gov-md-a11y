@@ -1,10 +1,11 @@
 {
   "host": "monitorul.gov.md",
-  "auditedAt": "2026-11-13T20:19:09.566Z",
+  "auditedAt": "2026-11-13T20:40:51.744Z",
   "url": "https://monitorul.gov.md/",
   "finalHost": "monitorul.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -105,9 +106,9 @@
     "images": 19,
     "imagesNoAlt": 3,
     "forms": 2,
-    "requests": 61,
-    "transferBytes": 1141130,
-    "domContentLoaded": 1820,
+    "requests": 56,
+    "transferBytes": 1141131,
+    "domContentLoaded": 7365,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED"
@@ -122,5 +123,5 @@
     "mobile": 100,
     "overall": 69
   },
-  "durationMs": 5297
+  "durationMs": 11341
 }

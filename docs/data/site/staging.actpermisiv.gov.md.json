@@ -1,0 +1,21 @@
+{
+  "host": "staging.actpermisiv.gov.md",
+  "auditedAt": "2026-11-13T20:40:23.860Z",
+  "url": "https://staging.actpermisiv.gov.md/",
+  "finalHost": "staging.actpermisiv.gov.md",
+  "status": null,
+  "ok": false,
+  "stub": false,
+  "error": "probe: UND_ERR_CONNECT_TIMEOUT",
+  "tls": {
+    "ok": false,
+    "error": "timeout"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 66132
+}

@@ -1,10 +1,11 @@
 {
   "host": "intranet.ancd.gov.md",
-  "auditedAt": "2026-11-13T20:18:23.666Z",
+  "auditedAt": "2026-11-13T20:40:34.932Z",
   "url": "https://intranet.ancd.gov.md/",
   "finalHost": "intranet.ancd.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -46,8 +47,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 25,
-    "transferBytes": 253797,
-    "domContentLoaded": 1076,
+    "transferBytes": 254051,
+    "domContentLoaded": 1364,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -66,5 +67,5 @@
     "mobile": 100,
     "overall": 93
   },
-  "durationMs": 4420
+  "durationMs": 4679
 }

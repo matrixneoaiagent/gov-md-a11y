@@ -1,10 +1,11 @@
 {
   "host": "licentiere.gov.md",
-  "auditedAt": "2026-11-13T20:16:22.377Z",
+  "auditedAt": "2026-11-13T20:37:55.947Z",
   "url": "https://licentiere.gov.md/",
   "finalHost": "licentiere.gov.md",
   "status": 200,
   "ok": true,
+  "stub": true,
   "error": null,
   "tls": {
     "ok": false,
@@ -46,7 +47,7 @@
     "forms": 0,
     "requests": 11,
     "transferBytes": 968,
-    "domContentLoaded": 1091,
+    "domContentLoaded": 968,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -55,6 +56,7 @@
     "failedRequests": []
   },
   "flags": [
+    "stub",
     "tls-error"
   ],
   "scores": {
@@ -64,5 +66,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4541
+  "durationMs": 4420
 }

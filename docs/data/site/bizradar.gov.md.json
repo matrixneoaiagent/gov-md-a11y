@@ -1,6 +1,6 @@
 {
   "host": "bizradar.gov.md",
-  "auditedAt": "2026-11-13T20:30:50.209Z",
+  "auditedAt": "2026-11-13T20:38:23.136Z",
   "url": "https://bizradar.gov.md/",
   "finalHost": "bizradar.gov.md",
   "status": 200,
@@ -83,7 +83,7 @@
     "forms": 0,
     "requests": 9,
     "transferBytes": 1478817,
-    "domContentLoaded": 591,
+    "domContentLoaded": 450,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -101,5 +101,5 @@
     "mobile": 100,
     "overall": 87
   },
-  "durationMs": 4115
+  "durationMs": 4021
 }

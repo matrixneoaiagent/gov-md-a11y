@@ -1,6 +1,6 @@
 {
   "host": "www.mec.gov.md",
-  "auditedAt": "2026-11-13T20:32:52.997Z",
+  "auditedAt": "2026-11-13T20:43:44.494Z",
   "url": "https://www.mec.gov.md/",
   "finalHost": "www.mec.gov.md",
   "status": 200,
@@ -117,9 +117,9 @@
     "images": 54,
     "imagesNoAlt": 1,
     "forms": 1,
-    "requests": 190,
-    "transferBytes": 2808239,
-    "domContentLoaded": 1462,
+    "requests": 189,
+    "transferBytes": 2808275,
+    "domContentLoaded": 1402,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -142,5 +142,5 @@
     "mobile": 100,
     "overall": 60
   },
-  "durationMs": 6725
+  "durationMs": 6218
 }

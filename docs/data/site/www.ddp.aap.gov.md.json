@@ -1,6 +1,6 @@
 {
   "host": "www.ddp.aap.gov.md",
-  "auditedAt": "2026-11-13T20:30:28.192Z",
+  "auditedAt": "2026-11-13T20:42:49.357Z",
   "url": "https://www.ddp.aap.gov.md/",
   "finalHost": "www.ddp.aap.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66140
+  "durationMs": 66115
 }

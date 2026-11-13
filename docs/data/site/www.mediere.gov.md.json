@@ -1,6 +1,6 @@
 {
   "host": "www.mediere.gov.md",
-  "auditedAt": "2026-11-13T20:30:52.562Z",
+  "auditedAt": "2026-11-13T20:43:58.237Z",
   "url": "https://www.mediere.gov.md/",
   "finalHost": "www.mediere.gov.md",
   "status": 200,
@@ -111,8 +111,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 121,
-    "transferBytes": 574353,
-    "domContentLoaded": 1947,
+    "transferBytes": 574356,
+    "domContentLoaded": 1828,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -136,5 +136,5 @@
     "mobile": 100,
     "overall": 41
   },
-  "durationMs": 6347
+  "durationMs": 6414
 }

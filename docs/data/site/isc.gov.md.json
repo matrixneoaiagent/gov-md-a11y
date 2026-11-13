@@ -1,10 +1,11 @@
 {
   "host": "isc.gov.md",
-  "auditedAt": "2026-11-13T20:16:28.230Z",
+  "auditedAt": "2026-11-13T20:38:08.862Z",
   "url": "https://ast.gov.md/index.php?l=ro",
   "finalHost": "isc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -62,33 +63,37 @@
     "hasViewport": true,
     "hasDescription": false,
     "h1": 0,
-    "nodes": 40,
+    "nodes": 60,
     "links": 0,
     "badLinkText": 0,
     "images": 0,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 9,
-    "transferBytes": 72253,
+    "requests": 34,
+    "transferBytes": 185551,
     "domContentLoaded": 0,
-    "mobileOverflowPx": 0,
+    "mobileOverflowPx": 860,
     "consoleErrors": [
       "Failed to load resource: the server responded with a status of 403 ()",
       "Failed to load resource: the server responded with a status of 403 ()",
-      "Failed to load resource: the server responded with a status of 403 ()"
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
     ],
     "failedRequests": []
   },
   "flags": [
     "no-lang",
-    "no-h1"
+    "no-h1",
+    "mobile-overflow"
   ],
   "scores": {
     "a11y": 91,
     "security": 60,
     "performance": 100,
-    "mobile": 100,
-    "overall": 86
+    "mobile": 55,
+    "overall": 79
   },
-  "durationMs": 3587
+  "durationMs": 4005
 }

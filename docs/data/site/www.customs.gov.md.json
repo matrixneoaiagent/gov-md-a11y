@@ -1,10 +1,11 @@
 {
   "host": "www.customs.gov.md",
-  "auditedAt": "2026-11-13T20:16:41.459Z",
+  "auditedAt": "2026-11-13T20:40:55.245Z",
   "url": "https://www.customs.gov.md/",
   "finalHost": "www.customs.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3446
+  "durationMs": 3437
 }

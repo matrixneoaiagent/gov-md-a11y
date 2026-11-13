@@ -1,10 +1,11 @@
 {
   "host": "eraportare.spcsb.gov.md",
-  "auditedAt": "2026-11-13T20:17:43.820Z",
+  "auditedAt": "2026-11-13T20:39:27.951Z",
   "url": "https://eraportare.spcsb.gov.md/",
   "finalHost": "eraportare.spcsb.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66079
+  "durationMs": 65615
 }

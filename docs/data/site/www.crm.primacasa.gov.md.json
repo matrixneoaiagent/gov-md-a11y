@@ -1,6 +1,6 @@
 {
   "host": "www.crm.primacasa.gov.md",
-  "auditedAt": "2026-11-13T20:32:25.516Z",
+  "auditedAt": "2026-11-13T20:41:57.152Z",
   "url": "https://www.crm.primacasa.gov.md/",
   "finalHost": "www.crm.primacasa.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1313
+  "durationMs": 1553
 }

@@ -1,10 +1,11 @@
 {
   "host": "old.mded.gov.md",
-  "auditedAt": "2026-11-13T20:19:25.291Z",
+  "auditedAt": "2026-11-13T20:41:07.490Z",
   "url": "https://old.mded.gov.md/",
   "finalHost": "old.mded.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -98,7 +99,7 @@
     "forms": 1,
     "requests": 152,
     "transferBytes": 1631530,
-    "domContentLoaded": 1771,
+    "domContentLoaded": 1296,
     "mobileOverflowPx": 27,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -117,5 +118,5 @@
     "mobile": 55,
     "overall": 54
   },
-  "durationMs": 5889
+  "durationMs": 5068
 }

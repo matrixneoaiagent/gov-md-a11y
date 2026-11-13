@@ -1,10 +1,11 @@
 {
   "host": "doc.social.gov.md",
-  "auditedAt": "2026-11-13T20:16:56.323Z",
+  "auditedAt": "2026-11-13T20:38:10.528Z",
   "url": "https://doc.social.gov.md/",
   "finalHost": "doc.social.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -72,7 +73,7 @@
     "forms": 0,
     "requests": 4,
     "transferBytes": 12638,
-    "domContentLoaded": 559,
+    "domContentLoaded": 756,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -88,5 +89,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 3980
+  "durationMs": 4674
 }

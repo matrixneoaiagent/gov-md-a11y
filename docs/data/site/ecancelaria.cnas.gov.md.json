@@ -1,10 +1,11 @@
 {
   "host": "ecancelaria.cnas.gov.md",
-  "auditedAt": "2026-11-13T20:16:26.186Z",
+  "auditedAt": "2026-11-13T20:37:48.203Z",
   "url": "https://ecancelaria.cnas.gov.md/",
   "finalHost": "ecancelaria.cnas.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2758
+  "durationMs": 2641
 }

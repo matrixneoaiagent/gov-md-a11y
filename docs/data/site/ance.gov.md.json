@@ -1,6 +1,6 @@
 {
   "host": "ance.gov.md",
-  "auditedAt": "2026-11-13T20:30:23.337Z",
+  "auditedAt": "2026-11-13T20:37:29.475Z",
   "url": "https://ance.gov.md/",
   "finalHost": "ance.gov.md",
   "status": 200,
@@ -84,7 +84,7 @@
     "forms": 1,
     "requests": 47,
     "transferBytes": 448344,
-    "domContentLoaded": 1356,
+    "domContentLoaded": 1578,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -107,5 +107,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 4914
+  "durationMs": 5937
 }

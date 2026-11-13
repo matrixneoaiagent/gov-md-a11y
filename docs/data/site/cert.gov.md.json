@@ -1,6 +1,6 @@
 {
   "host": "cert.gov.md",
-  "auditedAt": "2026-11-13T20:30:13.324Z",
+  "auditedAt": "2026-11-13T20:37:57.846Z",
   "url": "https://cert.gov.md/",
   "finalHost": "cert.gov.md",
   "status": 200,
@@ -51,7 +51,7 @@
     "forms": 0,
     "requests": 2,
     "transferBytes": 443,
-    "domContentLoaded": 889,
+    "domContentLoaded": 573,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -68,5 +68,5 @@
     "mobile": 100,
     "overall": 72
   },
-  "durationMs": 5907
+  "durationMs": 4742
 }

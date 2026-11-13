@@ -1,6 +1,6 @@
 {
   "host": "anp.gov.md",
-  "auditedAt": "2026-11-13T20:30:49.442Z",
+  "auditedAt": "2026-11-13T20:38:12.599Z",
   "url": "https://anp.gov.md/",
   "finalHost": "anp.gov.md",
   "status": 200,
@@ -75,7 +75,7 @@
     "forms": 1,
     "requests": 115,
     "transferBytes": 1951046,
-    "domContentLoaded": 2184,
+    "domContentLoaded": 2052,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -99,5 +99,5 @@
     "mobile": 100,
     "overall": 69
   },
-  "durationMs": 6837
+  "durationMs": 6746
 }

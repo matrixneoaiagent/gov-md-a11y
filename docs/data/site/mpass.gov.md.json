@@ -1,10 +1,11 @@
 {
   "host": "mpass.gov.md",
-  "auditedAt": "2026-11-13T20:20:21.139Z",
+  "auditedAt": "2026-11-13T20:42:00.195Z",
   "url": "https://mpass.gov.md/",
   "finalHost": "mpass.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -82,8 +83,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 17,
-    "transferBytes": 296230,
-    "domContentLoaded": 1350,
+    "transferBytes": 296140,
+    "domContentLoaded": 1432,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -106,5 +107,5 @@
     "mobile": 100,
     "overall": 78
   },
-  "durationMs": 4859
+  "durationMs": 4985
 }

@@ -1,6 +1,6 @@
 {
   "host": "amfsa.gov.md",
-  "auditedAt": "2026-11-13T20:29:53.098Z",
+  "auditedAt": "2026-11-13T20:37:22.802Z",
   "url": "https://amfsa.gov.md/AMFSA/signin.jsp",
   "finalHost": "amfsa.gov.md",
   "status": 200,
@@ -83,7 +83,7 @@
     "forms": 1,
     "requests": 21,
     "transferBytes": 574660,
-    "domContentLoaded": 1327,
+    "domContentLoaded": 1091,
     "mobileOverflowPx": 70,
     "consoleErrors": [],
     "failedRequests": []
@@ -101,5 +101,5 @@
     "mobile": 55,
     "overall": 82
   },
-  "durationMs": 6953
+  "durationMs": 6314
 }

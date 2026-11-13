@@ -1,6 +1,6 @@
 {
   "host": "www.old.mediu.gov.md",
-  "auditedAt": "2026-11-13T20:32:28.217Z",
+  "auditedAt": "2026-11-13T20:43:49.840Z",
   "url": "https://www.old.mediu.gov.md/",
   "finalHost": "www.old.mediu.gov.md",
   "status": 200,
@@ -111,7 +111,7 @@
     "forms": 2,
     "requests": 153,
     "transferBytes": 5866145,
-    "domContentLoaded": 1985,
+    "domContentLoaded": 1675,
     "mobileOverflowPx": 830,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -138,5 +138,5 @@
     "mobile": 55,
     "overall": 36
   },
-  "durationMs": 6756
+  "durationMs": 6124
 }

@@ -1,10 +1,11 @@
 {
   "host": "ecazier.gov.md",
-  "auditedAt": "2026-11-13T20:16:42.594Z",
+  "auditedAt": "2026-11-13T20:37:56.252Z",
   "url": "https://ecazier.gov.md/",
   "finalHost": "ecazier.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66129
+  "durationMs": 66078
 }

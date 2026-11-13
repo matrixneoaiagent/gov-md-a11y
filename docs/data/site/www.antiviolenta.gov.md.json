@@ -1,0 +1,144 @@
+{
+  "host": "www.antiviolenta.gov.md",
+  "auditedAt": "2026-11-13T20:42:16.877Z",
+  "url": "https://antiviolenta.gov.md/",
+  "finalHost": "www.antiviolenta.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 15,
+        "sample": [
+          "#menu-item-1125 > a",
+          "#menu-item-1126 > a",
+          ".header-info > div:nth-child(1) > .header-icon.flex > div:nth-child(2)"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 9,
+        "sample": [
+          ".header-socials > .socials > .fb[target=\"_blank\"][href=\"#\"]",
+          ".header-socials > .socials > .tw[target=\"_blank\"][href=\"#\"]",
+          ".header-socials > .socials > .yt[target=\"_blank\"][href=\"#\"]"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "iframe",
+          "iframe",
+          "iframe"
+        ]
+      },
+      {
+        "id": "aria-command-name",
+        "impact": "serious",
+        "help": "ARIA commands must have an accessible name",
+        "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "iframe"
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "help": "Frames must have an accessible name",
+        "description": "Ensure <iframe> and <frame> elements have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "iframe"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 5,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Prima - Prevenirea și Сombaterea Violenței față de femei și violenței în familie | Pagina web www.antiviolenta.gov.md este dedicată prevenirii și combaterii violenței împotriva femeilor și a violenței în familie",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 732,
+    "links": 140,
+    "badLinkText": 0,
+    "images": 19,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 37,
+    "transferBytes": 2112380,
+    "domContentLoaded": 3554,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://http///antiviolenta.gov.md/wp-content/uploads/2021/07/logosite.png (net::ERR_NAME_NOT_RESOLVED)",
+      "https://weblucas.info/wp-content/plugins/icomply-cookie-notice/public/images/cookie.png (net::ERR_BLOCKED_BY_ORB)",
+      "https://weblucas.info/wp-content/plugins/icomply-cookie-notice/public/images/closer.png (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "no-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 42,
+    "security": 0,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 46
+  },
+  "durationMs": 7753
+}

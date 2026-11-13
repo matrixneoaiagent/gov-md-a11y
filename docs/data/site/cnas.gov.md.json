@@ -1,6 +1,6 @@
 {
   "host": "cnas.gov.md",
-  "auditedAt": "2026-11-13T20:31:10.419Z",
+  "auditedAt": "2026-11-13T20:38:45.127Z",
   "url": "https://cnas.gov.md/",
   "finalHost": "cnas.gov.md",
   "status": 200,
@@ -27,30 +27,6 @@
     "passes": 27,
     "incomplete": 2,
     "violations": [
-      {
-        "id": "aria-allowed-attr",
-        "impact": "critical",
-        "help": "Elements must only use supported ARIA attributes",
-        "description": "Ensure an element's role supports its ARIA attributes",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
-        "nodes": 2,
-        "sample": [
-          ".cloned.owl-item:nth-child(2) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr",
-          ".cloned.owl-item:nth-child(3) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr"
-        ]
-      },
-      {
-        "id": "button-name",
-        "impact": "critical",
-        "help": "Buttons must have discernible text",
-        "description": "Ensure buttons have discernible text",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
-        "nodes": 2,
-        "sample": [
-          ".cloned.owl-item:nth-child(2) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr",
-          ".cloned.owl-item:nth-child(3) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr"
-        ]
-      },
       {
         "id": "link-name",
         "impact": "serious",
@@ -89,23 +65,11 @@
           ".reject-all",
           ".preferences"
         ]
-      },
-      {
-        "id": "aria-prohibited-attr",
-        "impact": "serious",
-        "help": "Elements must only use permitted ARIA attributes",
-        "description": "Ensure ARIA attributes are not prohibited for an element's role",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
-        "nodes": 2,
-        "sample": [
-          ".cloned.owl-item:nth-child(2) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr",
-          ".cloned.owl-item:nth-child(3) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr"
-        ]
       }
     ],
     "impactCounts": {
-      "critical": 2,
-      "serious": 4,
+      "critical": 0,
+      "serious": 3,
       "moderate": 0,
       "minor": 0
     }
@@ -122,9 +86,9 @@
     "images": 26,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 162,
-    "transferBytes": 1316815,
-    "domContentLoaded": 1669,
+    "requests": 153,
+    "transferBytes": 1298840,
+    "domContentLoaded": 1622,
     "mobileOverflowPx": 15,
     "consoleErrors": [
       "Refused to apply style from 'https://cnas.gov.md/themes/custom/daudo_subtheme/css/skins/template.css?todv9w' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIM",
@@ -145,11 +109,11 @@
     "mobile-overflow"
   ],
   "scores": {
-    "a11y": 26,
+    "a11y": 48,
     "security": 70,
-    "performance": 86,
+    "performance": 88,
     "mobile": 55,
-    "overall": 47
+    "overall": 59
   },
-  "durationMs": 8993
+  "durationMs": 9302
 }

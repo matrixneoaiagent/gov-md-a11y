@@ -1,10 +1,11 @@
 {
   "host": "temp-eat.anta.gov.md",
-  "auditedAt": "2026-11-13T20:17:03.968Z",
+  "auditedAt": "2026-11-13T20:40:33.656Z",
   "url": "http://temp-eat.anta.gov.md/",
   "finalHost": "temp-eat.anta.gov.md",
   "status": 404,
   "ok": false,
+  "stub": false,
   "error": "http 404",
   "tls": {
     "ok": false,
@@ -24,5 +25,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1064
+  "durationMs": 965
 }

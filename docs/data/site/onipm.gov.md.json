@@ -1,10 +1,11 @@
 {
   "host": "onipm.gov.md",
-  "auditedAt": "2026-11-13T20:18:12.296Z",
+  "auditedAt": "2026-11-13T20:39:26.006Z",
   "url": "https://onipm.gov.md/",
   "finalHost": "onipm.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -72,7 +73,7 @@
     "forms": 1,
     "requests": 126,
     "transferBytes": 817308,
-    "domContentLoaded": 1878,
+    "domContentLoaded": 2016,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -97,5 +98,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 5625
+  "durationMs": 5741
 }

@@ -1,10 +1,11 @@
 {
   "host": "www.cncnc.gov.md",
-  "auditedAt": "2026-11-13T20:21:02.096Z",
+  "auditedAt": "2026-11-13T20:42:13.430Z",
   "url": "https://cncnc.gov.md/",
   "finalHost": "www.cncnc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -38,9 +39,9 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
         "nodes": 3,
         "sample": [
+          ".ct-trending-block-item:nth-child(2) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
           ".ct-trending-block-item:nth-child(3) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
-          ".ct-trending-block-item:nth-child(4) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
-          ".ct-trending-block-item:nth-child(5) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl"
+          ".ct-trending-block-item:nth-child(4) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl"
         ]
       },
       {
@@ -68,15 +69,15 @@
     "hasViewport": true,
     "hasDescription": false,
     "h1": 0,
-    "nodes": 783,
-    "links": 128,
+    "nodes": 785,
+    "links": 129,
     "badLinkText": 0,
-    "images": 24,
+    "images": 25,
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 75,
-    "transferBytes": 1218222,
-    "domContentLoaded": 4337,
+    "transferBytes": 1218227,
+    "domContentLoaded": 3768,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -92,5 +93,5 @@
     "mobile": 100,
     "overall": 56
   },
-  "durationMs": 8849
+  "durationMs": 8313
 }

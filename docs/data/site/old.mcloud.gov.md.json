@@ -1,10 +1,11 @@
 {
   "host": "old.mcloud.gov.md",
-  "auditedAt": "2026-11-13T20:19:41.796Z",
+  "auditedAt": "2026-11-13T20:40:52.539Z",
   "url": "https://old.mcloud.gov.md/",
   "finalHost": "old.mcloud.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -77,24 +78,25 @@
     "hasViewport": true,
     "hasDescription": false,
     "h1": 1,
-    "nodes": 456,
+    "nodes": 436,
     "links": 78,
     "badLinkText": 0,
     "images": 16,
     "imagesNoAlt": 9,
     "forms": 1,
-    "requests": 50,
-    "transferBytes": 501253,
-    "domContentLoaded": 1532,
+    "requests": 48,
+    "transferBytes": 500040,
+    "domContentLoaded": 1230,
     "mobileOverflowPx": 976,
     "consoleErrors": [
       "Mixed Content: The page at 'https://old.mcloud.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700i",
+      "Failed to load resource: net::ERR_CONNECTION_RESET",
       "Mixed Content: The page at 'https://old.mcloud.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,6"
     ],
     "failedRequests": [
       "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
-      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
-      "https://stisc.gov.md/ro (net::ERR_BLOCKED_BY_ORB)"
+      "https://stisc.gov.md/ (net::ERR_CONNECTION_RESET)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
     ]
   },
   "flags": [
@@ -107,5 +109,5 @@
     "mobile": 55,
     "overall": 60
   },
-  "durationMs": 8075
+  "durationMs": 4558
 }

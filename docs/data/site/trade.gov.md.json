@@ -1,0 +1,84 @@
+{
+  "host": "trade.gov.md",
+  "auditedAt": "2026-11-13T20:40:03.854Z",
+  "url": "https://trade.gov.md/ro",
+  "finalHost": "trade.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Mar  6 07:14:17 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".data-\\[placeholder\\]\\:text-muted-foreground",
+          ".border-\\[1px\\]",
+          ".bg-primary"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Portalul de Informații Comerciale al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 900,
+    "links": 85,
+    "badLinkText": 0,
+    "images": 32,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 46,
+    "transferBytes": 647981,
+    "domContentLoaded": 2307,
+    "mobileOverflowPx": 14,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 63,
+    "security": 60,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 65
+  },
+  "durationMs": 6955
+}

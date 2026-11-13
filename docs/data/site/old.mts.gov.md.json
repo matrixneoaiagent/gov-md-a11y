@@ -1,10 +1,11 @@
 {
   "host": "old.mts.gov.md",
-  "auditedAt": "2026-11-13T20:16:42.164Z",
+  "auditedAt": "2026-11-13T20:38:24.606Z",
   "url": "https://old.mts.gov.md/",
   "finalHost": "old.mts.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -97,8 +98,8 @@
     "imagesNoAlt": 14,
     "forms": 1,
     "requests": 66,
-    "transferBytes": 1176669,
-    "domContentLoaded": 1440,
+    "transferBytes": 1176666,
+    "domContentLoaded": 1509,
     "mobileOverflowPx": 154,
     "consoleErrors": [
       "Mixed Content: The page at 'https://old.mts.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans'. This request has been blocked; the ",
@@ -127,5 +128,5 @@
     "mobile": 55,
     "overall": 53
   },
-  "durationMs": 6121
+  "durationMs": 7048
 }

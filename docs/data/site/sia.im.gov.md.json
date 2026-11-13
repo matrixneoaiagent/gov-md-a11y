@@ -1,10 +1,11 @@
 {
   "host": "sia.im.gov.md",
-  "auditedAt": "2026-11-13T20:19:18.369Z",
+  "auditedAt": "2026-11-13T20:41:13.503Z",
   "url": "https://sia.im.gov.md/login",
   "finalHost": "sia.im.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -92,8 +93,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 17,
-    "transferBytes": 1250537,
-    "domContentLoaded": 2002,
+    "transferBytes": 1250536,
+    "domContentLoaded": 1997,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -114,5 +115,5 @@
     "mobile": 100,
     "overall": 74
   },
-  "durationMs": 5983
+  "durationMs": 6019
 }

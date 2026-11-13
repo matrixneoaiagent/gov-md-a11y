@@ -1,0 +1,30 @@
+{
+  "host": "test.ast.gov.md",
+  "auditedAt": "2026-11-13T20:42:31.975Z",
+  "url": "https://test.ast.gov.md/",
+  "finalHost": "test.ast.gov.md",
+  "status": 403,
+  "ok": false,
+  "stub": false,
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://test.ast.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  1 08:54:07 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 45681
+}

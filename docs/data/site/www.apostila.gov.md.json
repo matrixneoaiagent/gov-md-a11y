@@ -1,0 +1,135 @@
+{
+  "host": "www.apostila.gov.md",
+  "auditedAt": "2026-11-13T20:42:13.055Z",
+  "url": "https://apostila.gov.md/",
+  "finalHost": "www.apostila.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 14,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#frame",
+          "#frame"
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "description": "Ensure <li> elements are used semantically",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "li:nth-child(22)",
+          "li:nth-child(23)",
+          "li:nth-child(24)"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#frame",
+          "#frame",
+          "#frame"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "td[width=\"200px\"] > a:nth-child(3)",
+          "a:nth-child(6)"
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "help": "Frames must have an accessible name",
+        "description": "Ensure <iframe> and <frame> elements have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#frame"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 5,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Pagina de start | Apostila",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 208,
+    "links": 24,
+    "badLinkText": 0,
+    "images": 14,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 18,
+    "transferBytes": 215760,
+    "domContentLoaded": 2060,
+    "mobileOverflowPx": 321,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport",
+    "no-h1",
+    "mobile-overflow",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 42,
+    "security": 0,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 39
+  },
+  "durationMs": 6570
+}

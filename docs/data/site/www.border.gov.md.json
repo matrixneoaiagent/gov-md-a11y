@@ -1,0 +1,129 @@
+{
+  "host": "www.border.gov.md",
+  "auditedAt": "2026-11-13T20:39:49.265Z",
+  "url": "https://www.border.gov.md/",
+  "finalHost": "www.border.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 22 15:49:55 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".dropdown.pf--main-item-lvl-0.menu-item--expanded:nth-child(1) > .dropdown-toggle.pf--no-link[data-toggle=\"dropdown\"]",
+          ".dropdown.pf--main-item-lvl-0.menu-item--expanded:nth-child(2) > .dropdown-toggle.pf--no-link[data-toggle=\"dropdown\"]",
+          ".dropdown.pf--main-item-lvl-0.menu-item--expanded:nth-child(3) > .dropdown-toggle.pf--no-link[data-toggle=\"dropdown\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 12,
+        "sample": [
+          "article[data-history-node-id=\"17510\"] > .date-block > .post_time",
+          "article[data-history-node-id=\"17510\"] > .date-block > .views_counter",
+          "article[data-history-node-id=\"17494\"] > .date-block > .post_time"
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "description": "Ensure <li> elements are used semantically",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".col-md-6:nth-child(1) > .menu-item--expanded.nav-item:nth-child(1)",
+          ".col-md-6:nth-child(1) > .menu-item--expanded.nav-item:nth-child(2)",
+          ".col-md-6:nth-child(1) > .menu-item--expanded.nav-item:nth-child(3)"
+        ]
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "description": "Ensure that lists are structured correctly",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/list?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".pf--footer__menu"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Acasa | POLIȚIA DE FRONTIERĂ A REPUBLICII MOLDOVA",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 1365,
+    "links": 177,
+    "badLinkText": 0,
+    "images": 37,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 59,
+    "transferBytes": 1518562,
+    "domContentLoaded": 1495,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 38,
+    "security": 70,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 62
+  },
+  "durationMs": 6187
+}

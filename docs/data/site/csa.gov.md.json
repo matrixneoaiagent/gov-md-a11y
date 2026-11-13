@@ -1,6 +1,6 @@
 {
   "host": "csa.gov.md",
-  "auditedAt": "2026-11-13T20:30:33.189Z",
+  "auditedAt": "2026-11-13T20:37:40.048Z",
   "url": "https://csa.gov.md/",
   "finalHost": "csa.gov.md",
   "status": 200,
@@ -96,7 +96,7 @@
     "forms": 0,
     "requests": 13,
     "transferBytes": 225699,
-    "domContentLoaded": 2009,
+    "domContentLoaded": 1449,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -112,5 +112,5 @@
     "mobile": 100,
     "overall": 59
   },
-  "durationMs": 6827
+  "durationMs": 6000
 }

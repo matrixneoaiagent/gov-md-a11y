@@ -1,0 +1,100 @@
+{
+  "host": "siddcm.cnddcm.gov.md",
+  "auditedAt": "2026-11-13T20:42:25.723Z",
+  "url": "https://siddcm.cnddcm.gov.md/",
+  "finalHost": "siddcm.cnddcm.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  2 09:09:16 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html;charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 2,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "document-title",
+        "impact": "serious",
+        "help": "Documents must have <title> element to aid in navigation",
+        "description": "Ensure each HTML document contains a non-empty <title> element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 133,
+    "links": 0,
+    "badLinkText": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 140,
+    "transferBytes": 3652029,
+    "domContentLoaded": 3051,
+    "mobileOverflowPx": 12,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-title",
+    "no-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 89,
+    "security": 60,
+    "performance": 81,
+    "mobile": 55,
+    "overall": 76
+  },
+  "durationMs": 6251
+}

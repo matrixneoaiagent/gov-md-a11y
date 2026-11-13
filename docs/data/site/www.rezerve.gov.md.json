@@ -1,6 +1,6 @@
 {
   "host": "www.rezerve.gov.md",
-  "auditedAt": "2026-11-13T20:30:38.762Z",
+  "auditedAt": "2026-11-13T20:40:57.878Z",
   "url": "https://www.rezerve.gov.md/ro",
   "finalHost": "www.rezerve.gov.md",
   "status": 200,
@@ -72,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 56,
-    "transferBytes": 3420939,
-    "domContentLoaded": 2581,
+    "transferBytes": 3420943,
+    "domContentLoaded": 2538,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -98,5 +98,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 7721
+  "durationMs": 7711
 }

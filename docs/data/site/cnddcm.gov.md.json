@@ -1,6 +1,6 @@
 {
   "host": "cnddcm.gov.md",
-  "auditedAt": "2026-11-13T20:30:18.617Z",
+  "auditedAt": "2026-11-13T20:38:28.140Z",
   "url": "https://dizabilitate.gov.md/",
   "finalHost": "dizabilitate.gov.md",
   "status": 200,
@@ -60,7 +60,7 @@
     "forms": 0,
     "requests": 13,
     "transferBytes": 3361566,
-    "domContentLoaded": 658,
+    "domContentLoaded": 809,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -78,5 +78,5 @@
     "mobile": 100,
     "overall": 86
   },
-  "durationMs": 4901
+  "durationMs": 4752
 }

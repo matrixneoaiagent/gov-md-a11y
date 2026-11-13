@@ -1,6 +1,6 @@
 {
   "host": "admin.particip.gov.md",
-  "auditedAt": "2026-11-13T20:29:52.372Z",
+  "auditedAt": "2026-11-13T20:37:58.221Z",
   "url": "https://admin-particip.gov.md/login",
   "finalHost": "admin-particip.gov.md",
   "status": 200,
@@ -104,8 +104,8 @@
     "imagesNoAlt": 1,
     "forms": 1,
     "requests": 11,
-    "transferBytes": 312703,
-    "domContentLoaded": 1743,
+    "transferBytes": 312683,
+    "domContentLoaded": 2254,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -124,5 +124,5 @@
     "mobile": 100,
     "overall": 70
   },
-  "durationMs": 7712
+  "durationMs": 10610
 }

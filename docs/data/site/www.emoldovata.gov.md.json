@@ -1,6 +1,6 @@
 {
   "host": "www.emoldovata.gov.md",
-  "auditedAt": "2026-11-13T20:31:39.159Z",
+  "auditedAt": "2026-11-13T20:41:53.799Z",
   "url": "https://www.emoldovata.gov.md/",
   "finalHost": "www.emoldovata.gov.md",
   "status": 200,
@@ -39,7 +39,7 @@
     "forms": 0,
     "requests": 12,
     "transferBytes": 957,
-    "domContentLoaded": 825,
+    "domContentLoaded": 1054,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -58,5 +58,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4381
+  "durationMs": 5574
 }

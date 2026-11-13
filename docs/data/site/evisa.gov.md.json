@@ -1,10 +1,11 @@
 {
   "host": "evisa.gov.md",
-  "auditedAt": "2026-11-13T20:16:37.528Z",
+  "auditedAt": "2026-11-13T20:38:43.212Z",
   "url": "https://evisa.gov.md/",
   "finalHost": "evisa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -73,8 +74,8 @@
     "imagesNoAlt": 1,
     "forms": 1,
     "requests": 23,
-    "transferBytes": 170910,
-    "domContentLoaded": 1713,
+    "transferBytes": 170906,
+    "domContentLoaded": 1948,
     "mobileOverflowPx": 570,
     "consoleErrors": [
       "Unrecognized Content-Security-Policy directive 'SELF'."
@@ -93,5 +94,5 @@
     "mobile": 55,
     "overall": 53
   },
-  "durationMs": 5698
+  "durationMs": 6097
 }

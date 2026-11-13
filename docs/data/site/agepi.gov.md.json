@@ -1,6 +1,6 @@
 {
   "host": "agepi.gov.md",
-  "auditedAt": "2026-11-13T20:29:56.300Z",
+  "auditedAt": "2026-11-13T20:37:26.255Z",
   "url": "https://agepi.gov.md/",
   "finalHost": "agepi.gov.md",
   "status": 200,
@@ -97,7 +97,7 @@
     "forms": 1,
     "requests": 69,
     "transferBytes": 1618564,
-    "domContentLoaded": 1736,
+    "domContentLoaded": 1825,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://agepi.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic",
@@ -119,5 +119,5 @@
     "mobile": 100,
     "overall": 69
   },
-  "durationMs": 8039
+  "durationMs": 5726
 }

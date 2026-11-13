@@ -1,6 +1,6 @@
 {
   "host": "aipa.gov.md",
-  "auditedAt": "2026-11-13T20:30:00.159Z",
+  "auditedAt": "2026-11-13T20:37:33.668Z",
   "url": "https://aipa.gov.md/",
   "finalHost": "aipa.gov.md",
   "status": 200,
@@ -48,9 +48,9 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
         "nodes": 18,
         "sample": [
-          "#penci_info_box_27653 > .penci-ibox-inner > .penci-iboxwrap-overlay",
-          "#penci_info_box_27653 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa-fix",
-          "#penci_info_box_27653 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa"
+          "#penci_info_box_19633 > .penci-ibox-inner > .penci-iboxwrap-overlay",
+          "#penci_info_box_19633 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa-fix",
+          "#penci_info_box_19633 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa"
         ]
       },
       {
@@ -98,8 +98,8 @@
     "imagesNoAlt": 0,
     "forms": 3,
     "requests": 126,
-    "transferBytes": 3090533,
-    "domContentLoaded": 4475,
+    "transferBytes": 3090536,
+    "domContentLoaded": 5032,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -127,5 +127,5 @@
     "mobile": 100,
     "overall": 65
   },
-  "durationMs": 13122
+  "durationMs": 14255
 }

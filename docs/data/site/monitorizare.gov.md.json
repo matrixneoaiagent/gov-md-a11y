@@ -1,10 +1,11 @@
 {
   "host": "monitorizare.gov.md",
-  "auditedAt": "2026-11-13T20:16:48.935Z",
+  "auditedAt": "2026-11-13T20:38:25.928Z",
   "url": "https://monitorizare.gov.md/",
   "finalHost": "monitorizare.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2964
+  "durationMs": 2618
 }

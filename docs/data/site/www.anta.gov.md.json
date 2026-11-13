@@ -1,0 +1,119 @@
+{
+  "host": "www.anta.gov.md",
+  "auditedAt": "2026-11-13T20:40:42.218Z",
+  "url": "https://www.anta.gov.md/",
+  "finalHost": "www.anta.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 21 04:52:02 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 17,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".pane-1 > .pane-content > p:nth-child(2) > a > img[width=\"489\"][height=\"112\"]",
+          "a[href$=\"cemt2026/\"] > img[width=\"489\"][height=\"112\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 27,
+        "sample": [
+          ".facebook",
+          ".view-nodequeue-frontpage-left-banners > .view-content > .unformatted-list > .views-row-1.views-row-first.views-row-odd ",
+          "a[href=\"https://cna.md/ro\"]"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".menu-block-2 > ul > .menu-mlid-699.item-menu-footer-links.first > a[href$=\"mec.gov.md/\"]",
+          ".menu-block-2 > ul > .menu-mlid-874.item-menu-footer-links.depth-2 > a[href=\"http://www.egov.md/ro\"]",
+          ".menu-block-3 > ul > .menu-mlid-700.item-menu-footer-links.depth-2 > a[href$=\"servicii.gov.md/\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Agenţia Naţională Transport Auto | Autoritatea Administrativă",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 774,
+    "links": 234,
+    "badLinkText": 0,
+    "images": 30,
+    "imagesNoAlt": 2,
+    "forms": 1,
+    "requests": 110,
+    "transferBytes": 889230,
+    "domContentLoaded": 1067,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 44,
+    "security": 65,
+    "performance": 95,
+    "mobile": 100,
+    "overall": 63
+  },
+  "durationMs": 5034
+}

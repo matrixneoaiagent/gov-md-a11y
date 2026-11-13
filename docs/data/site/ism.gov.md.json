@@ -1,10 +1,11 @@
 {
   "host": "ism.gov.md",
-  "auditedAt": "2026-11-13T20:17:19.549Z",
+  "auditedAt": "2026-11-13T20:39:36.495Z",
   "url": "https://ism.gov.md/",
   "finalHost": "ism.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -111,7 +112,7 @@
     "forms": 1,
     "requests": 170,
     "transferBytes": 2704294,
-    "domContentLoaded": 1599,
+    "domContentLoaded": 2330,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -137,5 +138,5 @@
     "mobile": 100,
     "overall": 49
   },
-  "durationMs": 7046
+  "durationMs": 6996
 }

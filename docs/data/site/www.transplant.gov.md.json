@@ -1,6 +1,6 @@
 {
   "host": "www.transplant.gov.md",
-  "auditedAt": "2026-11-13T20:32:44.030Z",
+  "auditedAt": "2026-11-13T20:44:45.663Z",
   "url": "https://www.transplant.gov.md/",
   "finalHost": "www.transplant.gov.md",
   "status": 200,
@@ -84,7 +84,7 @@
     "forms": 1,
     "requests": 110,
     "transferBytes": 808435,
-    "domContentLoaded": 1332,
+    "domContentLoaded": 1154,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -104,5 +104,5 @@
     "mobile": 100,
     "overall": 77
   },
-  "durationMs": 5229
+  "durationMs": 5064
 }

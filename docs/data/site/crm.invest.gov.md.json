@@ -1,6 +1,6 @@
 {
   "host": "crm.invest.gov.md",
-  "auditedAt": "2026-11-13T20:30:54.733Z",
+  "auditedAt": "2026-11-13T20:38:20.857Z",
   "url": "https://crm.invest.gov.md/",
   "finalHost": "crm.invest.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66157
+  "durationMs": 66129
 }

@@ -1,6 +1,6 @@
 {
   "host": "bnm.md",
-  "auditedAt": "2026-11-13T20:30:09.685Z",
+  "auditedAt": "2026-11-13T20:38:19.191Z",
   "url": "https://bnm.md/",
   "finalHost": "bnm.md",
   "status": 200,
@@ -112,6 +112,19 @@
         ]
       },
       {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 11,
+        "sample": [
+          "a[swift=\"CMTB_MD_2X\"]",
+          "a[swift=\"ENEG_MD_22\"]",
+          "a[swift=\"ECBMMD2X\"]"
+        ]
+      },
+      {
         "id": "html-has-lang",
         "impact": "serious",
         "help": "<html> element must have a lang attribute",
@@ -131,17 +144,6 @@
         "nodes": 1,
         "sample": [
           "#ui-accordion-1-header-0"
-        ]
-      },
-      {
-        "id": "target-size",
-        "impact": "serious",
-        "help": "All touch targets must be 24px large, or leave sufficient space",
-        "description": "Ensure touch targets have sufficient size and space",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
-        "nodes": 1,
-        "sample": [
-          ".inline"
         ]
       },
       {
@@ -176,8 +178,8 @@
     "imagesNoAlt": 45,
     "forms": 6,
     "requests": 180,
-    "transferBytes": 3052930,
-    "domContentLoaded": 2756,
+    "transferBytes": 3052931,
+    "domContentLoaded": 3076,
     "mobileOverflowPx": 41,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -201,11 +203,11 @@
     "mobile-overflow"
   ],
   "scores": {
-    "a11y": 14,
+    "a11y": 11,
     "security": 80,
     "performance": 42,
     "mobile": 55,
-    "overall": 39
+    "overall": 38
   },
-  "durationMs": 8930
+  "durationMs": 8948
 }

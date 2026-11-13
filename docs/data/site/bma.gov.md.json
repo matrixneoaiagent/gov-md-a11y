@@ -1,6 +1,6 @@
 {
   "host": "bma.gov.md",
-  "auditedAt": "2026-11-13T20:30:04.320Z",
+  "auditedAt": "2026-11-13T20:37:38.967Z",
   "url": "https://bma.gov.md/",
   "finalHost": "bma.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66098
+  "durationMs": 66159
 }

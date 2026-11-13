@@ -1,10 +1,11 @@
 {
   "host": "emoldovata.gov.md",
-  "auditedAt": "2026-11-13T20:17:47.986Z",
+  "auditedAt": "2026-11-13T20:39:04.841Z",
   "url": "https://emoldovata.gov.md/",
   "finalHost": "emoldovata.gov.md",
   "status": 200,
   "ok": true,
+  "stub": true,
   "error": null,
   "tls": {
     "ok": false,
@@ -36,9 +37,9 @@
     "images": 3,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 11,
+    "requests": 12,
     "transferBytes": 957,
-    "domContentLoaded": 1026,
+    "domContentLoaded": 1074,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -47,6 +48,7 @@
     "failedRequests": []
   },
   "flags": [
+    "stub",
     "tls-error"
   ],
   "scores": {
@@ -56,5 +58,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4823
+  "durationMs": 5211
 }

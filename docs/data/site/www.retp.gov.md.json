@@ -1,6 +1,6 @@
 {
   "host": "www.retp.gov.md",
-  "auditedAt": "2026-11-13T20:31:42.237Z",
+  "auditedAt": "2026-11-13T20:40:38.345Z",
   "url": "https://www.retp.gov.md/#/",
   "finalHost": "www.retp.gov.md",
   "status": 200,
@@ -37,9 +37,9 @@
     "images": 63,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 55,
-    "transferBytes": 1839183,
-    "domContentLoaded": 12610,
+    "requests": 49,
+    "transferBytes": 1837204,
+    "domContentLoaded": 12810,
     "mobileOverflowPx": 729,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -65,5 +65,5 @@
     "mobile": 55,
     "overall": 58
   },
-  "durationMs": 17250
+  "durationMs": 17813
 }

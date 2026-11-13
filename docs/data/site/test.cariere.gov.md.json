@@ -1,0 +1,21 @@
+{
+  "host": "test.cariere.gov.md",
+  "auditedAt": "2026-11-13T20:40:40.082Z",
+  "url": "http://test.cariere.gov.md/",
+  "finalHost": "test.cariere.gov.md",
+  "status": 301,
+  "ok": false,
+  "stub": false,
+  "error": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://test.cariere.gov.md/\nCall log:\n  - navigating to \"http://test.cariere.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": false,
+    "error": "CERT_HAS_EXPIRED"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 2082
+}

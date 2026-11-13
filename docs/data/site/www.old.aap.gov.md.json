@@ -1,6 +1,6 @@
 {
   "host": "www.old.aap.gov.md",
-  "auditedAt": "2026-11-13T20:31:37.602Z",
+  "auditedAt": "2026-11-13T20:41:12.825Z",
   "url": "https://old.aap.gov.md/",
   "finalHost": "www.old.aap.gov.md",
   "status": 200,
@@ -163,7 +163,7 @@
     "forms": 2,
     "requests": 98,
     "transferBytes": 11241355,
-    "domContentLoaded": 2108,
+    "domContentLoaded": 2087,
     "mobileOverflowPx": 151,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -174,8 +174,8 @@
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
-      "Failed to load resource: net::ERR_FAILED",
-      "Failed to load resource: net::ERR_FAILED"
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()"
     ],
     "failedRequests": [
       "https://inamp.gov.md/sites/default/files/anunt2.jpg (net::ERR_BLOCKED_BY_ORB)"
@@ -194,5 +194,5 @@
     "mobile": 55,
     "overall": 18
   },
-  "durationMs": 7229
+  "durationMs": 7237
 }

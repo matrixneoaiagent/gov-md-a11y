@@ -1,10 +1,11 @@
 {
   "host": "reformaasistenteisociale.gov.md",
-  "auditedAt": "2026-11-13T20:20:32.685Z",
+  "auditedAt": "2026-11-13T20:42:19.060Z",
   "url": "https://restart.gov.md/",
   "finalHost": "restart.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -115,9 +116,9 @@
     "images": 22,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 46,
+    "requests": 45,
     "transferBytes": 3555242,
-    "domContentLoaded": 2988,
+    "domContentLoaded": 2198,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -143,5 +144,5 @@
     "mobile": 100,
     "overall": 66
   },
-  "durationMs": 8218
+  "durationMs": 6662
 }

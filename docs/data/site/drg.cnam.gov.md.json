@@ -1,10 +1,11 @@
 {
   "host": "drg.cnam.gov.md",
-  "auditedAt": "2026-11-13T20:16:29.943Z",
+  "auditedAt": "2026-11-13T20:38:09.247Z",
   "url": "https://drg.cnam.gov.md/",
   "finalHost": "drg.cnam.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3079
+  "durationMs": 2881
 }

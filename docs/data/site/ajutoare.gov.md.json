@@ -1,6 +1,6 @@
 {
   "host": "ajutoare.gov.md",
-  "auditedAt": "2026-11-13T20:29:55.235Z",
+  "auditedAt": "2026-11-13T20:37:38.930Z",
   "url": "https://ajutoare.gov.md/",
   "finalHost": "ajutoare.gov.md",
   "status": 200,
@@ -97,8 +97,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 43,
-    "transferBytes": 2301936,
-    "domContentLoaded": 1572,
+    "transferBytes": 2303561,
+    "domContentLoaded": 2484,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
@@ -123,5 +123,5 @@
     "mobile": 100,
     "overall": 63
   },
-  "durationMs": 7159
+  "durationMs": 10743
 }

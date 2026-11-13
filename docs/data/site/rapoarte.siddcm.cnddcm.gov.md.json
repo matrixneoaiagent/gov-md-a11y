@@ -1,0 +1,30 @@
+{
+  "host": "rapoarte.siddcm.cnddcm.gov.md",
+  "auditedAt": "2026-11-13T20:41:12.893Z",
+  "url": "https://rapoarte.siddcm.cnddcm.gov.md/",
+  "finalHost": "rapoarte.siddcm.cnddcm.gov.md",
+  "status": 401,
+  "ok": false,
+  "stub": false,
+  "error": "http 401",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  2 09:09:16 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 610
+}

@@ -1,10 +1,11 @@
 {
   "host": "probatiune.gov.md",
-  "auditedAt": "2026-11-13T20:16:58.442Z",
+  "auditedAt": "2026-11-13T20:38:34.124Z",
   "url": "https://probatiune.gov.md/",
   "finalHost": "probatiune.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -23,8 +24,8 @@
   "redirects": 0,
   "axe": {
     "version": "4.14.0",
-    "passes": 16,
-    "incomplete": 1,
+    "passes": 23,
+    "incomplete": 2,
     "violations": [
       {
         "id": "button-name",
@@ -43,11 +44,24 @@
         "help": "Elements must meet minimum color contrast ratio thresholds",
         "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
-        "nodes": 16,
+        "nodes": 15,
         "sample": [
           "#toplangblock_button",
-          ".js_animobj:nth-child(1) > .prob-home-banner.js_lazyloadbc.true > .info > .name-bn",
-          "div:nth-child(2) > .tmp-ems > .px-0.row > .col-7.pl-0 > small"
+          "div:nth-child(2) > .tmp-ems > .px-0.row > .col-7.pl-0 > small",
+          "div:nth-child(4) > .tmp-ems > .px-0.row > .col-7.pl-0 > small"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 4,
+        "sample": [
+          ".logo",
+          "iframe",
+          "iframe"
         ]
       },
       {
@@ -64,18 +78,6 @@
         ]
       },
       {
-        "id": "link-name",
-        "impact": "serious",
-        "help": "Links must have discernible text",
-        "description": "Ensure links have discernible text",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
-        "nodes": 2,
-        "sample": [
-          ".logo",
-          ".logo2"
-        ]
-      },
-      {
         "id": "html-has-lang",
         "impact": "serious",
         "help": "<html> element must have a lang attribute",
@@ -85,22 +87,11 @@
         "sample": [
           "html"
         ]
-      },
-      {
-        "id": "scrollable-region-focusable",
-        "impact": "serious",
-        "help": "Scrollable region must have keyboard access",
-        "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=playwright",
-        "nodes": 1,
-        "sample": [
-          "#sitecontent > .auto"
-        ]
       }
     ],
     "impactCounts": {
       "critical": 1,
-      "serious": 5,
+      "serious": 4,
       "moderate": 0,
       "minor": 0
     }
@@ -111,15 +102,15 @@
     "hasViewport": true,
     "hasDescription": true,
     "h1": 11,
-    "nodes": 872,
-    "links": 125,
+    "nodes": 826,
+    "links": 128,
     "badLinkText": 0,
-    "images": 30,
+    "images": 5,
     "imagesNoAlt": 0,
     "forms": 2,
-    "requests": 41,
-    "transferBytes": 1274319,
-    "domContentLoaded": 1558,
+    "requests": 69,
+    "transferBytes": 14195623,
+    "domContentLoaded": 1164,
     "mobileOverflowPx": 7,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -136,9 +127,9 @@
   "scores": {
     "a11y": 43,
     "security": 60,
-    "performance": 100,
+    "performance": 31,
     "mobile": 100,
-    "overall": 62
+    "overall": 55
   },
-  "durationMs": 5525
+  "durationMs": 5245
 }

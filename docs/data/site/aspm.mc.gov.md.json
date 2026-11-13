@@ -1,6 +1,6 @@
 {
   "host": "aspm.mc.gov.md",
-  "auditedAt": "2026-11-13T20:30:43.846Z",
+  "auditedAt": "2026-11-13T20:38:11.251Z",
   "url": "https://aspm.mc.gov.md/",
   "finalHost": "aspm.mc.gov.md",
   "status": 200,
@@ -86,7 +86,7 @@
     "forms": 2,
     "requests": 50,
     "transferBytes": 805517,
-    "domContentLoaded": 1289,
+    "domContentLoaded": 1214,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -106,5 +106,5 @@
     "mobile": 100,
     "overall": 71
   },
-  "durationMs": 5344
+  "durationMs": 4677
 }

@@ -1,0 +1,98 @@
+{
+  "host": "ue.mfa.gov.md",
+  "auditedAt": "2026-11-13T20:41:29.993Z",
+  "url": "https://ue.mfa.gov.md/",
+  "finalHost": "ue.mfa.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 20 06:50:32 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 19,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "div > a[target=\"_blank\"]",
+          ".views-row-1.views-row-first.views-row-odd > .views-field-field-cover-image.views-field > .field-content > a",
+          ".views-row-2.views-row-even.views-row > .views-field-field-cover-image.views-field > .field-content > a"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Misiunea Republicii Moldova pe lângă Uniunea Europeană | Ministerul Afacerilor Externe al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 562,
+    "links": 140,
+    "badLinkText": 7,
+    "images": 17,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 131,
+    "transferBytes": 636291,
+    "domContentLoaded": 1471,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://ue.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700itali",
+      "Mixed Content: The page at 'https://ue.mfa.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600it"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
+    ]
+  },
+  "flags": [
+    "vague-link-text"
+  ],
+  "scores": {
+    "a11y": 76,
+    "security": 70,
+    "performance": 92,
+    "mobile": 100,
+    "overall": 80
+  },
+  "durationMs": 6049
+}

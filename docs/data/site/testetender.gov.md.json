@@ -1,0 +1,21 @@
+{
+  "host": "testetender.gov.md",
+  "auditedAt": "2026-11-13T20:38:42.744Z",
+  "url": "http://testetender.gov.md/",
+  "finalHost": "testetender.gov.md",
+  "status": 301,
+  "ok": false,
+  "stub": false,
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://testetender.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": false,
+    "error": "CERT_HAS_EXPIRED"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 46537
+}

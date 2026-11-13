@@ -1,6 +1,6 @@
 {
   "host": "anad.gov.md",
-  "auditedAt": "2026-11-13T20:30:24.879Z",
+  "auditedAt": "2026-11-13T20:37:52.401Z",
   "url": "https://anad.gov.md/",
   "finalHost": "anad.gov.md",
   "status": 200,
@@ -111,8 +111,8 @@
     "imagesNoAlt": 3,
     "forms": 1,
     "requests": 128,
-    "transferBytes": 1328545,
-    "domContentLoaded": 4436,
+    "transferBytes": 1328544,
+    "domContentLoaded": 4414,
     "mobileOverflowPx": 25,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -132,5 +132,5 @@
     "mobile": 55,
     "overall": 54
   },
-  "durationMs": 18965
+  "durationMs": 18848
 }

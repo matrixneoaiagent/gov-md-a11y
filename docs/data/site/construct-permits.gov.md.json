@@ -1,6 +1,6 @@
 {
   "host": "construct-permits.gov.md",
-  "auditedAt": "2026-11-13T20:30:17.792Z",
+  "auditedAt": "2026-11-13T20:38:05.089Z",
   "url": "https://construct-permits.gov.md/",
   "finalHost": "construct-permits.gov.md",
   "status": 200,
@@ -60,7 +60,7 @@
     "forms": 0,
     "requests": 15,
     "transferBytes": 290959,
-    "domContentLoaded": 1404,
+    "domContentLoaded": 1983,
     "mobileOverflowPx": 30,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -82,5 +82,5 @@
     "mobile": 55,
     "overall": 84
   },
-  "durationMs": 4833
+  "durationMs": 5438
 }

@@ -1,10 +1,11 @@
 {
   "host": "mts.gov.md",
-  "auditedAt": "2026-11-13T20:20:44.732Z",
+  "auditedAt": "2026-11-13T20:42:07.976Z",
   "url": "https://mts.gov.md/",
   "finalHost": "mts.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -116,9 +117,9 @@
     "images": 54,
     "imagesNoAlt": 1,
     "forms": 1,
-    "requests": 192,
-    "transferBytes": 3229741,
-    "domContentLoaded": 1226,
+    "requests": 194,
+    "transferBytes": 3229688,
+    "domContentLoaded": 1178,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -141,5 +142,5 @@
     "mobile": 100,
     "overall": 60
   },
-  "durationMs": 5453
+  "durationMs": 5510
 }

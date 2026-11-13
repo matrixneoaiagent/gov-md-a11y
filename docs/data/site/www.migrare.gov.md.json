@@ -1,6 +1,6 @@
 {
   "host": "www.migrare.gov.md",
-  "auditedAt": "2026-11-13T20:30:54.011Z",
+  "auditedAt": "2026-11-13T20:41:05.954Z",
   "url": "https://www.migrare.gov.md/",
   "finalHost": "www.migrare.gov.md",
   "status": 200,
@@ -74,7 +74,7 @@
     "forms": 1,
     "requests": 16,
     "transferBytes": 86246,
-    "domContentLoaded": 1339,
+    "domContentLoaded": 934,
     "mobileOverflowPx": 560,
     "consoleErrors": [],
     "failedRequests": []
@@ -92,5 +92,5 @@
     "mobile": 55,
     "overall": 53
   },
-  "durationMs": 5580
+  "durationMs": 4887
 }

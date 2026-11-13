@@ -1,0 +1,93 @@
+{
+  "host": "verifica.anta.gov.md",
+  "auditedAt": "2026-11-13T20:42:14.521Z",
+  "url": "https://verifica.anta.gov.md/",
+  "finalHost": "verifica.anta.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 22 03:50:08 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 1,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "document-title",
+        "impact": "serious",
+        "help": "Documents must have <title> element to aid in navigation",
+        "description": "Ensure each HTML document contains a non-empty <title> element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 3,
+    "links": 0,
+    "badLinkText": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 2,
+    "transferBytes": 300,
+    "domContentLoaded": 571,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-title",
+    "no-viewport",
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 89,
+    "security": 60,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 85
+  },
+  "durationMs": 3753
+}

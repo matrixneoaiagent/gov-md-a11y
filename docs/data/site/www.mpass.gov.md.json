@@ -1,6 +1,6 @@
 {
   "host": "www.mpass.gov.md",
-  "auditedAt": "2026-11-13T20:31:49.289Z",
+  "auditedAt": "2026-11-13T20:43:31.647Z",
   "url": "https://www.mpass.gov.md/",
   "finalHost": "www.mpass.gov.md",
   "status": 404,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 796
+  "durationMs": 1371
 }

@@ -1,10 +1,11 @@
 {
   "host": "mail.customs.gov.md",
-  "auditedAt": "2026-11-13T20:18:03.452Z",
+  "auditedAt": "2026-11-13T20:39:45.614Z",
   "url": "https://mail.customs.gov.md/",
   "finalHost": "mail.customs.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66112
+  "durationMs": 66128
 }

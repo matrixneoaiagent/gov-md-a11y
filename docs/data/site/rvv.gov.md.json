@@ -1,10 +1,11 @@
 {
   "host": "rvv.gov.md",
-  "auditedAt": "2026-11-13T20:17:41.744Z",
+  "auditedAt": "2026-11-13T20:38:11.477Z",
   "url": "https://rvv.gov.md/homepage.jsf",
   "finalHost": "rvv.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -93,8 +94,8 @@
     "imagesNoAlt": 1,
     "forms": 2,
     "requests": 22,
-    "transferBytes": 1051177,
-    "domContentLoaded": 862,
+    "transferBytes": 1051181,
+    "domContentLoaded": 1116,
     "mobileOverflowPx": 855,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -117,5 +118,5 @@
     "mobile": 55,
     "overall": 74
   },
-  "durationMs": 3875
+  "durationMs": 3865
 }

@@ -1,10 +1,11 @@
 {
   "host": "mediaserver.border.gov.md",
-  "auditedAt": "2026-11-13T20:16:50.237Z",
+  "auditedAt": "2026-11-13T20:38:56.503Z",
   "url": "https://mediaserver.border.gov.md/",
   "finalHost": "mediaserver.border.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66116
+  "durationMs": 66086
 }

@@ -1,6 +1,6 @@
 {
   "host": "bma.migrare.gov.md",
-  "auditedAt": "2026-11-13T20:30:00.848Z",
+  "auditedAt": "2026-11-13T20:37:34.646Z",
   "url": "https://bma.migrare.gov.md/",
   "finalHost": "bma.migrare.gov.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2597
+  "durationMs": 2787
 }

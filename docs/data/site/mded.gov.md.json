@@ -1,0 +1,102 @@
+{
+  "host": "mded.gov.md",
+  "auditedAt": "2026-11-13T20:40:39.611Z",
+  "url": "https://mded.gov.md/",
+  "finalHost": "mded.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 10:53:22 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".header-logo__title > p"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "Ministerul Dezvoltării Economice și Digitalizării – Guvernul Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 677,
+    "links": 188,
+    "badLinkText": 1,
+    "images": 39,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 73,
+    "transferBytes": 35816030,
+    "domContentLoaded": 1934,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "vague-link-text"
+  ],
+  "scores": {
+    "a11y": 91,
+    "security": 60,
+    "performance": 0,
+    "mobile": 100,
+    "overall": 76
+  },
+  "durationMs": 5569
+}

@@ -1,10 +1,11 @@
 {
   "host": "geoportalinds.gov.md",
-  "auditedAt": "2026-11-13T20:16:52.738Z",
+  "auditedAt": "2026-11-13T20:38:16.809Z",
   "url": "https://geoportalinds.gov.md/ro/landing-page-ro/",
   "finalHost": "geoportalinds.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -58,8 +59,8 @@
     "imagesNoAlt": 0,
     "forms": 0,
     "requests": 99,
-    "transferBytes": 676469,
-    "domContentLoaded": 1688,
+    "transferBytes": 676466,
+    "domContentLoaded": 1626,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -83,5 +84,5 @@
     "mobile": 100,
     "overall": 90
   },
-  "durationMs": 6003
+  "durationMs": 6286
 }

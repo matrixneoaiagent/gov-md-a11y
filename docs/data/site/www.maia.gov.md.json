@@ -1,6 +1,6 @@
 {
   "host": "www.maia.gov.md",
-  "auditedAt": "2026-11-13T20:31:01.754Z",
+  "auditedAt": "2026-11-13T20:43:25.753Z",
   "url": "https://www.maia.gov.md/",
   "finalHost": "www.maia.gov.md",
   "status": 200,
@@ -131,7 +131,7 @@
     "forms": 2,
     "requests": 186,
     "transferBytes": 3168472,
-    "domContentLoaded": 1317,
+    "domContentLoaded": 1399,
     "mobileOverflowPx": 830,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -159,5 +159,5 @@
     "mobile": 55,
     "overall": 50
   },
-  "durationMs": 5796
+  "durationMs": 6191
 }

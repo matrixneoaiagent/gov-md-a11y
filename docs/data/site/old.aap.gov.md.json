@@ -1,10 +1,11 @@
 {
   "host": "old.aap.gov.md",
-  "auditedAt": "2026-11-13T20:16:54.068Z",
+  "auditedAt": "2026-11-13T20:38:14.238Z",
   "url": "https://old.aap.gov.md/",
   "finalHost": "old.aap.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -171,7 +172,7 @@
     "forms": 2,
     "requests": 98,
     "transferBytes": 11241427,
-    "domContentLoaded": 1775,
+    "domContentLoaded": 1585,
     "mobileOverflowPx": 151,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -201,5 +202,5 @@
     "mobile": 55,
     "overall": 35
   },
-  "durationMs": 6366
+  "durationMs": 6137
 }

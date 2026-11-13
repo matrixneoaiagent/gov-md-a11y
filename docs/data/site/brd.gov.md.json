@@ -1,6 +1,6 @@
 {
   "host": "brd.gov.md",
-  "auditedAt": "2026-11-13T20:30:06.885Z",
+  "auditedAt": "2026-11-13T20:38:06.164Z",
   "url": "https://brd.gov.md/",
   "finalHost": "brd.gov.md",
   "status": 200,
@@ -107,7 +107,7 @@
     "forms": 4,
     "requests": 65,
     "transferBytes": 13892584,
-    "domContentLoaded": 3274,
+    "domContentLoaded": 6763,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -131,5 +131,5 @@
     "mobile": 100,
     "overall": 61
   },
-  "durationMs": 6876
+  "durationMs": 10630
 }

@@ -1,6 +1,6 @@
 {
   "host": "www.e-management.madrm.gov.md",
-  "auditedAt": "2026-11-13T20:30:20.205Z",
+  "auditedAt": "2026-11-13T20:41:00.368Z",
   "url": "https://www.e-management.madrm.gov.md/",
   "finalHost": "www.e-management.madrm.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66110
+  "durationMs": 66082
 }

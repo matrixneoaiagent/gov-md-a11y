@@ -1,10 +1,11 @@
 {
   "host": "www.ega.gov.md",
-  "auditedAt": "2026-11-13T20:18:43.373Z",
+  "auditedAt": "2026-11-13T20:40:20.595Z",
   "url": "https://www.ega.gov.md/",
   "finalHost": "www.ega.gov.md",
   "status": 400,
   "ok": false,
+  "stub": false,
   "error": "not html (text/plain; charset=utf-8)",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 505
+  "durationMs": 600
 }

@@ -1,10 +1,11 @@
 {
   "host": "id.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:18:49.899Z",
+  "auditedAt": "2026-11-13T20:40:33.566Z",
   "url": "https://id.mfa.gov.md/",
   "finalHost": "id.mfa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -58,8 +59,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 130,
-    "transferBytes": 420624,
-    "domContentLoaded": 1358,
+    "transferBytes": 420621,
+    "domContentLoaded": 1438,
     "mobileOverflowPx": 547,
     "consoleErrors": [
       "Mixed Content: The page at 'https://id.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700itali",
@@ -81,5 +82,5 @@
     "mobile": 55,
     "overall": 83
   },
-  "durationMs": 5557
+  "durationMs": 5698
 }

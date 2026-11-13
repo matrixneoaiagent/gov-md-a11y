@@ -1,6 +1,6 @@
 {
   "host": "asp.gov.md",
-  "auditedAt": "2026-11-13T20:30:00.053Z",
+  "auditedAt": "2026-11-13T20:37:29.119Z",
   "url": "https://www.asp.gov.md/ro",
   "finalHost": "www.asp.gov.md",
   "status": 200,
@@ -48,7 +48,7 @@
     "forms": 1,
     "requests": 40,
     "transferBytes": 656920,
-    "domContentLoaded": 1774,
+    "domContentLoaded": 1149,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -72,5 +72,5 @@
     "mobile": 100,
     "overall": 92
   },
-  "durationMs": 7511
+  "durationMs": 6570
 }

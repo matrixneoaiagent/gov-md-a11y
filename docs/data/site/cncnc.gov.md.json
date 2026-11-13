@@ -1,6 +1,6 @@
 {
   "host": "cncnc.gov.md",
-  "auditedAt": "2026-11-13T20:30:03.451Z",
+  "auditedAt": "2026-11-13T20:37:37.440Z",
   "url": "https://cncnc.gov.md/",
   "finalHost": "cncnc.gov.md",
   "status": 200,
@@ -50,7 +50,7 @@
         "sample": [
           ".ct-trending-block-item:nth-child(2) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
           ".ct-trending-block-item:nth-child(3) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
-          ".ct-trending-block-item:nth-child(5) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl"
+          ".ct-trending-block-item:nth-child(4) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl"
         ]
       },
       {
@@ -78,15 +78,15 @@
     "hasViewport": true,
     "hasDescription": false,
     "h1": 0,
-    "nodes": 783,
-    "links": 128,
+    "nodes": 785,
+    "links": 129,
     "badLinkText": 0,
-    "images": 24,
+    "images": 25,
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 75,
-    "transferBytes": 1218216,
-    "domContentLoaded": 2323,
+    "transferBytes": 1218227,
+    "domContentLoaded": 1969,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -101,5 +101,5 @@
     "mobile": 100,
     "overall": 72
   },
-  "durationMs": 6230
+  "durationMs": 6165
 }

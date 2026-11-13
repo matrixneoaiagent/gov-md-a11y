@@ -1,6 +1,6 @@
 {
   "host": "anta.gov.md",
-  "auditedAt": "2026-11-13T20:29:59.220Z",
+  "auditedAt": "2026-11-13T20:37:33.525Z",
   "url": "https://anta.gov.md/",
   "finalHost": "anta.gov.md",
   "status": 200,
@@ -98,7 +98,7 @@
     "forms": 1,
     "requests": 109,
     "transferBytes": 889187,
-    "domContentLoaded": 1030,
+    "domContentLoaded": 1111,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -115,5 +115,5 @@
     "mobile": 100,
     "overall": 63
   },
-  "durationMs": 5099
+  "durationMs": 5441
 }

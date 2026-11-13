@@ -1,10 +1,11 @@
 {
   "host": "mc.gov.md",
-  "auditedAt": "2026-11-13T20:20:13.830Z",
+  "auditedAt": "2026-11-13T20:41:52.895Z",
   "url": "https://mc.gov.md/",
   "finalHost": "mc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -110,8 +111,8 @@
     "imagesNoAlt": 8,
     "forms": 1,
     "requests": 231,
-    "transferBytes": 3010286,
-    "domContentLoaded": 2169,
+    "transferBytes": 3010292,
+    "domContentLoaded": 2303,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -128,5 +129,5 @@
     "mobile": 100,
     "overall": 52
   },
-  "durationMs": 7308
+  "durationMs": 7299
 }

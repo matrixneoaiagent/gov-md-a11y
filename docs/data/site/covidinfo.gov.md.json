@@ -1,6 +1,6 @@
 {
   "host": "covidinfo.gov.md",
-  "auditedAt": "2026-11-13T20:30:14.077Z",
+  "auditedAt": "2026-11-13T20:37:41.498Z",
   "url": "https://covidinfo.gov.md/",
   "finalHost": "covidinfo.gov.md",
   "status": 200,
@@ -96,7 +96,7 @@
     "forms": 1,
     "requests": 38,
     "transferBytes": 672792,
-    "domContentLoaded": 1795,
+    "domContentLoaded": 1540,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -119,5 +119,5 @@
     "mobile": 100,
     "overall": 70
   },
-  "durationMs": 5964
+  "durationMs": 5592
 }

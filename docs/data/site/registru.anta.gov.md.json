@@ -1,10 +1,11 @@
 {
   "host": "registru.anta.gov.md",
-  "auditedAt": "2026-11-13T20:18:52.572Z",
+  "auditedAt": "2026-11-13T20:40:27.498Z",
   "url": "https://registru.anta.gov.md/",
   "finalHost": "registru.anta.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -70,7 +71,7 @@
     "forms": 0,
     "requests": 2,
     "transferBytes": 300,
-    "domContentLoaded": 459,
+    "domContentLoaded": 586,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -88,5 +89,5 @@
     "mobile": 100,
     "overall": 85
   },
-  "durationMs": 3628
+  "durationMs": 3673
 }

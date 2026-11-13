@@ -1,6 +1,6 @@
 {
   "host": "carabinier.gov.md",
-  "auditedAt": "2026-11-13T20:30:09.579Z",
+  "auditedAt": "2026-11-13T20:37:57.338Z",
   "url": "https://carabinier.gov.md/",
   "finalHost": "carabinier.gov.md",
   "status": 200,
@@ -85,8 +85,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 229,
-    "transferBytes": 4542953,
-    "domContentLoaded": 2550,
+    "transferBytes": 4542950,
+    "domContentLoaded": 2536,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://carabinier.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700i",
@@ -108,5 +108,5 @@
     "mobile": 100,
     "overall": 64
   },
-  "durationMs": 8211
+  "durationMs": 7750
 }

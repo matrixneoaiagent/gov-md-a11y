@@ -1,6 +1,6 @@
 {
   "host": "www.ecazier.gov.md",
-  "auditedAt": "2026-11-13T20:30:27.735Z",
+  "auditedAt": "2026-11-13T20:42:21.743Z",
   "url": "https://www.ecazier.gov.md/",
   "finalHost": "www.ecazier.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66100
+  "durationMs": 66108
 }

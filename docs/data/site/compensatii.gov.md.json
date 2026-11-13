@@ -1,6 +1,6 @@
 {
   "host": "compensatii.gov.md",
-  "auditedAt": "2026-11-13T20:30:26.580Z",
+  "auditedAt": "2026-11-13T20:38:00.744Z",
   "url": "https://compensatii.gov.md/ro/home",
   "finalHost": "compensatii.gov.md",
   "status": 200,
@@ -48,7 +48,7 @@
     "forms": 0,
     "requests": 71,
     "transferBytes": 1034337,
-    "domContentLoaded": 3915,
+    "domContentLoaded": 3644,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -66,5 +66,5 @@
     "mobile": 100,
     "overall": 94
   },
-  "durationMs": 7222
+  "durationMs": 7163
 }

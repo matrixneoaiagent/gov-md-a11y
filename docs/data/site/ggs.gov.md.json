@@ -1,10 +1,11 @@
 {
   "host": "ggs.gov.md",
-  "auditedAt": "2026-11-13T20:17:01.299Z",
+  "auditedAt": "2026-11-13T20:38:15.791Z",
   "url": "https://ggs.gov.md/",
   "finalHost": "ggs.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -32,11 +33,11 @@
         "help": "Elements must only use supported ARIA attributes",
         "description": "Ensure an element's role supports its ARIA attributes",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
-        "nodes": 6,
+        "nodes": 7,
         "sample": [
+          "div[aria-label=\"3 / 9\"] > iframe",
           "div[aria-label=\"4 / 9\"] > iframe",
-          "div[aria-label=\"5 / 9\"] > iframe",
-          "div[aria-label=\"6 / 9\"] > iframe"
+          "div[aria-label=\"5 / 9\"] > iframe"
         ]
       },
       {
@@ -45,11 +46,11 @@
         "help": "Buttons must have discernible text",
         "description": "Ensure buttons have discernible text",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
-        "nodes": 6,
+        "nodes": 7,
         "sample": [
+          "div[aria-label=\"3 / 9\"] > iframe",
           "div[aria-label=\"4 / 9\"] > iframe",
-          "div[aria-label=\"5 / 9\"] > iframe",
-          "div[aria-label=\"6 / 9\"] > iframe"
+          "div[aria-label=\"5 / 9\"] > iframe"
         ]
       },
       {
@@ -58,11 +59,11 @@
         "help": "Elements must only use permitted ARIA attributes",
         "description": "Ensure ARIA attributes are not prohibited for an element's role",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
-        "nodes": 6,
+        "nodes": 7,
         "sample": [
+          "div[aria-label=\"3 / 9\"] > iframe",
           "div[aria-label=\"4 / 9\"] > iframe",
-          "div[aria-label=\"5 / 9\"] > iframe",
-          "div[aria-label=\"6 / 9\"] > iframe"
+          "div[aria-label=\"5 / 9\"] > iframe"
         ]
       },
       {
@@ -148,7 +149,7 @@
     "forms": 0,
     "requests": 57,
     "transferBytes": 20817478,
-    "domContentLoaded": 1793,
+    "domContentLoaded": 2022,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -168,11 +169,11 @@
     "vague-link-text"
   ],
   "scores": {
-    "a11y": 19,
+    "a11y": 18,
     "security": 60,
     "performance": 0,
     "mobile": 100,
-    "overall": 40
+    "overall": 39
   },
-  "durationMs": 11166
+  "durationMs": 11015
 }

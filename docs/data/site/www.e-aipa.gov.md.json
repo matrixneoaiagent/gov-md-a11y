@@ -1,6 +1,6 @@
 {
   "host": "www.e-aipa.gov.md",
-  "auditedAt": "2026-11-13T20:31:25.350Z",
+  "auditedAt": "2026-11-13T20:40:53.275Z",
   "url": "https://www.e-aipa.gov.md/home",
   "finalHost": "www.e-aipa.gov.md",
   "status": 200,
@@ -51,7 +51,7 @@
     "forms": 0,
     "requests": 10,
     "transferBytes": 1093553,
-    "domContentLoaded": 2751,
+    "domContentLoaded": 2814,
     "mobileOverflowPx": 70,
     "consoleErrors": [
       "ERROR e"
@@ -70,5 +70,5 @@
     "mobile": 55,
     "overall": 63
   },
-  "durationMs": 6893
+  "durationMs": 6788
 }

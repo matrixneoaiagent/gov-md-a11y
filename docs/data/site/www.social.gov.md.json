@@ -1,6 +1,6 @@
 {
   "host": "www.social.gov.md",
-  "auditedAt": "2026-11-13T20:31:00.921Z",
+  "auditedAt": "2026-11-13T20:41:16.021Z",
   "url": "https://www.social.gov.md/",
   "finalHost": "www.social.gov.md",
   "status": 200,
@@ -138,9 +138,9 @@
     "images": 70,
     "imagesNoAlt": 46,
     "forms": 1,
-    "requests": 67,
+    "requests": 66,
     "transferBytes": 19351,
-    "domContentLoaded": 4052,
+    "domContentLoaded": 4100,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -157,12 +157,12 @@
     "failedRequests": [
       "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fhref%3Dhttps%253A%252F%252Fww (net::ERR_BLOCKED_BY_RESPONSE)",
       "https://social.gov.md/wp-includes/css/dist/block-library/style.min.css?ver=6.0.1 (net::ERR_FAILED)",
-      "https://social.gov.md/wp-content/plugins/sassy-social-share/admin/css/sassy-social-share-svg.css?ver=3.3.10 (net::ERR_FAILED)",
       "https://social.gov.md/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.10 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/sassy-social-share/admin/css/sassy-social-share-svg.css?ver=3.3.10 (net::ERR_FAILED)",
       "https://social.gov.md/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/ (net::ERR_FAILED)",
-      "https://social.gov.md/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.2 (net::ERR_FAILED)",
       "https://social.gov.md/wp-content/themes/ms/css/all.css?ver=1 (net::ERR_FAILED)",
-      "https://social.gov.md/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.8 (net::ERR_FAILED)"
+      "https://social.gov.md/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.8 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.2 (net::ERR_FAILED)"
     ]
   },
   "flags": [
@@ -177,5 +177,5 @@
     "mobile": 100,
     "overall": 33
   },
-  "durationMs": 9397
+  "durationMs": 8449
 }

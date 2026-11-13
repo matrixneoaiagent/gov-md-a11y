@@ -1,6 +1,6 @@
 {
   "host": "autorizatiimediu.gov.md",
-  "auditedAt": "2026-11-13T20:30:28.252Z",
+  "auditedAt": "2026-11-13T20:37:35.412Z",
   "url": "https://autorizatiimediu.gov.md/",
   "finalHost": "autorizatiimediu.gov.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2925
+  "durationMs": 3077
 }

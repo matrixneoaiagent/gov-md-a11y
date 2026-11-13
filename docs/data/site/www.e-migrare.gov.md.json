@@ -1,6 +1,6 @@
 {
   "host": "www.e-migrare.gov.md",
-  "auditedAt": "2026-11-13T20:30:25.760Z",
+  "auditedAt": "2026-11-13T20:39:46.613Z",
   "url": "http://www.e-migrare.gov.md/",
   "finalHost": "www.e-migrare.gov.md",
   "status": 404,
@@ -25,5 +25,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1362
+  "durationMs": 1085
 }

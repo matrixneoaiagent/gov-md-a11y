@@ -1,10 +1,11 @@
 {
   "host": "geodata.gov.md",
-  "auditedAt": "2026-11-13T20:17:48.723Z",
+  "auditedAt": "2026-11-13T20:39:02.331Z",
   "url": "https://geodata.gov.md/_v/2026111320/unsupportedBrowser.html",
   "finalHost": "geodata.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -70,7 +71,7 @@
     "forms": 0,
     "requests": 6,
     "transferBytes": 44677,
-    "domContentLoaded": 867,
+    "domContentLoaded": 957,
     "mobileOverflowPx": 32,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED"
@@ -91,5 +92,5 @@
     "mobile": 55,
     "overall": 79
   },
-  "durationMs": 6240
+  "durationMs": 6214
 }

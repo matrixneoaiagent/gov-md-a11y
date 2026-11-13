@@ -1,10 +1,11 @@
 {
   "host": "sgpe.gov.md",
-  "auditedAt": "2026-11-13T20:16:59.490Z",
+  "auditedAt": "2026-11-13T20:39:27.540Z",
   "url": "https://sgpe.gov.md/",
   "finalHost": "sgpe.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66149
+  "durationMs": 66115
 }

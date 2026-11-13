@@ -1,10 +1,11 @@
 {
   "host": "locatiivaccinare.gov.md",
-  "auditedAt": "2026-11-13T20:17:57.766Z",
+  "auditedAt": "2026-11-13T20:39:15.137Z",
   "url": "https://locatiivaccinare.gov.md/",
   "finalHost": "locatiivaccinare.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -72,7 +73,7 @@
     "forms": 0,
     "requests": 40,
     "transferBytes": 1145110,
-    "domContentLoaded": 2136,
+    "domContentLoaded": 2284,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -93,5 +94,5 @@
     "mobile": 100,
     "overall": 78
   },
-  "durationMs": 5732
+  "durationMs": 6424
 }

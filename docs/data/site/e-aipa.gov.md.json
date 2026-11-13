@@ -1,10 +1,11 @@
 {
   "host": "e-aipa.gov.md",
-  "auditedAt": "2026-11-13T20:17:17.190Z",
+  "auditedAt": "2026-11-13T20:39:35.651Z",
   "url": "https://e-aipa.gov.md/home",
   "finalHost": "e-aipa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -50,7 +51,7 @@
     "forms": 0,
     "requests": 10,
     "transferBytes": 1093553,
-    "domContentLoaded": 2544,
+    "domContentLoaded": 3198,
     "mobileOverflowPx": 70,
     "consoleErrors": [
       "ERROR e"
@@ -69,5 +70,5 @@
     "mobile": 55,
     "overall": 63
   },
-  "durationMs": 6627
+  "durationMs": 7786
 }

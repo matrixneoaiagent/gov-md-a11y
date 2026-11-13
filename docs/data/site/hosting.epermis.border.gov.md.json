@@ -1,6 +1,6 @@
 {
   "host": "hosting.epermis.border.gov.md",
-  "auditedAt": "2026-11-13T20:32:00.890Z",
+  "auditedAt": "2026-11-13T20:37:58.398Z",
   "url": "https://hosting.epermis.border.gov.md/",
   "finalHost": "hosting.epermis.border.gov.md",
   "status": 200,
@@ -96,7 +96,7 @@
     "forms": 0,
     "requests": 3,
     "transferBytes": 2253,
-    "domContentLoaded": 619,
+    "domContentLoaded": 411,
     "mobileOverflowPx": 24,
     "consoleErrors": [],
     "failedRequests": []
@@ -113,5 +113,5 @@
     "mobile": 55,
     "overall": 62
   },
-  "durationMs": 4607
+  "durationMs": 3859
 }

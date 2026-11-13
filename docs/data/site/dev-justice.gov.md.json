@@ -1,6 +1,6 @@
 {
   "host": "dev-justice.gov.md",
-  "auditedAt": "2026-11-13T20:30:23.519Z",
+  "auditedAt": "2026-11-13T20:38:32.892Z",
   "url": "https://dev-justice.gov.md/",
   "finalHost": "dev-justice.gov.md",
   "status": 200,
@@ -39,7 +39,7 @@
     "forms": 0,
     "requests": 12,
     "transferBytes": 957,
-    "domContentLoaded": 936,
+    "domContentLoaded": 1035,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -58,5 +58,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4672
+  "durationMs": 4772
 }

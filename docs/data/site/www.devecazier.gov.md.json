@@ -1,6 +1,6 @@
 {
   "host": "www.devecazier.gov.md",
-  "auditedAt": "2026-11-13T20:30:39.350Z",
+  "auditedAt": "2026-11-13T20:42:30.797Z",
   "url": "https://www.devecazier.gov.md/",
   "finalHost": "www.devecazier.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66092
+  "durationMs": 66088
 }

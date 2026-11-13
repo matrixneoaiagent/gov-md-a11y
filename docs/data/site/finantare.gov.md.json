@@ -1,10 +1,11 @@
 {
   "host": "finantare.gov.md",
-  "auditedAt": "2026-11-13T20:17:16.240Z",
+  "auditedAt": "2026-11-13T20:39:33.126Z",
   "url": "https://consecon.gov.md/",
   "finalHost": "consecon.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3302
+  "durationMs": 3363
 }

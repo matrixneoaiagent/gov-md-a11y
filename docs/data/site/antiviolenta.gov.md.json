@@ -1,6 +1,6 @@
 {
   "host": "antiviolenta.gov.md",
-  "auditedAt": "2026-11-13T20:30:14.818Z",
+  "auditedAt": "2026-11-13T20:37:30.107Z",
   "url": "https://antiviolenta.gov.md/",
   "finalHost": "antiviolenta.gov.md",
   "status": 200,
@@ -120,8 +120,8 @@
     "imagesNoAlt": 0,
     "forms": 2,
     "requests": 37,
-    "transferBytes": 2112380,
-    "domContentLoaded": 2220,
+    "transferBytes": 2108421,
+    "domContentLoaded": 2193,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
@@ -148,5 +148,5 @@
     "mobile": 100,
     "overall": 61
   },
-  "durationMs": 6870
+  "durationMs": 6859
 }

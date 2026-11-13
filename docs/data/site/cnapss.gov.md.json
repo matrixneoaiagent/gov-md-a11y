@@ -1,6 +1,6 @@
 {
   "host": "cnapss.gov.md",
-  "auditedAt": "2026-11-13T20:30:54.324Z",
+  "auditedAt": "2026-11-13T20:38:27.158Z",
   "url": "https://cnapss.gov.md/",
   "finalHost": "cnapss.gov.md",
   "status": 200,
@@ -87,7 +87,7 @@
     "forms": 0,
     "requests": 62,
     "transferBytes": 2543922,
-    "domContentLoaded": 2130,
+    "domContentLoaded": 2142,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
@@ -113,5 +113,5 @@
     "mobile": 100,
     "overall": 70
   },
-  "durationMs": 5656
+  "durationMs": 5749
 }

@@ -1,0 +1,131 @@
+{
+  "host": "statistica.gov.md",
+  "auditedAt": "2026-11-13T20:38:45.526Z",
+  "url": "https://statistica.gov.md/ro",
+  "finalHost": "statistica.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 21 11:08:39 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=2592000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".logobns:nth-child(1)",
+          "#keyimg_0h",
+          "#db01h"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 24,
+        "sample": [
+          "li:nth-child(7) > .m-r-10",
+          ".header-extras > ul > li > a",
+          "p:nth-child(2) > a[href$=\"geo.statistica.md/\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 20,
+        "sample": [
+          ".title_bns",
+          "#keyimg_0 > div:nth-child(4)",
+          "#keyimg_1 > div:nth-child(4)"
+        ]
+      },
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=playwright",
+        "nodes": 13,
+        "sample": [
+          ".keyindicator > .flickity-viewport > .flickity-slider > .polo-carousel-item[aria-hidden=\"true\"]:nth-child(2)",
+          ".keyindicator > .flickity-viewport > .flickity-slider > .polo-carousel-item[aria-hidden=\"true\"]:nth-child(3)",
+          ".keyindicator > .flickity-viewport > .flickity-slider > .polo-carousel-item[aria-hidden=\"true\"]:nth-child(4)"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Biroul Național de Statistică al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 2641,
+    "links": 374,
+    "badLinkText": 0,
+    "images": 98,
+    "imagesNoAlt": 90,
+    "forms": 1,
+    "requests": 151,
+    "transferBytes": 4455271,
+    "domContentLoaded": 5303,
+    "mobileOverflowPx": 14,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 25,
+    "security": 75,
+    "performance": 56,
+    "mobile": 55,
+    "overall": 45
+  },
+  "durationMs": 12449
+}

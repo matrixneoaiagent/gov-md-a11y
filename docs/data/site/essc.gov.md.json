@@ -1,10 +1,11 @@
 {
   "host": "essc.gov.md",
-  "auditedAt": "2026-11-13T20:17:23.817Z",
+  "auditedAt": "2026-11-13T20:39:43.437Z",
   "url": "https://essc.gov.md/",
   "finalHost": "essc.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66120
+  "durationMs": 66088
 }

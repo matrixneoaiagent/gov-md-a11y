@@ -1,6 +1,6 @@
 {
   "host": "avls.mai.gov.md",
-  "auditedAt": "2026-11-13T20:30:56.278Z",
+  "auditedAt": "2026-11-13T20:38:19.345Z",
   "url": "https://avls.mai.gov.md/",
   "finalHost": "avls.mai.gov.md",
   "status": null,
@@ -17,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66112
+  "durationMs": 66115
 }

@@ -1,0 +1,21 @@
+{
+  "host": "staging-api.cnddcm.gov.md",
+  "auditedAt": "2026-11-13T20:40:18.405Z",
+  "url": "https://staging-api.cnddcm.gov.md/",
+  "finalHost": "staging-api.cnddcm.gov.md",
+  "status": null,
+  "ok": false,
+  "stub": false,
+  "error": "probe: UND_ERR_CONNECT_TIMEOUT",
+  "tls": {
+    "ok": false,
+    "error": "timeout"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 66098
+}

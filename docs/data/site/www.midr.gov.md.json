@@ -1,6 +1,6 @@
 {
   "host": "www.midr.gov.md",
-  "auditedAt": "2026-11-13T20:31:48.850Z",
+  "auditedAt": "2026-11-13T20:43:51.157Z",
   "url": "https://www.midr.gov.md/",
   "finalHost": "www.midr.gov.md",
   "status": 403,
@@ -26,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 45720
+  "durationMs": 45598
 }
