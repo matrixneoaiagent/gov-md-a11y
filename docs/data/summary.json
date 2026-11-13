@@ -1,0 +1,2309 @@
+{
+  "generatedAt": "2026-11-13T20:13:14.332Z",
+  "total": 12,
+  "audited": 9,
+  "failed": 3,
+  "average": {
+    "overall": 70,
+    "a11y": 60,
+    "security": 67,
+    "performance": 92,
+    "mobile": 95
+  },
+  "cleanPages": 1,
+  "perfectScores": 0,
+  "https": 9,
+  "tlsOk": 7,
+  "hsts": 4,
+  "csp": 2,
+  "lang": 9,
+  "viewport": 9,
+  "mobileOverflow": 1,
+  "impacts": {
+    "critical": 7,
+    "serious": 23,
+    "moderate": 2,
+    "minor": 0
+  },
+  "violations": [
+    {
+      "id": "color-contrast",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+      "sites": 8,
+      "nodes": 105,
+      "pages": [
+        "373.gov.md",
+        "aap.gov.md",
+        "actelocale.gov.md",
+        "actpermisiv.gov.md",
+        "adma.gov.md"
+      ]
+    },
+    {
+      "id": "link-name",
+      "help": "Links must have discernible text",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+      "sites": 7,
+      "nodes": 30,
+      "pages": [
+        "373.gov.md",
+        "actelocale.gov.md",
+        "actpermisiv.gov.md",
+        "adma.gov.md",
+        "admin.compensatii.gov.md"
+      ]
+    },
+    {
+      "id": "label-content-name-mismatch",
+      "help": "Elements must have their visible text as part of their accessible name",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+      "sites": 3,
+      "nodes": 8,
+      "pages": [
+        "373.gov.md",
+        "adma.gov.md",
+        "aee.gov.md"
+      ]
+    },
+    {
+      "id": "image-alt",
+      "help": "Images must have alternative text",
+      "impact": "critical",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+      "sites": 2,
+      "nodes": 3,
+      "pages": [
+        "373.gov.md",
+        "admin.particip.gov.md"
+      ]
+    },
+    {
+      "id": "meta-viewport",
+      "help": "Zooming and scaling must not be disabled",
+      "impact": "moderate",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+      "sites": 2,
+      "nodes": 2,
+      "pages": [
+        "373.gov.md",
+        "aee.gov.md"
+      ]
+    },
+    {
+      "id": "aria-allowed-attr",
+      "help": "Elements must only use supported ARIA attributes",
+      "impact": "critical",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+      "sites": 2,
+      "nodes": 2,
+      "pages": [
+        "actelocale.gov.md",
+        "actpermisiv.gov.md"
+      ]
+    },
+    {
+      "id": "nested-interactive",
+      "help": "Interactive controls must not be nested",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+      "sites": 1,
+      "nodes": 12,
+      "pages": [
+        "373.gov.md"
+      ]
+    },
+    {
+      "id": "target-size",
+      "help": "All touch targets must be 24px large, or leave sufficient space",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+      "sites": 1,
+      "nodes": 11,
+      "pages": [
+        "373.gov.md"
+      ]
+    },
+    {
+      "id": "aria-command-name",
+      "help": "ARIA commands must have an accessible name",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+      "sites": 1,
+      "nodes": 2,
+      "pages": [
+        "adma.gov.md"
+      ]
+    },
+    {
+      "id": "label",
+      "help": "Form elements must have labels",
+      "impact": "critical",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+      "sites": 1,
+      "nodes": 2,
+      "pages": [
+        "admin.particip.gov.md"
+      ]
+    },
+    {
+      "id": "link-in-text-block",
+      "help": "Links must be distinguishable without relying on color",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+      "sites": 1,
+      "nodes": 2,
+      "pages": [
+        "admin.particip.gov.md"
+      ]
+    },
+    {
+      "id": "aria-required-children",
+      "help": "Certain ARIA roles must contain particular children",
+      "impact": "critical",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+      "sites": 1,
+      "nodes": 1,
+      "pages": [
+        "373.gov.md"
+      ]
+    },
+    {
+      "id": "frame-title",
+      "help": "Frames must have an accessible name",
+      "impact": "serious",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+      "sites": 1,
+      "nodes": 1,
+      "pages": [
+        "aap.gov.md"
+      ]
+    },
+    {
+      "id": "select-name",
+      "help": "Select element must have an accessible name",
+      "impact": "critical",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+      "sites": 1,
+      "nodes": 1,
+      "pages": [
+        "actelocale.gov.md"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "id": "no-h1",
+      "sites": 5
+    },
+    {
+      "id": "tls-error",
+      "sites": 2
+    },
+    {
+      "id": "mobile-overflow",
+      "sites": 1
+    }
+  ],
+  "worst": [
+    {
+      "host": "373.gov.md",
+      "auditedAt": "2026-11-13T20:11:56.721Z",
+      "url": "https://373.gov.md/#/",
+      "finalHost": "373.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Feb 10 10:11:45 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": null,
+        "x-frame-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 28,
+        "incomplete": 1,
+        "violations": [
+          {
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+            "nodes": 2,
+            "sample": [
+              ".big-image.offset-lg-1.offset-md-1",
+              ".offset-lg-2"
+            ]
+          },
+          {
+            "id": "aria-required-children",
+            "impact": "critical",
+            "help": "Certain ARIA roles must contain particular children",
+            "description": "Ensure elements with an ARIA role that require child roles contain them",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".q-list--bordered"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 13,
+            "sample": [
+              ".q-item.no-wrap[role=\"listitem\"]:nth-child(1) > .q-item__section--top.justify-start.q-item__section--side > .text-yellow",
+              ".q-item.no-wrap[role=\"listitem\"]:nth-child(2) > .q-item__section--top.justify-start.q-item__section--side > .text-yellow",
+              ".q-item.no-wrap[role=\"listitem\"]:nth-child(3) > .q-item__section--top.justify-start.q-item__section--side > .text-yellow"
+            ]
+          },
+          {
+            "id": "nested-interactive",
+            "impact": "serious",
+            "help": "Interactive controls must not be nested",
+            "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+            "nodes": 12,
+            "sample": [
+              "button[dark=\"\"]:nth-child(2)",
+              "button[dark=\"\"]:nth-child(3)",
+              "button[dark=\"\"]:nth-child(4)"
+            ]
+          },
+          {
+            "id": "target-size",
+            "impact": "serious",
+            "help": "All touch targets must be 24px large, or leave sufficient space",
+            "description": "Ensure touch targets have sufficient size and space",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+            "nodes": 11,
+            "sample": [
+              "button[dark=\"\"]:nth-child(2)",
+              "button[dark=\"\"]:nth-child(3)",
+              "button[dark=\"\"]:nth-child(4)"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 10,
+            "sample": [
+              ".col-xs-5.col-md-5.q-card:nth-child(1) > .card-image-container.q-mb-sm[data-v-48c37595=\"\"] > a",
+              ".col-xs-5.col-md-5.q-card:nth-child(2) > .card-image-container.q-mb-sm[data-v-48c37595=\"\"] > a",
+              ".col-xs-5.col-md-5.q-card:nth-child(3) > .card-image-container.q-mb-sm[data-v-48c37595=\"\"] > a"
+            ]
+          },
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+            "nodes": 5,
+            "sample": [
+              "div[expand-separato=\"\"] > .q-expansion-item__container.relative-position > .q-item--clickable.q-link[role=\"button\"]",
+              ".q-expansion-item.q-expansion-item--collapsed.q-expansion-item--standard:nth-child(3) > .q-expansion-item__container.rel",
+              "div[aria-label=\"Expand \\\"Lista de excludere\\\"\"]"
+            ]
+          },
+          {
+            "id": "meta-viewport",
+            "impact": "moderate",
+            "help": "Zooming and scaling must not be disabled",
+            "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 2,
+          "serious": 5,
+          "moderate": 1,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en-US",
+        "title": "373.gov.md",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 0,
+        "nodes": 584,
+        "links": 29,
+        "badLinkText": 0,
+        "images": 22,
+        "imagesNoAlt": 2,
+        "forms": 0,
+        "requests": 33,
+        "transferBytes": 823035,
+        "domContentLoaded": 1054,
+        "mobileOverflowPx": 99,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1",
+        "mobile-overflow"
+      ],
+      "scores": {
+        "a11y": 19,
+        "security": 60,
+        "performance": 100,
+        "mobile": 55,
+        "overall": 43
+      },
+      "durationMs": 5756
+    },
+    {
+      "host": "adma.gov.md",
+      "auditedAt": "2026-11-13T20:12:21.063Z",
+      "url": "https://adma.gov.md/",
+      "finalHost": "adma.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan  4 02:32:48 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": null,
+        "x-frame-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 27,
+        "incomplete": 1,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 28,
+            "sample": [
+              "#gdpr-cookie-accept",
+              "#gdpr-cookie-advanced",
+              ".td-module-meta-info > .td-post-date > time[datetime=\"2025-03-05T14:25:30+02:00\"]"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 8,
+            "sample": [
+              ".td-pb-span4 > a[href$=\"gov.md/\"]",
+              "#td-header-search-button",
+              "a[href$=\"madrm.gov.md/\"]"
+            ]
+          },
+          {
+            "id": "aria-command-name",
+            "impact": "serious",
+            "help": "ARIA commands must have an accessible name",
+            "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "#n2-ss-2-arrow-previous",
+              "#n2-ss-2-arrow-next"
+            ]
+          },
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "#next-page-tdi_9",
+              "#next-page-tdi_25"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 4,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro-RO",
+        "title": "Agenția pentru Dezvoltarea și Modernizarea Agriculturii | ADMA",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 1,
+        "nodes": 1178,
+        "links": 142,
+        "badLinkText": 0,
+        "images": 45,
+        "imagesNoAlt": 0,
+        "forms": 3,
+        "requests": 120,
+        "transferBytes": 7607357,
+        "domContentLoaded": 2531,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [],
+      "scores": {
+        "a11y": 44,
+        "security": 60,
+        "performance": 62,
+        "mobile": 100,
+        "overall": 58
+      },
+      "durationMs": 8856
+    },
+    {
+      "host": "aee.gov.md",
+      "auditedAt": "2026-11-13T20:12:42.888Z",
+      "url": "https://cned.gov.md/ro",
+      "finalHost": "cned.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan  9 15:49:44 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 2,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 25,
+        "incomplete": 3,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 22,
+            "sample": [
+              ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+              ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+              ".news-flex-row:nth-child(1) > .front-news-block > .front-news-items > .front-news-info > .calendar-info > .info-date"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 6,
+            "sample": [
+              ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+              ".img-text > a[href$=\"feerm\"]",
+              "a[href=\"https://ecovoucher.md/ro\"]"
+            ]
+          },
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "#chatbot-launcher"
+            ]
+          },
+          {
+            "id": "meta-viewport",
+            "impact": "moderate",
+            "help": "Zooming and scaling must not be disabled",
+            "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 3,
+          "moderate": 1,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro",
+        "title": "CNED | Centrul Național pentru Energie Durabilă",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 0,
+        "nodes": 922,
+        "links": 189,
+        "badLinkText": 0,
+        "images": 27,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 197,
+        "transferBytes": 1230947,
+        "domContentLoaded": 1422,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1"
+      ],
+      "scores": {
+        "a11y": 53,
+        "security": 70,
+        "performance": 81,
+        "mobile": 100,
+        "overall": 67
+      },
+      "durationMs": 6281
+    },
+    {
+      "host": "admin.particip.gov.md",
+      "auditedAt": "2026-11-13T20:12:34.540Z",
+      "url": "https://admin-particip.gov.md/login",
+      "finalHost": "admin-particip.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": false,
+        "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+      },
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "strict-transport-security": "max-age=63072000",
+        "content-security-policy": "upgrade-insecure-requests;",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+      },
+      "redirects": 2,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 19,
+        "incomplete": 1,
+        "violations": [
+          {
+            "id": "label",
+            "impact": "critical",
+            "help": "Form elements must have labels",
+            "description": "Ensure every form element has a label",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "#login",
+              "#captcha"
+            ]
+          },
+          {
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "img"
+            ]
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "a[href$=\"mailto:cancelaria@gov.md\"]:nth-child(2)",
+              "a[href$=\"mailto:cancelaria@gov.md\"]:nth-child(7)"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".btn-link"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "a[href$=\"particip.gov.md\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 2,
+          "serious": 3,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Particip.gov.md",
+        "hasViewport": true,
+        "hasDescription": false,
+        "h1": 0,
+        "nodes": 123,
+        "links": 10,
+        "badLinkText": 0,
+        "images": 1,
+        "imagesNoAlt": 1,
+        "forms": 1,
+        "requests": 11,
+        "transferBytes": 312910,
+        "domContentLoaded": 1139,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1",
+        "tls-error"
+      ],
+      "scores": {
+        "a11y": 55,
+        "security": 70,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 70
+      },
+      "durationMs": 5562
+    },
+    {
+      "host": "100.gov.md",
+      "auditedAt": "2026-11-13T20:11:28.597Z",
+      "url": "https://100.gov.md/",
+      "finalHost": "100.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": false,
+        "error": "CERT_HAS_EXPIRED"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": null,
+        "x-frame-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 15,
+        "incomplete": 2,
+        "violations": [],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Web Server's Default Page",
+        "hasViewport": true,
+        "hasDescription": false,
+        "h1": 1,
+        "nodes": 90,
+        "links": 15,
+        "badLinkText": 0,
+        "images": 2,
+        "imagesNoAlt": 0,
+        "forms": 0,
+        "requests": 11,
+        "transferBytes": 968,
+        "domContentLoaded": 875,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "tls-error"
+      ],
+      "scores": {
+        "a11y": 100,
+        "security": 0,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 75
+      },
+      "durationMs": 5042
+    },
+    {
+      "host": "actpermisiv.gov.md",
+      "auditedAt": "2026-11-13T20:12:13.705Z",
+      "url": "https://actpermisiv.gov.md/#/home",
+      "finalHost": "actpermisiv.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan  9 19:39:25 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": "max-age=31536000; includeSubdomains, max-age=0; includeSubDomains",
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 21,
+        "incomplete": 2,
+        "violations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "help": "Elements must only use supported ARIA attributes",
+            "description": "Ensure an element's role supports its ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".in"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 17,
+            "sample": [
+              ".navbar-brand",
+              ".text-decoration-none",
+              ".col-sm-3.col-md-3[_ngcontent-qcw-c203=\"\"]:nth-child(1) > .footer-block[_ngcontent-qcw-c203=\"\"] > h4"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".brand"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 1,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Act permisiv",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 0,
+        "nodes": 284,
+        "links": 51,
+        "badLinkText": 0,
+        "images": 0,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 28,
+        "transferBytes": 4684922,
+        "domContentLoaded": 3313,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1"
+      ],
+      "scores": {
+        "a11y": 62,
+        "security": 85,
+        "performance": 85,
+        "mobile": 100,
+        "overall": 76
+      },
+      "durationMs": 7358
+    },
+    {
+      "host": "aap.gov.md",
+      "auditedAt": "2026-11-13T20:12:02.478Z",
+      "url": "https://inamp.gov.md/",
+      "finalHost": "inamp.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan 31 11:35:39 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 2,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 29,
+        "incomplete": 3,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 19,
+            "sample": [
+              ".nav-link-search",
+              "time[datetime=\"2026-04-23T14:31:01+03:00\"]",
+              "div[aria-label=\"1 / 2\"] > .swiper-slide-inner > .swiper-slide-body-content > .card-footer > .pb-2.pt-2.post-meta > .post"
+            ]
+          },
+          {
+            "id": "frame-title",
+            "impact": "serious",
+            "help": "Frames must have an accessible name",
+            "description": "Ensure <iframe> and <frame> elements have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "iframe[allowfullscreen=\"\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro",
+        "title": "INSTITUTUL NAȚIONAL DE ADMINISTRAȚIE ȘI MANAGEMENT PUBLIC",
+        "hasViewport": true,
+        "hasDescription": false,
+        "h1": 0,
+        "nodes": 929,
+        "links": 167,
+        "badLinkText": 0,
+        "images": 33,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 61,
+        "transferBytes": 1758567,
+        "domContentLoaded": 1372,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1"
+      ],
+      "scores": {
+        "a11y": 69,
+        "security": 70,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 77
+      },
+      "durationMs": 6435
+    },
+    {
+      "host": "actelocale.gov.md",
+      "auditedAt": "2026-11-13T20:12:08.914Z",
+      "url": "https://actelocale.gov.md/",
+      "finalHost": "actelocale.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Dec 20 05:07:49 2026 GMT"
+      },
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "strict-transport-security": "max-age=63072000, max-age=31536000; includeSubdomains, max-age=63072000",
+        "content-security-policy": "upgrade-insecure-requests;, upgrade-insecure-requests;",
+        "x-content-type-options": "nosniff, nosniff, nosniff",
+        "x-frame-options": "ALLOWALL, ALLOWALL",
+        "referrer-policy": "strict-origin-when-cross-origin, strict-origin, strict-origin-when-cross-origin",
+        "permissions-policy": "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=(), accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 30,
+        "incomplete": 2,
+        "violations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "help": "Elements must only use supported ARIA attributes",
+            "description": "Ensure an element's role supports its ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "#navbar"
+            ]
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "help": "Select element must have an accessible name",
+            "description": "Ensure select element has an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".col-sm-3 > .btn-group.bootstrap-select.form-control > select"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 4,
+            "sample": [
+              ".col-sm-3 > .btn-group.bootstrap-select.form-control > .btn-default.btn[title=\"Tip document\"] > .filter-option.pull-left",
+              ".langbtnsearch",
+              ".lang-link.active"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 2,
+            "sample": [
+              ".icohome",
+              ".site-branding > a[href$=\"actelocale.gov.md/\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 2,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro",
+        "title": "Registrul de Stat al Actelor Locale",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 1,
+        "nodes": 394,
+        "links": 36,
+        "badLinkText": 0,
+        "images": 9,
+        "imagesNoAlt": 1,
+        "forms": 3,
+        "requests": 48,
+        "transferBytes": 548222,
+        "domContentLoaded": 1089,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [],
+      "scores": {
+        "a11y": 58,
+        "security": 100,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 79
+      },
+      "durationMs": 4790
+    },
+    {
+      "host": "admin.compensatii.gov.md",
+      "auditedAt": "2026-11-13T20:12:29.920Z",
+      "url": "https://admin.compensatii.gov.md/ro/auth/login",
+      "finalHost": "admin.compensatii.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Dec 14 13:26:30 2026 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload, max-age=31536000; includeSubdomains; preload",
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "referrer-policy": "strict-origin",
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 27,
+        "incomplete": 3,
+        "violations": [
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 2,
+            "sample": [
+              ".social-link[target=\"_blank\"]:nth-child(1)",
+              ".social-link[target=\"_blank\"]:nth-child(2)"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".contact > span"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Programul “Ajutor la contor” - Guvernul Republicii Moldova.-Programul “Ajutor la contor” - Guvernul Republicii Moldova.",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 1,
+        "nodes": 155,
+        "links": 22,
+        "badLinkText": 0,
+        "images": 6,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 42,
+        "transferBytes": 678133,
+        "domContentLoaded": 1109,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [],
+      "scores": {
+        "a11y": 84,
+        "security": 85,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 88
+      },
+      "durationMs": 4619
+    }
+  ],
+  "best": [
+    {
+      "host": "admin.compensatii.gov.md",
+      "auditedAt": "2026-11-13T20:12:29.920Z",
+      "url": "https://admin.compensatii.gov.md/ro/auth/login",
+      "finalHost": "admin.compensatii.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Dec 14 13:26:30 2026 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload, max-age=31536000; includeSubdomains; preload",
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "referrer-policy": "strict-origin",
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 27,
+        "incomplete": 3,
+        "violations": [
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 2,
+            "sample": [
+              ".social-link[target=\"_blank\"]:nth-child(1)",
+              ".social-link[target=\"_blank\"]:nth-child(2)"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".contact > span"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Programul “Ajutor la contor” - Guvernul Republicii Moldova.-Programul “Ajutor la contor” - Guvernul Republicii Moldova.",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 1,
+        "nodes": 155,
+        "links": 22,
+        "badLinkText": 0,
+        "images": 6,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 42,
+        "transferBytes": 678133,
+        "domContentLoaded": 1109,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [],
+      "scores": {
+        "a11y": 84,
+        "security": 85,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 88
+      },
+      "durationMs": 4619
+    },
+    {
+      "host": "actelocale.gov.md",
+      "auditedAt": "2026-11-13T20:12:08.914Z",
+      "url": "https://actelocale.gov.md/",
+      "finalHost": "actelocale.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Dec 20 05:07:49 2026 GMT"
+      },
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "strict-transport-security": "max-age=63072000, max-age=31536000; includeSubdomains, max-age=63072000",
+        "content-security-policy": "upgrade-insecure-requests;, upgrade-insecure-requests;",
+        "x-content-type-options": "nosniff, nosniff, nosniff",
+        "x-frame-options": "ALLOWALL, ALLOWALL",
+        "referrer-policy": "strict-origin-when-cross-origin, strict-origin, strict-origin-when-cross-origin",
+        "permissions-policy": "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=(), accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 30,
+        "incomplete": 2,
+        "violations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "help": "Elements must only use supported ARIA attributes",
+            "description": "Ensure an element's role supports its ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "#navbar"
+            ]
+          },
+          {
+            "id": "select-name",
+            "impact": "critical",
+            "help": "Select element must have an accessible name",
+            "description": "Ensure select element has an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".col-sm-3 > .btn-group.bootstrap-select.form-control > select"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 4,
+            "sample": [
+              ".col-sm-3 > .btn-group.bootstrap-select.form-control > .btn-default.btn[title=\"Tip document\"] > .filter-option.pull-left",
+              ".langbtnsearch",
+              ".lang-link.active"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 2,
+            "sample": [
+              ".icohome",
+              ".site-branding > a[href$=\"actelocale.gov.md/\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 2,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro",
+        "title": "Registrul de Stat al Actelor Locale",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 1,
+        "nodes": 394,
+        "links": 36,
+        "badLinkText": 0,
+        "images": 9,
+        "imagesNoAlt": 1,
+        "forms": 3,
+        "requests": 48,
+        "transferBytes": 548222,
+        "domContentLoaded": 1089,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [],
+      "scores": {
+        "a11y": 58,
+        "security": 100,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 79
+      },
+      "durationMs": 4790
+    },
+    {
+      "host": "aap.gov.md",
+      "auditedAt": "2026-11-13T20:12:02.478Z",
+      "url": "https://inamp.gov.md/",
+      "finalHost": "inamp.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan 31 11:35:39 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 2,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 29,
+        "incomplete": 3,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 19,
+            "sample": [
+              ".nav-link-search",
+              "time[datetime=\"2026-04-23T14:31:01+03:00\"]",
+              "div[aria-label=\"1 / 2\"] > .swiper-slide-inner > .swiper-slide-body-content > .card-footer > .pb-2.pt-2.post-meta > .post"
+            ]
+          },
+          {
+            "id": "frame-title",
+            "impact": "serious",
+            "help": "Frames must have an accessible name",
+            "description": "Ensure <iframe> and <frame> elements have an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "iframe[allowfullscreen=\"\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro",
+        "title": "INSTITUTUL NAȚIONAL DE ADMINISTRAȚIE ȘI MANAGEMENT PUBLIC",
+        "hasViewport": true,
+        "hasDescription": false,
+        "h1": 0,
+        "nodes": 929,
+        "links": 167,
+        "badLinkText": 0,
+        "images": 33,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 61,
+        "transferBytes": 1758567,
+        "domContentLoaded": 1372,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1"
+      ],
+      "scores": {
+        "a11y": 69,
+        "security": 70,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 77
+      },
+      "durationMs": 6435
+    },
+    {
+      "host": "actpermisiv.gov.md",
+      "auditedAt": "2026-11-13T20:12:13.705Z",
+      "url": "https://actpermisiv.gov.md/#/home",
+      "finalHost": "actpermisiv.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan  9 19:39:25 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": "max-age=31536000; includeSubdomains, max-age=0; includeSubDomains",
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "no-referrer",
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 21,
+        "incomplete": 2,
+        "violations": [
+          {
+            "id": "aria-allowed-attr",
+            "impact": "critical",
+            "help": "Elements must only use supported ARIA attributes",
+            "description": "Ensure an element's role supports its ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".in"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 17,
+            "sample": [
+              ".navbar-brand",
+              ".text-decoration-none",
+              ".col-sm-3.col-md-3[_ngcontent-qcw-c203=\"\"]:nth-child(1) > .footer-block[_ngcontent-qcw-c203=\"\"] > h4"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".brand"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 1,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Act permisiv",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 0,
+        "nodes": 284,
+        "links": 51,
+        "badLinkText": 0,
+        "images": 0,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 28,
+        "transferBytes": 4684922,
+        "domContentLoaded": 3313,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1"
+      ],
+      "scores": {
+        "a11y": 62,
+        "security": 85,
+        "performance": 85,
+        "mobile": 100,
+        "overall": 76
+      },
+      "durationMs": 7358
+    },
+    {
+      "host": "100.gov.md",
+      "auditedAt": "2026-11-13T20:11:28.597Z",
+      "url": "https://100.gov.md/",
+      "finalHost": "100.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": false,
+        "error": "CERT_HAS_EXPIRED"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": null,
+        "x-frame-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 15,
+        "incomplete": 2,
+        "violations": [],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Web Server's Default Page",
+        "hasViewport": true,
+        "hasDescription": false,
+        "h1": 1,
+        "nodes": 90,
+        "links": 15,
+        "badLinkText": 0,
+        "images": 2,
+        "imagesNoAlt": 0,
+        "forms": 0,
+        "requests": 11,
+        "transferBytes": 968,
+        "domContentLoaded": 875,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "tls-error"
+      ],
+      "scores": {
+        "a11y": 100,
+        "security": 0,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 75
+      },
+      "durationMs": 5042
+    },
+    {
+      "host": "admin.particip.gov.md",
+      "auditedAt": "2026-11-13T20:12:34.540Z",
+      "url": "https://admin-particip.gov.md/login",
+      "finalHost": "admin-particip.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": false,
+        "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+      },
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "strict-transport-security": "max-age=63072000",
+        "content-security-policy": "upgrade-insecure-requests;",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+      },
+      "redirects": 2,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 19,
+        "incomplete": 1,
+        "violations": [
+          {
+            "id": "label",
+            "impact": "critical",
+            "help": "Form elements must have labels",
+            "description": "Ensure every form element has a label",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "#login",
+              "#captcha"
+            ]
+          },
+          {
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "img"
+            ]
+          },
+          {
+            "id": "link-in-text-block",
+            "impact": "serious",
+            "help": "Links must be distinguishable without relying on color",
+            "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "a[href$=\"mailto:cancelaria@gov.md\"]:nth-child(2)",
+              "a[href$=\"mailto:cancelaria@gov.md\"]:nth-child(7)"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".btn-link"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "a[href$=\"particip.gov.md\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 2,
+          "serious": 3,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en",
+        "title": "Particip.gov.md",
+        "hasViewport": true,
+        "hasDescription": false,
+        "h1": 0,
+        "nodes": 123,
+        "links": 10,
+        "badLinkText": 0,
+        "images": 1,
+        "imagesNoAlt": 1,
+        "forms": 1,
+        "requests": 11,
+        "transferBytes": 312910,
+        "domContentLoaded": 1139,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1",
+        "tls-error"
+      ],
+      "scores": {
+        "a11y": 55,
+        "security": 70,
+        "performance": 100,
+        "mobile": 100,
+        "overall": 70
+      },
+      "durationMs": 5562
+    },
+    {
+      "host": "aee.gov.md",
+      "auditedAt": "2026-11-13T20:12:42.888Z",
+      "url": "https://cned.gov.md/ro",
+      "finalHost": "cned.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan  9 15:49:44 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 2,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 25,
+        "incomplete": 3,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 22,
+            "sample": [
+              ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+              ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+              ".news-flex-row:nth-child(1) > .front-news-block > .front-news-items > .front-news-info > .calendar-info > .info-date"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 6,
+            "sample": [
+              ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+              ".img-text > a[href$=\"feerm\"]",
+              "a[href=\"https://ecovoucher.md/ro\"]"
+            ]
+          },
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "#chatbot-launcher"
+            ]
+          },
+          {
+            "id": "meta-viewport",
+            "impact": "moderate",
+            "help": "Zooming and scaling must not be disabled",
+            "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 3,
+          "moderate": 1,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro",
+        "title": "CNED | Centrul Național pentru Energie Durabilă",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 0,
+        "nodes": 922,
+        "links": 189,
+        "badLinkText": 0,
+        "images": 27,
+        "imagesNoAlt": 0,
+        "forms": 1,
+        "requests": 197,
+        "transferBytes": 1230947,
+        "domContentLoaded": 1422,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1"
+      ],
+      "scores": {
+        "a11y": 53,
+        "security": 70,
+        "performance": 81,
+        "mobile": 100,
+        "overall": 67
+      },
+      "durationMs": 6281
+    },
+    {
+      "host": "adma.gov.md",
+      "auditedAt": "2026-11-13T20:12:21.063Z",
+      "url": "https://adma.gov.md/",
+      "finalHost": "adma.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Jan  4 02:32:48 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": null,
+        "x-frame-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 27,
+        "incomplete": 1,
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 28,
+            "sample": [
+              "#gdpr-cookie-accept",
+              "#gdpr-cookie-advanced",
+              ".td-module-meta-info > .td-post-date > time[datetime=\"2025-03-05T14:25:30+02:00\"]"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 8,
+            "sample": [
+              ".td-pb-span4 > a[href$=\"gov.md/\"]",
+              "#td-header-search-button",
+              "a[href$=\"madrm.gov.md/\"]"
+            ]
+          },
+          {
+            "id": "aria-command-name",
+            "impact": "serious",
+            "help": "ARIA commands must have an accessible name",
+            "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "#n2-ss-2-arrow-previous",
+              "#n2-ss-2-arrow-next"
+            ]
+          },
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+            "nodes": 2,
+            "sample": [
+              "#next-page-tdi_9",
+              "#next-page-tdi_25"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 0,
+          "serious": 4,
+          "moderate": 0,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "ro-RO",
+        "title": "Agenția pentru Dezvoltarea și Modernizarea Agriculturii | ADMA",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 1,
+        "nodes": 1178,
+        "links": 142,
+        "badLinkText": 0,
+        "images": 45,
+        "imagesNoAlt": 0,
+        "forms": 3,
+        "requests": 120,
+        "transferBytes": 7607357,
+        "domContentLoaded": 2531,
+        "mobileOverflowPx": 0,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [],
+      "scores": {
+        "a11y": 44,
+        "security": 60,
+        "performance": 62,
+        "mobile": 100,
+        "overall": 58
+      },
+      "durationMs": 8856
+    },
+    {
+      "host": "373.gov.md",
+      "auditedAt": "2026-11-13T20:11:56.721Z",
+      "url": "https://373.gov.md/#/",
+      "finalHost": "373.gov.md",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "tls": {
+        "ok": true,
+        "error": null,
+        "validTo": "Feb 10 10:11:45 2027 GMT"
+      },
+      "headers": {
+        "content-type": "text/html",
+        "strict-transport-security": null,
+        "content-security-policy": null,
+        "x-content-type-options": null,
+        "x-frame-options": null,
+        "referrer-policy": null,
+        "permissions-policy": null
+      },
+      "redirects": 0,
+      "axe": {
+        "version": "4.14.0",
+        "passes": 28,
+        "incomplete": 1,
+        "violations": [
+          {
+            "id": "image-alt",
+            "impact": "critical",
+            "help": "Images must have alternative text",
+            "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+            "nodes": 2,
+            "sample": [
+              ".big-image.offset-lg-1.offset-md-1",
+              ".offset-lg-2"
+            ]
+          },
+          {
+            "id": "aria-required-children",
+            "impact": "critical",
+            "help": "Certain ARIA roles must contain particular children",
+            "description": "Ensure elements with an ARIA role that require child roles contain them",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+            "nodes": 1,
+            "sample": [
+              ".q-list--bordered"
+            ]
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": 13,
+            "sample": [
+              ".q-item.no-wrap[role=\"listitem\"]:nth-child(1) > .q-item__section--top.justify-start.q-item__section--side > .text-yellow",
+              ".q-item.no-wrap[role=\"listitem\"]:nth-child(2) > .q-item__section--top.justify-start.q-item__section--side > .text-yellow",
+              ".q-item.no-wrap[role=\"listitem\"]:nth-child(3) > .q-item__section--top.justify-start.q-item__section--side > .text-yellow"
+            ]
+          },
+          {
+            "id": "nested-interactive",
+            "impact": "serious",
+            "help": "Interactive controls must not be nested",
+            "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+            "nodes": 12,
+            "sample": [
+              "button[dark=\"\"]:nth-child(2)",
+              "button[dark=\"\"]:nth-child(3)",
+              "button[dark=\"\"]:nth-child(4)"
+            ]
+          },
+          {
+            "id": "target-size",
+            "impact": "serious",
+            "help": "All touch targets must be 24px large, or leave sufficient space",
+            "description": "Ensure touch targets have sufficient size and space",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+            "nodes": 11,
+            "sample": [
+              "button[dark=\"\"]:nth-child(2)",
+              "button[dark=\"\"]:nth-child(3)",
+              "button[dark=\"\"]:nth-child(4)"
+            ]
+          },
+          {
+            "id": "link-name",
+            "impact": "serious",
+            "help": "Links must have discernible text",
+            "description": "Ensure links have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+            "nodes": 10,
+            "sample": [
+              ".col-xs-5.col-md-5.q-card:nth-child(1) > .card-image-container.q-mb-sm[data-v-48c37595=\"\"] > a",
+              ".col-xs-5.col-md-5.q-card:nth-child(2) > .card-image-container.q-mb-sm[data-v-48c37595=\"\"] > a",
+              ".col-xs-5.col-md-5.q-card:nth-child(3) > .card-image-container.q-mb-sm[data-v-48c37595=\"\"] > a"
+            ]
+          },
+          {
+            "id": "label-content-name-mismatch",
+            "impact": "serious",
+            "help": "Elements must have their visible text as part of their accessible name",
+            "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+            "nodes": 5,
+            "sample": [
+              "div[expand-separato=\"\"] > .q-expansion-item__container.relative-position > .q-item--clickable.q-link[role=\"button\"]",
+              ".q-expansion-item.q-expansion-item--collapsed.q-expansion-item--standard:nth-child(3) > .q-expansion-item__container.rel",
+              "div[aria-label=\"Expand \\\"Lista de excludere\\\"\"]"
+            ]
+          },
+          {
+            "id": "meta-viewport",
+            "impact": "moderate",
+            "help": "Zooming and scaling must not be disabled",
+            "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+            "nodes": 1,
+            "sample": [
+              "meta[name=\"viewport\"]"
+            ]
+          }
+        ],
+        "impactCounts": {
+          "critical": 2,
+          "serious": 5,
+          "moderate": 1,
+          "minor": 0
+        }
+      },
+      "meta": {
+        "lang": "en-US",
+        "title": "373.gov.md",
+        "hasViewport": true,
+        "hasDescription": true,
+        "h1": 0,
+        "nodes": 584,
+        "links": 29,
+        "badLinkText": 0,
+        "images": 22,
+        "imagesNoAlt": 2,
+        "forms": 0,
+        "requests": 33,
+        "transferBytes": 823035,
+        "domContentLoaded": 1054,
+        "mobileOverflowPx": 99,
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED",
+          "Failed to load resource: net::ERR_FAILED"
+        ],
+        "failedRequests": []
+      },
+      "flags": [
+        "no-h1",
+        "mobile-overflow"
+      ],
+      "scores": {
+        "a11y": 19,
+        "security": 60,
+        "performance": 100,
+        "mobile": 55,
+        "overall": 43
+      },
+      "durationMs": 5756
+    }
+  ]
+}

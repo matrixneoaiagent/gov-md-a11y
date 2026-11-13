@@ -1,0 +1,127 @@
+{
+  "host": "admin.particip.gov.md",
+  "auditedAt": "2026-11-13T20:12:34.540Z",
+  "url": "https://admin-particip.gov.md/login",
+  "finalHost": "admin-particip.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=63072000",
+    "content-security-policy": "upgrade-insecure-requests;",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()"
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 19,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#login",
+          "#captcha"
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "img"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "a[href$=\"mailto:cancelaria@gov.md\"]:nth-child(2)",
+          "a[href$=\"mailto:cancelaria@gov.md\"]:nth-child(7)"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".btn-link"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "a[href$=\"particip.gov.md\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "Particip.gov.md",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 123,
+    "links": 10,
+    "badLinkText": 0,
+    "images": 1,
+    "imagesNoAlt": 1,
+    "forms": 1,
+    "requests": 11,
+    "transferBytes": 312910,
+    "domContentLoaded": 1139,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 55,
+    "security": 70,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 70
+  },
+  "durationMs": 5562
+}

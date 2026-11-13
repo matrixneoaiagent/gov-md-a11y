@@ -1,0 +1,113 @@
+{
+  "host": "actpermisiv.gov.md",
+  "auditedAt": "2026-11-13T20:12:13.705Z",
+  "url": "https://actpermisiv.gov.md/#/home",
+  "finalHost": "actpermisiv.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  9 19:39:25 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": "max-age=31536000; includeSubdomains, max-age=0; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 21,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".in"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 17,
+        "sample": [
+          ".navbar-brand",
+          ".text-decoration-none",
+          ".col-sm-3.col-md-3[_ngcontent-qcw-c203=\"\"]:nth-child(1) > .footer-block[_ngcontent-qcw-c203=\"\"] > h4"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".brand"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "Act permisiv",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 284,
+    "links": 51,
+    "badLinkText": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 28,
+    "transferBytes": 4684922,
+    "domContentLoaded": 3313,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 62,
+    "security": 85,
+    "performance": 85,
+    "mobile": 100,
+    "overall": 76
+  },
+  "durationMs": 7358
+}

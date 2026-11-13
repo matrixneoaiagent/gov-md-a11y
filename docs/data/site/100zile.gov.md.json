@@ -1,0 +1,20 @@
+{
+  "host": "100zile.gov.md",
+  "auditedAt": "2026-11-13T20:11:33.639Z",
+  "url": "https://100zile.gov.md/",
+  "finalHost": "100zile.gov.md",
+  "status": 503,
+  "ok": false,
+  "error": "http 503",
+  "tls": {
+    "ok": false,
+    "error": "CERT_HAS_EXPIRED"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 23069
+}

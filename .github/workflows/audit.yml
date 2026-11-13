@@ -1,0 +1,142 @@
+name: audit
+
+on:
+  schedule:
+    # 1-е число каждого месяца, 05:00 UTC
+    - cron: '0 5 1 * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Проверить только первые N сайтов (отладка)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: gov-md-a11y
+  cancel-in-progress: false
+
+env:
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+  PW_CHANNEL: chrome
+  NODE_OPTIONS: '--max-old-space-size=4096'
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - name: Discover hosts (crt.sh + manual list)
+        run: node scripts/discover.mjs
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sites
+          path: sites.json
+          retention-days: 7
+
+      - name: Summary
+        run: |
+          {
+            echo "### discovery"
+            echo "- hosts: $(jq -r .total sites.json)"
+            echo "- first seen today: $(jq --arg d "$(date -u +%F)" '[.sites[] | select(.firstSeen == $d)] | length' sites.json)"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  audit:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: sites
+          path: .
+
+      - name: Audit shard ${{ matrix.shard }}/20
+        run: |
+          if [ -n "${{ inputs.limit }}" ]; then
+            node scripts/audit.mjs --shard ${{ matrix.shard }}/20 --limit "${{ inputs.limit }}"
+          else
+            node scripts/audit.mjs --shard ${{ matrix.shard }}/20
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ matrix.shard }}
+          path: results/
+          retention-days: 7
+          if-no-files-found: warn
+
+  report:
+    needs: audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --ignore-scripts
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: results-*
+          merge-multiple: true
+          path: results
+
+      - run: node scripts/merge.mjs
+
+      - name: Commit report
+        run: |
+          git config user.name "gov-md-a11y bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs sites.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "audit: $(date -u +%F)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

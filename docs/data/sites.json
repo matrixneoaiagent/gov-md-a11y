@@ -1,0 +1,664 @@
+[
+ {
+  "host": "100.gov.md",
+  "finalHost": "100.gov.md",
+  "url": "https://100.gov.md/",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 100,
+   "security": 0,
+   "performance": 100,
+   "mobile": 100,
+   "overall": 75
+  },
+  "flags": [
+   "tls-error"
+  ],
+  "violations": [],
+  "impactCounts": {
+   "critical": 0,
+   "serious": 0,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": false,
+   "error": "CERT_HAS_EXPIRED"
+  },
+  "meta": {
+   "lang": "en",
+   "title": "Web Server's Default Page",
+   "h1": 1,
+   "nodes": 90,
+   "transferBytes": 968,
+   "requests": 11,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 5042,
+  "auditedAt": "2026-11-13T20:11:28.597Z"
+ },
+ {
+  "host": "100zile.gov.md",
+  "finalHost": "100zile.gov.md",
+  "url": "https://100zile.gov.md/",
+  "ok": false,
+  "error": "http 503",
+  "status": 503,
+  "scores": null,
+  "flags": [],
+  "violations": [],
+  "impactCounts": null,
+  "tls": {
+   "ok": false,
+   "error": "CERT_HAS_EXPIRED"
+  },
+  "meta": null,
+  "durationMs": 23069,
+  "auditedAt": "2026-11-13T20:11:33.639Z"
+ },
+ {
+  "host": "373.gov.md",
+  "finalHost": "373.gov.md",
+  "url": "https://373.gov.md/#/",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 19,
+   "security": 60,
+   "performance": 100,
+   "mobile": 55,
+   "overall": 43
+  },
+  "flags": [
+   "no-h1",
+   "mobile-overflow"
+  ],
+  "violations": [
+   {
+    "id": "image-alt",
+    "impact": "critical",
+    "help": "Images must have alternative text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+    "nodes": 2
+   },
+   {
+    "id": "aria-required-children",
+    "impact": "critical",
+    "help": "Certain ARIA roles must contain particular children",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 13
+   },
+   {
+    "id": "nested-interactive",
+    "impact": "serious",
+    "help": "Interactive controls must not be nested",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+    "nodes": 12
+   },
+   {
+    "id": "target-size",
+    "impact": "serious",
+    "help": "All touch targets must be 24px large, or leave sufficient space",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+    "nodes": 11
+   },
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 10
+   },
+   {
+    "id": "label-content-name-mismatch",
+    "impact": "serious",
+    "help": "Elements must have their visible text as part of their accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+    "nodes": 5
+   },
+   {
+    "id": "meta-viewport",
+    "impact": "moderate",
+    "help": "Zooming and scaling must not be disabled",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+    "nodes": 1
+   }
+  ],
+  "impactCounts": {
+   "critical": 2,
+   "serious": 5,
+   "moderate": 1,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Feb 10 10:11:45 2027 GMT"
+  },
+  "meta": {
+   "lang": "en-US",
+   "title": "373.gov.md",
+   "h1": 0,
+   "nodes": 584,
+   "transferBytes": 823035,
+   "requests": 33,
+   "mobileOverflowPx": 99,
+   "hasViewport": true
+  },
+  "durationMs": 5756,
+  "auditedAt": "2026-11-13T20:11:56.721Z"
+ },
+ {
+  "host": "aap.gov.md",
+  "finalHost": "inamp.gov.md",
+  "url": "https://inamp.gov.md/",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 69,
+   "security": 70,
+   "performance": 100,
+   "mobile": 100,
+   "overall": 77
+  },
+  "flags": [
+   "no-h1"
+  ],
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 19
+   },
+   {
+    "id": "frame-title",
+    "impact": "serious",
+    "help": "Frames must have an accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+    "nodes": 1
+   }
+  ],
+  "impactCounts": {
+   "critical": 0,
+   "serious": 2,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Jan 31 11:35:39 2027 GMT"
+  },
+  "meta": {
+   "lang": "ro",
+   "title": "INSTITUTUL NAȚIONAL DE ADMINISTRAȚIE ȘI MANAGEMENT PUBLIC",
+   "h1": 0,
+   "nodes": 929,
+   "transferBytes": 1758567,
+   "requests": 61,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 6435,
+  "auditedAt": "2026-11-13T20:12:02.478Z"
+ },
+ {
+  "host": "actelocale.gov.md",
+  "finalHost": "actelocale.gov.md",
+  "url": "https://actelocale.gov.md/",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 58,
+   "security": 100,
+   "performance": 100,
+   "mobile": 100,
+   "overall": 79
+  },
+  "flags": [],
+  "violations": [
+   {
+    "id": "aria-allowed-attr",
+    "impact": "critical",
+    "help": "Elements must only use supported ARIA attributes",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "select-name",
+    "impact": "critical",
+    "help": "Select element must have an accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 4
+   },
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 2
+   }
+  ],
+  "impactCounts": {
+   "critical": 2,
+   "serious": 2,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "meta": {
+   "lang": "ro",
+   "title": "Registrul de Stat al Actelor Locale",
+   "h1": 1,
+   "nodes": 394,
+   "transferBytes": 548222,
+   "requests": 48,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 4790,
+  "auditedAt": "2026-11-13T20:12:08.914Z"
+ },
+ {
+  "host": "actpermisiv.gov.md",
+  "finalHost": "actpermisiv.gov.md",
+  "url": "https://actpermisiv.gov.md/#/home",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 62,
+   "security": 85,
+   "performance": 85,
+   "mobile": 100,
+   "overall": 76
+  },
+  "flags": [
+   "no-h1"
+  ],
+  "violations": [
+   {
+    "id": "aria-allowed-attr",
+    "impact": "critical",
+    "help": "Elements must only use supported ARIA attributes",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 17
+   },
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 1
+   }
+  ],
+  "impactCounts": {
+   "critical": 1,
+   "serious": 2,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Jan  9 19:39:25 2027 GMT"
+  },
+  "meta": {
+   "lang": "en",
+   "title": "Act permisiv",
+   "h1": 0,
+   "nodes": 284,
+   "transferBytes": 4684922,
+   "requests": 28,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 7358,
+  "auditedAt": "2026-11-13T20:12:13.705Z"
+ },
+ {
+  "host": "adma.gov.md",
+  "finalHost": "adma.gov.md",
+  "url": "https://adma.gov.md/",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 44,
+   "security": 60,
+   "performance": 62,
+   "mobile": 100,
+   "overall": 58
+  },
+  "flags": [],
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 28
+   },
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 8
+   },
+   {
+    "id": "aria-command-name",
+    "impact": "serious",
+    "help": "ARIA commands must have an accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+    "nodes": 2
+   },
+   {
+    "id": "label-content-name-mismatch",
+    "impact": "serious",
+    "help": "Elements must have their visible text as part of their accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+    "nodes": 2
+   }
+  ],
+  "impactCounts": {
+   "critical": 0,
+   "serious": 4,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Jan  4 02:32:48 2027 GMT"
+  },
+  "meta": {
+   "lang": "ro-RO",
+   "title": "Agenția pentru Dezvoltarea și Modernizarea Agriculturii | ADMA",
+   "h1": 1,
+   "nodes": 1178,
+   "transferBytes": 7607357,
+   "requests": 120,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 8856,
+  "auditedAt": "2026-11-13T20:12:21.063Z"
+ },
+ {
+  "host": "admin.compensatii.gov.md",
+  "finalHost": "admin.compensatii.gov.md",
+  "url": "https://admin.compensatii.gov.md/ro/auth/login",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 84,
+   "security": 85,
+   "performance": 100,
+   "mobile": 100,
+   "overall": 88
+  },
+  "flags": [],
+  "violations": [
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 2
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 1
+   }
+  ],
+  "impactCounts": {
+   "critical": 0,
+   "serious": 2,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Dec 14 13:26:30 2026 GMT"
+  },
+  "meta": {
+   "lang": "en",
+   "title": "Programul “Ajutor la contor” - Guvernul Republicii Moldova.-Programul “Ajutor la contor” - Guvernul Republicii Moldova.",
+   "h1": 1,
+   "nodes": 155,
+   "transferBytes": 678133,
+   "requests": 42,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 4619,
+  "auditedAt": "2026-11-13T20:12:29.920Z"
+ },
+ {
+  "host": "admin.particip.gov.md",
+  "finalHost": "admin-particip.gov.md",
+  "url": "https://admin-particip.gov.md/login",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 55,
+   "security": 70,
+   "performance": 100,
+   "mobile": 100,
+   "overall": 70
+  },
+  "flags": [
+   "no-h1",
+   "tls-error"
+  ],
+  "violations": [
+   {
+    "id": "label",
+    "impact": "critical",
+    "help": "Form elements must have labels",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+    "nodes": 2
+   },
+   {
+    "id": "image-alt",
+    "impact": "critical",
+    "help": "Images must have alternative text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "link-in-text-block",
+    "impact": "serious",
+    "help": "Links must be distinguishable without relying on color",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+    "nodes": 2
+   },
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 1
+   }
+  ],
+  "impactCounts": {
+   "critical": 2,
+   "serious": 3,
+   "moderate": 0,
+   "minor": 0
+  },
+  "tls": {
+   "ok": false,
+   "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "meta": {
+   "lang": "en",
+   "title": "Particip.gov.md",
+   "h1": 0,
+   "nodes": 123,
+   "transferBytes": 312910,
+   "requests": 11,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 5562,
+  "auditedAt": "2026-11-13T20:12:34.540Z"
+ },
+ {
+  "host": "adminbac.gov.md",
+  "finalHost": "adminbac.gov.md",
+  "url": "https://adminbac.gov.md/",
+  "ok": false,
+  "error": "http 404",
+  "status": 404,
+  "scores": null,
+  "flags": [],
+  "violations": [],
+  "impactCounts": null,
+  "tls": {
+   "ok": false,
+   "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "meta": null,
+  "durationMs": 2775,
+  "auditedAt": "2026-11-13T20:12:40.103Z"
+ },
+ {
+  "host": "aee.gov.md",
+  "finalHost": "cned.gov.md",
+  "url": "https://cned.gov.md/ro",
+  "ok": true,
+  "error": null,
+  "status": 200,
+  "scores": {
+   "a11y": 53,
+   "security": 70,
+   "performance": 81,
+   "mobile": 100,
+   "overall": 67
+  },
+  "flags": [
+   "no-h1"
+  ],
+  "violations": [
+   {
+    "id": "color-contrast",
+    "impact": "serious",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+    "nodes": 22
+   },
+   {
+    "id": "link-name",
+    "impact": "serious",
+    "help": "Links must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+    "nodes": 6
+   },
+   {
+    "id": "label-content-name-mismatch",
+    "impact": "serious",
+    "help": "Elements must have their visible text as part of their accessible name",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+    "nodes": 1
+   },
+   {
+    "id": "meta-viewport",
+    "impact": "moderate",
+    "help": "Zooming and scaling must not be disabled",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+    "nodes": 1
+   }
+  ],
+  "impactCounts": {
+   "critical": 0,
+   "serious": 3,
+   "moderate": 1,
+   "minor": 0
+  },
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Jan  9 15:49:44 2027 GMT"
+  },
+  "meta": {
+   "lang": "ro",
+   "title": "CNED | Centrul Național pentru Energie Durabilă",
+   "h1": 0,
+   "nodes": 922,
+   "transferBytes": 1230947,
+   "requests": 197,
+   "mobileOverflowPx": 0,
+   "hasViewport": true
+  },
+  "durationMs": 6281,
+  "auditedAt": "2026-11-13T20:12:42.888Z"
+ },
+ {
+  "host": "age.gov.md",
+  "finalHost": "age.gov.md",
+  "url": "https://age.gov.md/",
+  "ok": false,
+  "error": "not html (text/plain; charset=utf-8)",
+  "status": 400,
+  "scores": null,
+  "flags": [],
+  "violations": [],
+  "impactCounts": null,
+  "tls": {
+   "ok": true,
+   "error": null,
+   "validTo": "Jan 18 18:33:52 2027 GMT"
+  },
+  "meta": null,
+  "durationMs": 254,
+  "auditedAt": "2026-11-13T20:12:49.170Z"
+ }
+]

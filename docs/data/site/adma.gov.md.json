@@ -1,0 +1,126 @@
+{
+  "host": "adma.gov.md",
+  "auditedAt": "2026-11-13T20:12:21.063Z",
+  "url": "https://adma.gov.md/",
+  "finalHost": "adma.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  4 02:32:48 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 28,
+        "sample": [
+          "#gdpr-cookie-accept",
+          "#gdpr-cookie-advanced",
+          ".td-module-meta-info > .td-post-date > time[datetime=\"2025-03-05T14:25:30+02:00\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          ".td-pb-span4 > a[href$=\"gov.md/\"]",
+          "#td-header-search-button",
+          "a[href$=\"madrm.gov.md/\"]"
+        ]
+      },
+      {
+        "id": "aria-command-name",
+        "impact": "serious",
+        "help": "ARIA commands must have an accessible name",
+        "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#n2-ss-2-arrow-previous",
+          "#n2-ss-2-arrow-next"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#next-page-tdi_9",
+          "#next-page-tdi_25"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 4,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "Agenția pentru Dezvoltarea și Modernizarea Agriculturii | ADMA",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 1178,
+    "links": 142,
+    "badLinkText": 0,
+    "images": 45,
+    "imagesNoAlt": 0,
+    "forms": 3,
+    "requests": 120,
+    "transferBytes": 7607357,
+    "domContentLoaded": 2531,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 44,
+    "security": 60,
+    "performance": 62,
+    "mobile": 100,
+    "overall": 58
+  },
+  "durationMs": 8856
+}

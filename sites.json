@@ -1,0 +1,2643 @@
+{
+  "generatedAt": "2026-11-13T20:06:32.067Z",
+  "source": "crt.sh %.gov.md + sites.extra.txt",
+  "total": 430,
+  "dead": [
+    "adminevinieta.gov.md",
+    "ams.gov.md",
+    "apievinieta.gov.md",
+    "cazier.gov.md",
+    "cnam.gov.md",
+    "cpanel.test.cariere.gov.md",
+    "cpcalendars.test.cariere.gov.md",
+    "cpcontacts.test.cariere.gov.md",
+    "ct.mai.gov.md",
+    "doc.igc.gov.md",
+    "eca.asp.gov.md",
+    "iap.gov.md",
+    "interop.gov.md",
+    "izmv.madrm.gov.md",
+    "mail.test.cariere.gov.md",
+    "mei.gov.md",
+    "mm.gov.md",
+    "mmps.gov.md",
+    "old.maia.gov.md",
+    "old.mdrc.gov.md",
+    "old.mei.gov.md",
+    "old.mtic.gov.md",
+    "old.mtid.gov.md",
+    "psp.gov.md",
+    "services.gov.md",
+    "test.interop.gov.md",
+    "training.interop.gov.md",
+    "webdisk.test.cariere.gov.md",
+    "webmail.test.cariere.gov.md",
+    "www.actpermisiv.gov.md",
+    "www.admin.particip.gov.md",
+    "www.adminevinieta.gov.md",
+    "www.apievinieta.gov.md",
+    "www.arme.igp.gov.md",
+    "www.cazier.gov.md",
+    "www.crm.invest.gov.md",
+    "www.cub.gov.md",
+    "www.dopomoga.gov.md",
+    "www.dspace.aap.gov.md",
+    "www.e-arme.igp.gov.md",
+    "www.eca.asp.gov.md",
+    "www.mei.gov.md",
+    "www.msign.gov.md",
+    "www.ogpae.gov.md",
+    "www.old.mdrc.gov.md",
+    "www.old.mtic.gov.md",
+    "www.old.mtid.gov.md",
+    "www.permits.gov.md",
+    "www.repc.gov.md",
+    "www.services.gov.md",
+    "www.servicii.gov.md",
+    "www.silva.gov.md",
+    "www.test.cariere.gov.md",
+    "www.videoconf.aap.gov.md"
+  ],
+  "sites": [
+    {
+      "host": "100.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "100zile.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "373.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "actelocale.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "actpermisiv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "adma.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "admin.compensatii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "admin.particip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "adminbac.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "aee.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "age.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "aipa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ajutoare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "am.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "amdm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "amfsa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "anad.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ancd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ance.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "anp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "anranr.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "anre.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "manual"
+    },
+    {
+      "host": "ansa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ansp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "antaeat.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "antitrafic.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "antiviolenta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "api.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "apostila.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "app.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "app.transplant.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "arfc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ari.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "arme.igp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "aspm.mc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ast.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "autorizatiimediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "avls.mai.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bac.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "backoffice-eservicii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "barcelona.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bizradar.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bma.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bma.migrare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bnm.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "manual"
+    },
+    {
+      "host": "border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "brd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bri.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "bridge.invest.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "caa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "carabinier.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "careers.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cariere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cbn.mecc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ccp.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cert.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "chisinau.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "manual"
+    },
+    {
+      "host": "cio.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cis.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cloud.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cna.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cnapss.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cnas.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cncnc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cnddcm.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cnej.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cnpdc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "coe.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "compensatii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "construct-permits.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "consumator.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "controlezfactura.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "covidinfo.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "crm.invest.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "crm.primacasa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "csa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "csa.madrm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "csa.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ctif.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "cub.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "customs.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ddp.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "demo.transplant.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "dev-justice.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "dev.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "devecazier.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "develop.sipc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "dip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "doc.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "doc.social.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "docs.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "documente.anp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "documente.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "dopomoga.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "drg.cnam.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "drive.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "dspace.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "dtc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-aipa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-arme.igp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-management.madrm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-migrare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-permis.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-pescuit.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "e-servicii.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "eat.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ecancelaria.cnas.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ecazier.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "edu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ega.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "elearning.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "emoldovata.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "epermis.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "eraportare.spcsb.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "eservicii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "essc-pay.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "essc-test.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "essc-testpay.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "essc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "essc.servicii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "estudii.igc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "etender.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "evinieta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "evisa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "familia.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "finantare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "fism.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "geodata.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "geoportalinds.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ggs.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "gu.justice.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "harta-ig.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "hosting.epermis.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "id.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "if.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "igp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "incluziune.edu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "inds.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "intern.epermis.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "intranet.ancd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "invest.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "iplatforms.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ipm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "is.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "isc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ism.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "iss.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "izmv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "justice.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "keycloak.develop.sipc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "licentiere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "locatiivaccinare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "madrm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mai.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "maia.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mail.customs.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mcloud.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mconnect.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mded.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "me.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mec.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mecc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mediaserver.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mediere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mf.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "midr.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "migrare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "minio.develop.sipc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "misiuni.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mmpsf.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mmuncii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "monitorizare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "monitorul.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mpass.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ms.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "msign.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mtender.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "mts.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "new.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "new.statistica.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "nisa.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ogpae.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.amdm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.ansa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.app.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.arfc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.cancelaria.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.cnpdc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.consumator.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.madrm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.mc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.mcloud.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.mded.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.mf.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.mts.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "old.stisc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ondrl.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "onipm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ordine.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "particip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "pcs.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "penitenciar.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "permits.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "porumbeni.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "probatiune.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "prog.amdm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "protectietemporara.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "rancher.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "rapoarte.siddcm.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "raportare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "raven.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "reformaasistenteisociale.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "registru.ansa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "registru.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "repc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "restart.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "resurse-educationale.mec.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "retp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "rezerve.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "rsal.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "rvv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "s.cloud.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "satuleuropean.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "scoliauto.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "semantic.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "seq.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "servicii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "sgpe.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "sia.im.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "siadr-mdrc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "siamd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "siddcm.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "sigedia.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "sigv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "silva.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "sirsm.cnam.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "social.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ss.cnts.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "staging-api.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "staging-css.permits.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "staging-seq.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "staging.actpermisiv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "staging.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "staging.permits.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "statistica.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "sua.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "temp-antaeat.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "temp-eat.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "temporaryprotection.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "test-admin.particip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "test.asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "test.ast.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "test.cariere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "test.particip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "test1.maia.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "testccp.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "testetender.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "testmpass.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "testsgpe.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "trade.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "transplant.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "ue.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "vaccinare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "verifica.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "videoconf.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "vinieta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "vpn.asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "web1.elearning.ansa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.100.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.373.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.adma.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.adminbac.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.aee.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.age.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.aipa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.am.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.amdm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.amfsa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.anad.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ancd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ance.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.anp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.anranr.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ansa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ansp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.antitrafic.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.antiviolenta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.apostila.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.app.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.arfc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ari.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.aspm.mc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ast.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.autorizatiimediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.avls.mai.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.bac.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.bma.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.bma.migrare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.border.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.brd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.bri.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.caa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.carabinier.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.careers.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cariere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cbn.mecc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ccp.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cert.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cio.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cis.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cna.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cnapss.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cnas.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cncnc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cnddcm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cnddcm.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cnej.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.cnpdc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.compensatii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.consumator.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.covidinfo.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.crm.primacasa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.csa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.customs.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ddp.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.devecazier.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.dip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.dtc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.e-aipa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.e-management.madrm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.e-migrare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.e-pescuit.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.e-servicii.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ecazier.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.edu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ega.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.elearning.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.emoldovata.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.eraportare.spcsb.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.etender.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.evinieta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.evisa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.fism.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.geoportalinds.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.gu.justice.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.harta-ig.agepi.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.if.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.igp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.incluziune.edu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.intranet.ancd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.invest.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.iplatforms.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ipm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.isc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ism.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.justice.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.licentiere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.madrm.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.maeie.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.maia.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.me.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mec.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mecc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mediere.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.midr.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.migrare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.misiuni.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mmpsf.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mmuncii.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.monitorizare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mpass.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ms.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.mts.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.nisa.mfa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.aap.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.ansa.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.cancelaria.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.cnpdc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.mcloud.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.mediu.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.mf.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.msmps.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.old.mts.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.ondrl.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.particip.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.penitenciar.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.raportare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.registru.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.resurse-educationale.mec.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.retp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.rezerve.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.rvv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.scoliauto.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.sgpe.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.siadr-mdrc.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.siamd.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.sigv.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.social.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.statistica.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.testccp.anta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.testsgpe.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.transplant.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.vaccinare.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.vinieta.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    },
+    {
+      "host": "www.vpn.asp.gov.md",
+      "firstSeen": "2026-11-13",
+      "lastSeen": "2026-11-13",
+      "source": "crt.sh"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+name: discover
+
+on:
+  schedule:
+    # каждый понедельник, 04:00 UTC — обновить список хостов
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gov-md-a11y-discover
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Discover hosts
+        run: node scripts/discover.mjs
+
+      - name: Commit list
+        run: |
+          git config user.name "gov-md-a11y bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sites.json
+          if git diff --cached --quiet; then
+            echo "list unchanged"
+          else
+            git commit -m "discover: $(date -u +%F) ($(jq -r .total sites.json) hosts)"
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          {
+            echo "### discovery"
+            echo "- live hosts: $(jq -r .total sites.json)"
+            echo "- dns failures: $(jq -r '.dead | length' sites.json)"
+            echo "- new today: $(jq --arg d "$(date -u +%F)" '[.sites[] | select(.firstSeen == $d)] | length' sites.json)"
+          } >> "$GITHUB_STEP_SUMMARY"

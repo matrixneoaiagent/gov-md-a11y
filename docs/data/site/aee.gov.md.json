@@ -1,0 +1,126 @@
+{
+  "host": "aee.gov.md",
+  "auditedAt": "2026-11-13T20:12:42.888Z",
+  "url": "https://cned.gov.md/ro",
+  "finalHost": "cned.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  9 15:49:44 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 25,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 22,
+        "sample": [
+          ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+          ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+          ".news-flex-row:nth-child(1) > .front-news-block > .front-news-items > .front-news-info > .calendar-info > .info-date"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+          ".img-text > a[href$=\"feerm\"]",
+          "a[href=\"https://ecovoucher.md/ro\"]"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#chatbot-launcher"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 3,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "CNED | Centrul Național pentru Energie Durabilă",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 922,
+    "links": 189,
+    "badLinkText": 0,
+    "images": 27,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 197,
+    "transferBytes": 1230947,
+    "domContentLoaded": 1422,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 53,
+    "security": 70,
+    "performance": 81,
+    "mobile": 100,
+    "overall": 67
+  },
+  "durationMs": 6281
+}
