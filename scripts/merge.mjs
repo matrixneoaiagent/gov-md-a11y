@@ -62,7 +62,8 @@ function dedupe(rows) {
 }
 
 function summarize(rows) {
-  const audited = rows.filter((r) => r.ok);
+  const stubs = rows.filter((r) => r.stub);
+  const audited = rows.filter((r) => r.ok && !r.stub);
   const avg = (key) =>
     audited.length
       ? Math.round(audited.reduce((sum, r) => sum + (r.scores?.[key] ?? 0), 0) / audited.length)
@@ -104,7 +105,9 @@ function summarize(rows) {
     generatedAt: new Date().toISOString(),
     total: rows.length,
     audited: audited.length,
-    failed: rows.length - audited.length,
+    stubs: stubs.length,
+    stubList: stubs.map((r) => r.host).sort(),
+    failed: rows.length - audited.length - stubs.length,
     average: {
       overall: avg('overall'),
       a11y: avg('a11y'),
@@ -137,6 +140,7 @@ function compact(row) {
     finalHost: row.finalHost,
     url: row.url,
     ok: row.ok,
+    stub: row.stub || false,
     error: row.error,
     status: row.status,
     scores: row.scores,
@@ -178,17 +182,18 @@ function renderReport(summary, dateLabel) {
   const lines = [];
   lines.push(`# Доступность государственных сайтов Молдовы — ${dateLabel}`, '');
   lines.push(
-    `Автоматический аудит открытых сайтов зоны \`.gov.md\`: ${s.audited} из ${s.total} хостов ответили и были проверены. ` +
+    `Автоматический аудит ${s.discovered ?? s.total} хостов зоны \`.gov.md\`: ${s.total} уникальных адресов после склейки редиректов, ${s.audited} проверены. ` +
       `Средняя оценка — **${s.average.overall}** из 100, полностью без нарушений WCAG — ${s.cleanPages} страниц (${pct(
         s.cleanPages,
         s.audited,
-      )}%).`,
+      )}%).${s.stubs ? ` Заглушек хостера: ${s.stubs} — они не ранжируются.` : ''}`,
     '',
   );
   lines.push('## Сводка', '');
   lines.push('| Показатель | Значение |', '|---|---|');
   lines.push(`| Проверено страниц | ${s.audited} |`);
   lines.push(`| Не ответили | ${s.failed} |`);
+  lines.push(`| Заглушки хостера | ${s.stubs} |`);
   lines.push(`| Средняя оценка | ${s.average.overall} |`);
   lines.push(`| Доступность (axe) | ${s.average.a11y} |`);
   lines.push(`| Безопасность заголовков | ${s.average.security} |`);
@@ -231,6 +236,7 @@ function renderReport(summary, dateLabel) {
     'tls-error': 'ошибка TLS-сертификата',
     'no-https': 'сайт открывается по HTTP',
     'broken-requests': 'битые запросы ресурсов',
+    stub: 'служебная страница хостера (не ранжируется)',
   };
   lines.push('## Технические флаги', '');
   lines.push('| Флаг | Сайтов | Что значит |', '|---|---|---|');
@@ -238,6 +244,16 @@ function renderReport(summary, dateLabel) {
     lines.push(`| \`${f.id}\` | ${f.sites} | ${flagNames[f.id] || f.id} |`);
   }
   lines.push('');
+
+  if (s.stubList?.length) {
+    lines.push('## Заглушки хостера', '');
+    lines.push(
+      'Эти домены резолвятся, но отдают служебную страницу Plesk или хостинга. Они не ранжируются: проверять там нечего, кроме просроченного сертификата.',
+      '',
+      s.stubList.map((h) => `- \`${h}\``).join('\n'),
+      '',
+    );
+  }
 
   lines.push('## Как считалось', '');
   lines.push(
@@ -283,6 +299,7 @@ function renderHtml(summary, dateLabel, repoUrl) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Доступность госсайтов Молдовы — ${dateLabel}</title>
 <meta name="description" content="Автоматический аудит доступности, безопасности и мобильной вёрстки сайтов зоны .gov.md">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230b6b4f'/><text x='16' y='23' font-family='Georgia,serif' font-size='19' text-anchor='middle' fill='%23fffdf8'>A</text></svg>">
 <style>
   :root {
     --paper: #f6f4ef;
@@ -392,11 +409,11 @@ function renderHtml(summary, dateLabel, repoUrl) {
   <div class="wrap">
     <p class="eyebrow">Открытые данные · Республика Молдова</p>
     <h1>Доступность государственных сайтов</h1>
-    <p class="lead">Автоматический аудит ${summary.total} сайтов зоны <code>.gov.md</code>: ${summary.audited} ответили и проверены по WCAG 2.2 A/AA, заголовкам безопасности и мобильной вёрстке. Срез на ${dateLabel}</p>
+    <p class="lead">Автоматический аудит ${summary.discovered} хостов зоны <code>.gov.md</code>: ${summary.total} уникальных адресов после склейки редиректов, ${summary.audited} проверены по WCAG 2.2 A/AA, заголовкам безопасности и мобильной вёрстке${summary.stubs ? `; ещё ${summary.stubs} — заглушки хостера` : ''}. Срез на ${dateLabel}</p>
     <div class="stats">
       <div class="stat"><b>${summary.average.overall}</b><span>средняя оценка из 100</span></div>
       <div class="stat"><b>${summary.cleanPages}</b><span>страниц без нарушений WCAG</span></div>
-      <div class="stat"><b>${summary.audited}<span style="font-size:.55em;color:var(--muted)"> / ${summary.total}</span></b><span>сайтов ответили и проверены</span></div>
+      <div class="stat"><b>${summary.audited}</b><span>проверено из ${summary.total} адресов</span></div>
       <div class="stat"><b>${Math.round((summary.https / Math.max(summary.audited, 1)) * 100)}%</b><span>работают по HTTPS</span></div>
     </div>
     <p class="note">Оценка — не рейтинг учреждения, а срез главной страницы на дату. Методика и ограничения — ниже.</p>
@@ -421,6 +438,7 @@ function renderHtml(summary, dateLabel, repoUrl) {
         <button class="chip" data-filter="critical" aria-pressed="false">С критичными</button>
         <button class="chip" data-filter="nohttps" aria-pressed="false">Без HTTPS</button>
         <button class="chip" data-filter="worst" aria-pressed="false">Худшие 20</button>
+        <button class="chip" data-filter="stub" aria-pressed="false">Заглушки${summary.stubs ? ` (${summary.stubs})` : ''}</button>
         <input type="search" id="q" placeholder="Поиск по домену…" aria-label="Поиск по домену">
       </div>
       <div style="overflow-x:auto">
@@ -506,8 +524,9 @@ function renderHtml(summary, dateLabel, repoUrl) {
 
   function filtered() {
     var list = sites.slice();
-    if (state.filter === 'critical') list = list.filter(function (s) { return s.impactCounts && s.impactCounts.critical > 0; });
-    if (state.filter === 'nohttps') list = list.filter(function (s) { return s.url && s.url.indexOf('https://') !== 0; });
+    if (state.filter === 'critical') list = list.filter(function (s) { return !s.stub && s.impactCounts && s.impactCounts.critical > 0; });
+    if (state.filter === 'nohttps') list = list.filter(function (s) { return !s.stub && s.url && s.url.indexOf('https://') !== 0; });
+    if (state.filter === 'stub') list = list.filter(function (s) { return s.stub; });
     if (state.q) list = list.filter(function (s) { return s.host.indexOf(state.q) > -1; });
     list.sort(function (a, b) {
       var k = state.sort, va, vb;
@@ -527,11 +546,12 @@ function renderHtml(summary, dateLabel, repoUrl) {
   function render() {
     var rows = filtered();
     document.getElementById('rows').innerHTML = rows.map(function (s) {
-      var sc = s.scores || {};
+      var sc = s.stub ? {} : (s.scores || {});
       var n = (s.violations || []).length;
       var crit = s.impactCounts && s.impactCounts.critical ? ' · ' + s.impactCounts.critical + ' крит.' : '';
       var vcol = '<span class="dots">—</span>';
-      if (s.ok) vcol = '<span class="dots">' + n + crit + '</span>';
+      if (s.stub) vcol = '<span class="dots">заглушка</span>';
+      else if (s.ok) vcol = '<span class="dots">' + n + crit + '</span>';
       else if (/^http \d+$/.test(s.error || '')) vcol = '<span class="dots">не ответил</span>';
       else if (s.error) vcol = '<span class="dots" title="' + esc(s.error) + '">' + esc(s.error).slice(0, 26) + '</span>';
       return '<tr>' +
@@ -579,6 +599,12 @@ async function main() {
   }
   const summary = summarize(rows);
   summary.sites = rows.map(compact).sort((a, b) => a.host.localeCompare(b.host));
+  try {
+    const discovered = JSON.parse(await fs.readFile(path.join(ROOT, 'sites.json'), 'utf8'));
+    summary.discovered = discovered.total || summary.sites.length;
+  } catch {
+    summary.discovered = summary.sites.length;
+  }
 
   const dateLabel = new Date(summary.generatedAt).toLocaleDateString('ru-RU', {
     day: 'numeric',

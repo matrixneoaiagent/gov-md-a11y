@@ -19,6 +19,8 @@ import AxeBuilder from '@axe-core/playwright';
 const ROOT = process.cwd();
 const UA =
   'gov-md-a11y/1.0 (+https://github.com/matrixneoaiagent/gov-md-a11y; public accessibility research)';
+const STUB_RE =
+  /(web server'?s default page|domain default page|apache2 .* default page|welcome to nginx|it works!|this domain (is|may be) for sale|domain (is )?parked|site not found|default web site page|plesk)/i;
 const IMPACT_WEIGHT = { critical: 12, serious: 6, moderate: 3, minor: 1 };
 
 function arg(name, fallback) {
@@ -181,6 +183,7 @@ async function auditSite(browser, host) {
     finalHost: null,
     status: null,
     ok: false,
+    stub: false,
     error: null,
     tls: null,
     headers: {},
@@ -328,6 +331,9 @@ async function auditSite(browser, host) {
     }));
 
     const flags = [];
+    const stub = STUB_RE.test(meta.title || '');
+    result.stub = stub;
+    if (stub) flags.push('stub');
     if (!meta.lang) flags.push('no-lang');
     else if (!/^[a-z]{2}(-[a-z0-9]{2,8})?$/i.test(meta.lang)) flags.push('bad-lang');
     if (!meta.title) flags.push('no-title');
