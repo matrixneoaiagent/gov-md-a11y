@@ -617,6 +617,7 @@ async function main() {
       : 'https://github.com/matrixneoaiagent/gov-md-a11y';
 
   await fs.mkdir(DATA, { recursive: true });
+  await fs.rm(path.join(DATA, 'site'), { recursive: true, force: true });
   await fs.mkdir(path.join(DATA, 'site'), { recursive: true });
   await fs.writeFile(path.join(DATA, 'sites.json'), JSON.stringify(summary.sites, null, 1) + '\n');
   await fs.writeFile(
