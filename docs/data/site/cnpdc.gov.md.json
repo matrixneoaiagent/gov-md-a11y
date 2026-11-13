@@ -1,10 +1,11 @@
 {
   "host": "cnpdc.gov.md",
-  "auditedAt": "2026-11-13T20:16:14.556Z",
+  "auditedAt": "2026-11-13T20:30:08.843Z",
   "url": "https://cnpdc.gov.md/",
   "finalHost": "cnpdc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -111,7 +112,7 @@
     "forms": 2,
     "requests": 159,
     "transferBytes": 2068686,
-    "domContentLoaded": 3060,
+    "domContentLoaded": 1912,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -130,5 +131,5 @@
     "mobile": 100,
     "overall": 56
   },
-  "durationMs": 7694
+  "durationMs": 6592
 }

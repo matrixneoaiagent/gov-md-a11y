@@ -1,10 +1,11 @@
 {
   "host": "www.if.gov.md",
-  "auditedAt": "2026-11-13T20:19:31.065Z",
+  "auditedAt": "2026-11-13T20:31:40.558Z",
   "url": "https://icfs.gov.md/ro",
   "finalHost": "www.if.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -130,9 +131,9 @@
     "images": 36,
     "imagesNoAlt": 3,
     "forms": 1,
-    "requests": 68,
-    "transferBytes": 1979448,
-    "domContentLoaded": 3332,
+    "requests": 64,
+    "transferBytes": 1575177,
+    "domContentLoaded": 3473,
     "mobileOverflowPx": 5,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -161,5 +162,5 @@
     "mobile": 100,
     "overall": 40
   },
-  "durationMs": 7964
+  "durationMs": 8290
 }

@@ -1,10 +1,11 @@
 {
   "host": "ari.gov.md",
-  "auditedAt": "2026-11-13T20:15:57.677Z",
+  "auditedAt": "2026-11-13T20:30:31.947Z",
   "url": "https://ari.gov.md/",
   "finalHost": "ari.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -71,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 109,
-    "transferBytes": 347836,
-    "domContentLoaded": 1420,
+    "transferBytes": 347835,
+    "domContentLoaded": 1579,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://ari.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,8",
@@ -93,5 +94,5 @@
     "mobile": 100,
     "overall": 83
   },
-  "durationMs": 5633
+  "durationMs": 5425
 }

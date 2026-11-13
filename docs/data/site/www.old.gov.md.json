@@ -1,0 +1,129 @@
+{
+  "host": "www.old.gov.md",
+  "auditedAt": "2026-11-13T20:30:53.093Z",
+  "url": "https://old.gov.md/ro",
+  "finalHost": "old.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload;",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 24,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "a[href=\"/taxonomy/term/2272\"] > img[width=\"1180\"][height=\"184\"]",
+          "a[href=\"/taxonomy/term/2490\"] > img[width=\"1180\"][height=\"184\"]",
+          ".front_block2:nth-child(3) > a > img[width=\"1180\"][height=\"184\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 22,
+        "sample": [
+          ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+          ".views-row-first.views-slideshow-cycle-main-frame-row-item.views-row > .front-slider-block > .front-slider-items > .fron",
+          ".news-flex-row:nth-child(1) > .front-news-block > .front-news-items > .front-news-info > .calendar-info > .info-date"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 11,
+        "sample": [
+          ".header-user-menu > a[href=\"/ro\"]",
+          "a[href$=\"contact\"]",
+          "a[href$=\"feed\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "GUVERNUL REPUBLICII MOLDOVA | Pagina oficială",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 1035,
+    "links": 252,
+    "badLinkText": 0,
+    "images": 27,
+    "imagesNoAlt": 4,
+    "forms": 1,
+    "requests": 53,
+    "transferBytes": 22998675,
+    "domContentLoaded": 2431,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 37,
+    "security": 50,
+    "performance": 0,
+    "mobile": 100,
+    "overall": 46
+  },
+  "durationMs": 7828
+}

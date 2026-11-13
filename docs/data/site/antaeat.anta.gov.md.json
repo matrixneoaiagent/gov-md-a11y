@@ -1,10 +1,11 @@
 {
   "host": "antaeat.anta.gov.md",
-  "auditedAt": "2026-11-13T20:16:19.937Z",
+  "auditedAt": "2026-11-13T20:29:56.459Z",
   "url": "https://antaeat.anta.gov.md/",
   "finalHost": "antaeat.anta.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -83,7 +84,7 @@
     "forms": 0,
     "requests": 27,
     "transferBytes": 194696,
-    "domContentLoaded": 1069,
+    "domContentLoaded": 1007,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -104,5 +105,5 @@
     "mobile": 100,
     "overall": 78
   },
-  "durationMs": 4480
+  "durationMs": 4388
 }

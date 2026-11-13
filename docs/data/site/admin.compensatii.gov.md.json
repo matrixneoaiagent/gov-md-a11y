@@ -1,10 +1,11 @@
 {
   "host": "admin.compensatii.gov.md",
-  "auditedAt": "2026-11-13T20:12:29.920Z",
+  "auditedAt": "2026-11-13T20:29:50.196Z",
   "url": "https://admin.compensatii.gov.md/ro/auth/login",
   "finalHost": "admin.compensatii.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -23,7 +24,7 @@
   "redirects": 0,
   "axe": {
     "version": "4.14.0",
-    "passes": 27,
+    "passes": 31,
     "incomplete": 3,
     "violations": [
       {
@@ -63,17 +64,21 @@
     "hasViewport": true,
     "hasDescription": true,
     "h1": 1,
-    "nodes": 155,
+    "nodes": 245,
     "links": 22,
     "badLinkText": 0,
     "images": 6,
     "imagesNoAlt": 0,
-    "forms": 1,
-    "requests": 42,
-    "transferBytes": 678133,
-    "domContentLoaded": 1109,
+    "forms": 2,
+    "requests": 53,
+    "transferBytes": 614230,
+    "domContentLoaded": 2521,
     "mobileOverflowPx": 0,
     "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED",
@@ -89,5 +94,5 @@
     "mobile": 100,
     "overall": 88
   },
-  "durationMs": 4619
+  "durationMs": 6261
 }

@@ -1,10 +1,11 @@
 {
   "host": "csa.madrm.gov.md",
-  "auditedAt": "2026-11-13T20:17:47.797Z",
+  "auditedAt": "2026-11-13T20:32:04.761Z",
   "url": "https://csa.mediu.gov.md/",
   "finalHost": "csa.mediu.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -47,8 +48,8 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
         "nodes": 9,
         "sample": [
-          "#sm-17946010725469814-1",
-          "#sm-17946010725469814-3",
+          "#sm-17946019287196443-1",
+          "#sm-17946019287196443-3",
           "#menu-item-12 > a"
         ]
       }
@@ -74,7 +75,7 @@
     "forms": 1,
     "requests": 42,
     "transferBytes": 469711,
-    "domContentLoaded": 1907,
+    "domContentLoaded": 1762,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -94,5 +95,5 @@
     "mobile": 100,
     "overall": 70
   },
-  "durationMs": 7372
+  "durationMs": 6674
 }

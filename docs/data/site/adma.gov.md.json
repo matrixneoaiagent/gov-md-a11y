@@ -1,10 +1,11 @@
 {
   "host": "adma.gov.md",
-  "auditedAt": "2026-11-13T20:15:59.912Z",
+  "auditedAt": "2026-11-13T20:29:52.043Z",
   "url": "https://adma.gov.md/",
   "finalHost": "adma.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -97,8 +98,8 @@
     "imagesNoAlt": 0,
     "forms": 3,
     "requests": 113,
-    "transferBytes": 6095334,
-    "domContentLoaded": 3592,
+    "transferBytes": 6095359,
+    "domContentLoaded": 3132,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -122,5 +123,5 @@
     "mobile": 100,
     "overall": 59
   },
-  "durationMs": 10141
+  "durationMs": 7176
 }

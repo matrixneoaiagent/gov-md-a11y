@@ -1,10 +1,11 @@
 {
   "host": "adminbac.gov.md",
-  "auditedAt": "2026-11-13T20:15:46.217Z",
+  "auditedAt": "2026-11-13T20:30:07.959Z",
   "url": "https://adminbac.gov.md/",
   "finalHost": "adminbac.gov.md",
   "status": 404,
   "ok": false,
+  "stub": false,
   "error": "http 404",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3790
+  "durationMs": 6824
 }

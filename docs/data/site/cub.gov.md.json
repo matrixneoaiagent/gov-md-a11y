@@ -1,10 +1,11 @@
 {
   "host": "cub.gov.md",
-  "auditedAt": "2026-11-13T20:16:08.085Z",
+  "auditedAt": "2026-11-13T20:30:35.129Z",
   "url": "https://cub.gov.md/",
   "finalHost": "cub.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3391
+  "durationMs": 3582
 }

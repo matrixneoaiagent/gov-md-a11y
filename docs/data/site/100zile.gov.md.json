@@ -1,10 +1,11 @@
 {
   "host": "100zile.gov.md",
-  "auditedAt": "2026-11-13T20:15:47.407Z",
+  "auditedAt": "2026-11-13T20:30:00.472Z",
   "url": "http://100zile.gov.md/",
   "finalHost": "100zile.gov.md",
   "status": 301,
   "ok": false,
+  "stub": false,
   "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://100zile.gov.md/\", waiting until \"domcontentloaded\"\n",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 46634
+  "durationMs": 48968
 }

@@ -1,0 +1,151 @@
+{
+  "host": "www.scoliauto.gov.md",
+  "auditedAt": "2026-11-13T20:31:44.834Z",
+  "url": "https://scoliauto.gov.md/dashboard/user",
+  "finalHost": "scoliauto.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; always",
+    "content-security-policy": "default-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com/ https://cdnjs.cloudflare.com/ https://cdn.jsdelivr.net/; frame-src www.google.com/recaptcha/ 'self' data:; script-src 'self' https://www.google.com/recaptcha/api.js https://www.gstatic.com/recaptcha/ 'unsafe-inline' 'unsafe-eval' https://storage.googleapis.com; img-src 'self' data: https://*.tile.openstreetmap.org; font-src 'self' 'unsafe-inline' https://stackpath.bootstrapcdn.com/ https://cdnjs.cloudflare.com/ https://cdn.jsdelivr.net;",
+    "x-content-type-options": "nosniff, nosniff",
+    "x-frame-options": "DENY, SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 12,
+        "sample": [
+          "input[autocomplete=\"a187e573a184\"]",
+          "input[autocomplete=\"a1a5caac8efa\"]",
+          "input[autocomplete=\"adb026bc793e\"]"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 10,
+        "sample": [
+          ".sippc-list-content-body-item.sippc-container:nth-child(1) > .col-details.align-center.unset > .sippc-row-action[type=\"b",
+          ".sippc-list-content-body-item.sippc-container:nth-child(2) > .col-details.align-center.unset > .sippc-row-action[type=\"b",
+          ".sippc-list-content-body-item.sippc-container:nth-child(3) > .col-details.align-center.unset > .sippc-row-action[type=\"b"
+        ]
+      },
+      {
+        "id": "select-name",
+        "impact": "critical",
+        "help": "Select element must have an accessible name",
+        "description": "Ensure select element has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "select"
+        ]
+      },
+      {
+        "id": "autocomplete-valid",
+        "impact": "serious",
+        "help": "autocomplete attribute must be used correctly",
+        "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/autocomplete-valid?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "input[autocomplete=\"a187e573a184\"]",
+          "input[autocomplete=\"a1a5caac8efa\"]",
+          "input[autocomplete=\"adb026bc793e\"]"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "a[aria-label=\"Previous\"]",
+          "a[aria-label=\"Next\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".graduates.sippc-stats-value"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 3,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Dashboard Utilizator user",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 832,
+    "links": 37,
+    "badLinkText": 0,
+    "images": 38,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 50,
+    "transferBytes": 1331744,
+    "domContentLoaded": 1757,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 401 ()"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 21,
+    "security": 65,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 52
+  },
+  "durationMs": 7479
+}

@@ -1,10 +1,11 @@
 {
   "host": "avls.mai.gov.md",
-  "auditedAt": "2026-11-13T20:16:40.365Z",
+  "auditedAt": "2026-11-13T20:30:56.278Z",
   "url": "https://avls.mai.gov.md/",
   "finalHost": "avls.mai.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66120
+  "durationMs": 66112
 }

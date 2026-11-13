@@ -1,10 +1,11 @@
 {
   "host": "bridge.invest.gov.md",
-  "auditedAt": "2026-11-13T20:16:24.787Z",
+  "auditedAt": "2026-11-13T20:30:12.365Z",
   "url": "https://bridge.invest.gov.md/",
   "finalHost": "bridge.invest.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -72,7 +73,7 @@
     "forms": 1,
     "requests": 54,
     "transferBytes": 990187,
-    "domContentLoaded": 1773,
+    "domContentLoaded": 1568,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -89,5 +90,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 5584
+  "durationMs": 5431
 }

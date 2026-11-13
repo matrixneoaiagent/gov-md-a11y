@@ -1,10 +1,11 @@
 {
   "host": "www.penitenciar.gov.md",
-  "auditedAt": "2026-11-13T20:19:22.734Z",
+  "auditedAt": "2026-11-13T20:31:35.100Z",
   "url": "https://www.penitenciar.gov.md/",
   "finalHost": "www.penitenciar.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -74,7 +75,7 @@
     "forms": 1,
     "requests": 115,
     "transferBytes": 1748288,
-    "domContentLoaded": 1437,
+    "domContentLoaded": 1349,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -98,5 +99,5 @@
     "mobile": 100,
     "overall": 69
   },
-  "durationMs": 5887
+  "durationMs": 5328
 }

@@ -1,10 +1,11 @@
 {
   "host": "www.ipm.gov.md",
-  "auditedAt": "2026-11-13T20:20:08.907Z",
+  "auditedAt": "2026-11-13T20:31:34.334Z",
   "url": "https://www.ipm.gov.md/",
   "finalHost": "www.ipm.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -83,7 +84,7 @@
     "forms": 1,
     "requests": 51,
     "transferBytes": 2610140,
-    "domContentLoaded": 1809,
+    "domContentLoaded": 1402,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -106,5 +107,5 @@
     "mobile": 100,
     "overall": 74
   },
-  "durationMs": 5685
+  "durationMs": 5445
 }

@@ -1,10 +1,11 @@
 {
   "host": "demo.transplant.gov.md",
-  "auditedAt": "2026-11-13T20:16:33.168Z",
+  "auditedAt": "2026-11-13T20:30:09.681Z",
   "url": "https://demo.transplant.gov.md/",
   "finalHost": "demo.transplant.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66120
+  "durationMs": 66118
 }

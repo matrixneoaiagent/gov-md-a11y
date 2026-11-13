@@ -1,10 +1,11 @@
 {
   "host": "bnm.md",
-  "auditedAt": "2026-11-13T20:16:13.079Z",
+  "auditedAt": "2026-11-13T20:30:09.685Z",
   "url": "https://bnm.md/",
   "finalHost": "bnm.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -175,8 +176,8 @@
     "imagesNoAlt": 45,
     "forms": 6,
     "requests": 180,
-    "transferBytes": 3052927,
-    "domContentLoaded": 3003,
+    "transferBytes": 3052930,
+    "domContentLoaded": 2756,
     "mobileOverflowPx": 41,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -206,5 +207,5 @@
     "mobile": 55,
     "overall": 39
   },
-  "durationMs": 8775
+  "durationMs": 8930
 }

@@ -1,10 +1,11 @@
 {
   "host": "ctif.gov.md",
-  "auditedAt": "2026-11-13T20:17:07.349Z",
+  "auditedAt": "2026-11-13T20:31:25.742Z",
   "url": "https://ctif.gov.md/",
   "finalHost": "ctif.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -87,9 +88,9 @@
     "images": 10,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 108,
+    "requests": 105,
     "transferBytes": 786963,
-    "domContentLoaded": 5595,
+    "domContentLoaded": 6151,
     "mobileOverflowPx": 15,
     "consoleErrors": [
       "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin",
@@ -115,9 +116,9 @@
   "scores": {
     "a11y": 52,
     "security": 0,
-    "performance": 95,
+    "performance": 96,
     "mobile": 55,
     "overall": 44
   },
-  "durationMs": 9840
+  "durationMs": 10252
 }

@@ -1,10 +1,11 @@
 {
   "host": "antitrafic.gov.md",
-  "auditedAt": "2026-11-13T20:16:03.068Z",
+  "auditedAt": "2026-11-13T20:30:00.085Z",
   "url": "https://antitrafic.gov.md/",
   "finalHost": "antitrafic.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -97,8 +98,8 @@
     "imagesNoAlt": 231,
     "forms": 2,
     "requests": 148,
-    "transferBytes": 1792675,
-    "domContentLoaded": 3996,
+    "transferBytes": 1799009,
+    "domContentLoaded": 3594,
     "mobileOverflowPx": 904,
     "consoleErrors": [
       "Mixed Content: The page at 'https://antitrafic.gov.md/' was loaded over HTTPS, but requested an insecure script 'http://www.youtube.com/iframe_api'. This request has been blocked; the content must be "
@@ -121,5 +122,5 @@
     "mobile": 55,
     "overall": 45
   },
-  "durationMs": 10011
+  "durationMs": 9600
 }

@@ -1,10 +1,11 @@
 {
   "host": "www.nisa.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:17:07.466Z",
+  "auditedAt": "2026-11-13T20:30:47.386Z",
   "url": "https://www.nisa.mfa.gov.md/",
   "finalHost": "www.nisa.mfa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -62,8 +63,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 128,
-    "transferBytes": 552774,
-    "domContentLoaded": 1640,
+    "transferBytes": 552776,
+    "domContentLoaded": 1642,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://www.nisa.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,70",
@@ -85,5 +86,5 @@
     "mobile": 100,
     "overall": 62
   },
-  "durationMs": 6134
+  "durationMs": 5957
 }

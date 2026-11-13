@@ -1,10 +1,11 @@
 {
   "host": "cbn.mecc.gov.md",
-  "auditedAt": "2026-11-13T20:16:07.997Z",
+  "auditedAt": "2026-11-13T20:30:07.564Z",
   "url": "https://cbn.mecc.gov.md/",
   "finalHost": "cbn.mecc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -88,8 +89,8 @@
     "imagesNoAlt": 5,
     "forms": 1,
     "requests": 116,
-    "transferBytes": 1122709,
-    "domContentLoaded": 1885,
+    "transferBytes": 1122711,
+    "domContentLoaded": 1792,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://cbn.mecc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700ita",
@@ -111,5 +112,5 @@
     "mobile": 100,
     "overall": 45
   },
-  "durationMs": 6303
+  "durationMs": 6512
 }

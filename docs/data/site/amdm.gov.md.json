@@ -1,10 +1,11 @@
 {
   "host": "amdm.gov.md",
-  "auditedAt": "2026-11-13T20:16:21.827Z",
+  "auditedAt": "2026-11-13T20:30:09.583Z",
   "url": "https://amdm.gov.md/ro",
   "finalHost": "amdm.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -60,7 +61,7 @@
         "sample": [
           ".custom-menu-btn",
           ".text-success:nth-child(1)",
-          "p > span:nth-child(3)"
+          "span:nth-child(3)"
         ]
       },
       {
@@ -69,7 +70,7 @@
         "help": "Links must have discernible text",
         "description": "Ensure links have discernible text",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
-        "nodes": 6,
+        "nodes": 4,
         "sample": [
           ".language-item:nth-child(1) > a[target=\"_blank\"]",
           ".language-item:nth-child(2) > a[target=\"_blank\"]",
@@ -131,9 +132,9 @@
     "images": 23,
     "imagesNoAlt": 1,
     "forms": 2,
-    "requests": 108,
-    "transferBytes": 6518541,
-    "domContentLoaded": 2270,
+    "requests": 110,
+    "transferBytes": 6518540,
+    "domContentLoaded": 3436,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -153,11 +154,11 @@
     "no-h1"
   ],
   "scores": {
-    "a11y": 24,
+    "a11y": 25,
     "security": 60,
     "performance": 70,
     "mobile": 100,
-    "overall": 49
+    "overall": 50
   },
-  "durationMs": 10007
+  "durationMs": 14769
 }

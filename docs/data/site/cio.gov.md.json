@@ -1,10 +1,11 @@
 {
   "host": "cio.gov.md",
-  "auditedAt": "2026-11-13T20:17:46.485Z",
+  "auditedAt": "2026-11-13T20:32:02.391Z",
   "url": "https://cio.gov.md/",
   "finalHost": "cio.gov.md",
   "status": 400,
   "ok": false,
+  "stub": false,
   "error": "not html (text/plain; charset=utf-8)",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1311
+  "durationMs": 2370
 }

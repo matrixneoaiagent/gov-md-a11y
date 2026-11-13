@@ -1,10 +1,11 @@
 {
   "host": "crm.primacasa.gov.md",
-  "auditedAt": "2026-11-13T20:16:22.431Z",
+  "auditedAt": "2026-11-13T20:30:19.231Z",
   "url": "https://crm.primacasa.gov.md/login",
   "finalHost": "crm.primacasa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -75,7 +76,7 @@
     "forms": 2,
     "requests": 16,
     "transferBytes": 641007,
-    "domContentLoaded": 3235,
+    "domContentLoaded": 3226,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -95,5 +96,5 @@
     "mobile": 100,
     "overall": 59
   },
-  "durationMs": 7511
+  "durationMs": 7597
 }

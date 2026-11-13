@@ -1,10 +1,11 @@
 {
   "host": "www.siamd.gov.md",
-  "auditedAt": "2026-11-13T20:19:10.749Z",
+  "auditedAt": "2026-11-13T20:31:43.696Z",
   "url": "https://www.siamd.gov.md/",
   "finalHost": "www.siamd.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -81,7 +82,7 @@
     "forms": 1,
     "requests": 16,
     "transferBytes": 79144,
-    "domContentLoaded": 1205,
+    "domContentLoaded": 1012,
     "mobileOverflowPx": 560,
     "consoleErrors": [],
     "failedRequests": []
@@ -99,5 +100,5 @@
     "mobile": 55,
     "overall": 53
   },
-  "durationMs": 4688
+  "durationMs": 4531
 }

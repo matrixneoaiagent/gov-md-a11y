@@ -1,10 +1,11 @@
 {
   "host": "develop.sipc.gov.md",
-  "auditedAt": "2026-11-13T20:16:22.250Z",
+  "auditedAt": "2026-11-13T20:30:15.435Z",
   "url": "https://develop.sipc.gov.md/",
   "finalHost": "develop.sipc.gov.md",
   "status": 502,
   "ok": false,
+  "stub": false,
   "error": "http 502",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 3936
+  "durationMs": 4769
 }

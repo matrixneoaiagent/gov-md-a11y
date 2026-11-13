@@ -1,10 +1,11 @@
 {
   "host": "am.gov.md",
-  "auditedAt": "2026-11-13T20:15:48.328Z",
+  "auditedAt": "2026-11-13T20:30:23.352Z",
   "url": "https://am.gov.md/ro",
   "finalHost": "am.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -71,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 61,
-    "transferBytes": 2314056,
-    "domContentLoaded": 4188,
+    "transferBytes": 2314052,
+    "domContentLoaded": 2267,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -97,5 +98,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 9348
+  "durationMs": 8594
 }

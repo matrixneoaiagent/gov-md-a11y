@@ -1,10 +1,11 @@
 {
   "host": "cnddcm.msmps.gov.md",
-  "auditedAt": "2026-11-13T20:16:01.713Z",
+  "auditedAt": "2026-11-13T20:30:28.206Z",
   "url": "https://cnddcm.msmps.gov.md/",
   "finalHost": "cnddcm.msmps.gov.md",
   "status": 200,
   "ok": true,
+  "stub": true,
   "error": null,
   "tls": {
     "ok": false,
@@ -46,7 +47,7 @@
     "forms": 0,
     "requests": 11,
     "transferBytes": 968,
-    "domContentLoaded": 987,
+    "domContentLoaded": 1205,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -55,6 +56,7 @@
     "failedRequests": []
   },
   "flags": [
+    "stub",
     "tls-error"
   ],
   "scores": {
@@ -64,5 +66,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 4758
+  "durationMs": 4945
 }

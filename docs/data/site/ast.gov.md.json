@@ -1,10 +1,11 @@
 {
   "host": "ast.gov.md",
-  "auditedAt": "2026-11-13T20:16:08.545Z",
+  "auditedAt": "2026-11-13T20:30:04.266Z",
   "url": "https://inst.gov.md/",
   "finalHost": "inst.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -107,9 +108,9 @@
     "images": 64,
     "imagesNoAlt": 37,
     "forms": 1,
-    "requests": 133,
-    "transferBytes": 4335029,
-    "domContentLoaded": 2805,
+    "requests": 132,
+    "transferBytes": 4333625,
+    "domContentLoaded": 2773,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: the server responded with a status of 403 ()",
@@ -130,9 +131,9 @@
   "scores": {
     "a11y": 31,
     "security": 70,
-    "performance": 78,
+    "performance": 79,
     "mobile": 100,
     "overall": 56
   },
-  "durationMs": 8872
+  "durationMs": 9058
 }

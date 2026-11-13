@@ -1,10 +1,11 @@
 {
   "host": "www.csa.gov.md",
-  "auditedAt": "2026-11-13T20:17:44.191Z",
+  "auditedAt": "2026-11-13T20:31:15.800Z",
   "url": "https://www.csa.gov.md/",
   "finalHost": "www.csa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -103,7 +104,7 @@
     "forms": 0,
     "requests": 13,
     "transferBytes": 225699,
-    "domContentLoaded": 1436,
+    "domContentLoaded": 1472,
     "mobileOverflowPx": 0,
     "consoleErrors": [],
     "failedRequests": []
@@ -119,5 +120,5 @@
     "mobile": 100,
     "overall": 59
   },
-  "durationMs": 4962
+  "durationMs": 4839
 }

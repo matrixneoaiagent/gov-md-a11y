@@ -1,0 +1,117 @@
+{
+  "host": "www.particip.gov.md",
+  "auditedAt": "2026-11-13T20:32:43.373Z",
+  "url": "https://particip.gov.md/ro",
+  "finalHost": "particip.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#gdpr-cookie-advanced",
+          "#gdpr-cookie-closed"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 16,
+        "sample": [
+          ".container",
+          ".container > a[href$=\"politica-cookie-3477.html\"]",
+          ".col-md-4 > .lang-triggers.notranslate[translate=\"no\"] > .active[hreflang=\"ro\"][onclick=\"clearGTranslate()\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 4,
+        "sample": [
+          ".ico-t1:nth-child(1)",
+          ".ico-t1[href=\"#\"]:nth-child(2)",
+          "#showmodulegov"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Prima | Particip.gov.md",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 3,
+    "nodes": 727,
+    "links": 147,
+    "badLinkText": 0,
+    "images": 62,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 93,
+    "transferBytes": 4888908,
+    "domContentLoaded": 2337,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "many-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 49,
+    "security": 30,
+    "performance": 82,
+    "mobile": 100,
+    "overall": 55
+  },
+  "durationMs": 8132
+}

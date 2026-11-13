@@ -1,10 +1,11 @@
 {
   "host": "www.gu.justice.gov.md",
-  "auditedAt": "2026-11-13T20:20:17.982Z",
+  "auditedAt": "2026-11-13T20:32:15.702Z",
   "url": "http://www.gu.justice.gov.md/",
   "finalHost": "www.gu.justice.gov.md",
   "status": 301,
   "ok": false,
+  "stub": false,
   "error": "Error: page.goto: net::ERR_EMPTY_RESPONSE at http://www.gu.justice.gov.md/\nCall log:\n  - navigating to \"http://www.gu.justice.gov.md/\", waiting until \"domcontentloaded\"\n",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2679
+  "durationMs": 3393
 }

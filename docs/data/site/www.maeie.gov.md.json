@@ -1,0 +1,29 @@
+{
+  "host": "www.maeie.gov.md",
+  "auditedAt": "2026-11-13T20:31:33.836Z",
+  "url": "https://consecon.gov.md/",
+  "finalHost": "consecon.gov.md",
+  "status": 403,
+  "ok": false,
+  "stub": false,
+  "error": "http 403",
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3759
+}

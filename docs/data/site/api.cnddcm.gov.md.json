@@ -1,10 +1,11 @@
 {
   "host": "api.cnddcm.gov.md",
-  "auditedAt": "2026-11-13T20:15:53.645Z",
+  "auditedAt": "2026-11-13T20:30:06.209Z",
   "url": "https://api.cnddcm.gov.md/",
   "finalHost": "api.cnddcm.gov.md",
   "status": 404,
   "ok": false,
+  "stub": false,
   "error": "http 404",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 791
+  "durationMs": 676
 }

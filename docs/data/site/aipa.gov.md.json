@@ -1,10 +1,11 @@
 {
   "host": "aipa.gov.md",
-  "auditedAt": "2026-11-13T20:16:05.680Z",
+  "auditedAt": "2026-11-13T20:30:00.159Z",
   "url": "https://aipa.gov.md/",
   "finalHost": "aipa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -47,9 +48,9 @@
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
         "nodes": 18,
         "sample": [
-          "#penci_info_box_29434 > .penci-ibox-inner > .penci-iboxwrap-overlay",
-          "#penci_info_box_29434 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa-fix",
-          "#penci_info_box_29434 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa"
+          "#penci_info_box_27653 > .penci-ibox-inner > .penci-iboxwrap-overlay",
+          "#penci_info_box_27653 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa-fix",
+          "#penci_info_box_27653 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa"
         ]
       },
       {
@@ -97,8 +98,8 @@
     "imagesNoAlt": 0,
     "forms": 3,
     "requests": 126,
-    "transferBytes": 3090531,
-    "domContentLoaded": 5190,
+    "transferBytes": 3090533,
+    "domContentLoaded": 4475,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -126,5 +127,5 @@
     "mobile": 100,
     "overall": 65
   },
-  "durationMs": 15289
+  "durationMs": 13122
 }

@@ -1,10 +1,11 @@
 {
   "host": "border.gov.md",
-  "auditedAt": "2026-11-13T20:15:55.811Z",
+  "auditedAt": "2026-11-13T20:30:21.690Z",
   "url": "https://border.gov.md/",
   "finalHost": "border.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -97,8 +98,8 @@
     "imagesNoAlt": 0,
     "forms": 2,
     "requests": 59,
-    "transferBytes": 1518541,
-    "domContentLoaded": 1754,
+    "transferBytes": 1518544,
+    "domContentLoaded": 1880,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: the server responded with a status of 404 ()",
@@ -124,5 +125,5 @@
     "mobile": 100,
     "overall": 62
   },
-  "durationMs": 5899
+  "durationMs": 6516
 }

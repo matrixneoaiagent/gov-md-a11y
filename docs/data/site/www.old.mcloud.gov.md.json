@@ -1,10 +1,11 @@
 {
   "host": "www.old.mcloud.gov.md",
-  "auditedAt": "2026-11-13T20:20:26.989Z",
+  "auditedAt": "2026-11-13T20:30:58.915Z",
   "url": "https://www.old.mcloud.gov.md/",
   "finalHost": "www.old.mcloud.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -85,7 +86,7 @@
     "forms": 1,
     "requests": 48,
     "transferBytes": 500159,
-    "domContentLoaded": 1206,
+    "domContentLoaded": 1172,
     "mobileOverflowPx": 976,
     "consoleErrors": [
       "Mixed Content: The page at 'https://www.old.mcloud.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,",
@@ -108,5 +109,5 @@
     "mobile": 55,
     "overall": 60
   },
-  "durationMs": 4564
+  "durationMs": 4561
 }

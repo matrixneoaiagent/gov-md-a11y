@@ -1,10 +1,11 @@
 {
   "host": "www.etender.gov.md",
-  "auditedAt": "2026-11-13T20:17:19.167Z",
+  "auditedAt": "2026-11-13T20:32:05.498Z",
   "url": "http://www.etender.gov.md/",
   "finalHost": "www.etender.gov.md",
   "status": 301,
   "ok": false,
+  "stub": false,
   "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://www.etender.gov.md/\", waiting until \"domcontentloaded\"\n",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 47149
+  "durationMs": 47498
 }

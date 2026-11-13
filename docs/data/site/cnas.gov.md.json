@@ -1,0 +1,155 @@
+{
+  "host": "cnas.gov.md",
+  "auditedAt": "2026-11-13T20:31:10.419Z",
+  "url": "https://cnas.gov.md/",
+  "finalHost": "cnas.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 28 04:34:16 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".cloned.owl-item:nth-child(2) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr",
+          ".cloned.owl-item:nth-child(3) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".cloned.owl-item:nth-child(2) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr",
+          ".cloned.owl-item:nth-child(3) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 44,
+        "sample": [
+          ".social-icon > .icon:nth-child(1)",
+          ".icon:nth-child(2)",
+          ".icon:nth-child(3)"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".gbb-row-wrapper.section.row-first-level:nth-child(3) > .remove_padding.bb-inner > .bb-container.container > .row-wrappe",
+          ".active.owl-item:nth-child(4) > .item > div > .portfolio-v4 > .portfolio-content > .content-inner > .category > .field--",
+          ".center.active.owl-item > .item > div > .portfolio-v4 > .portfolio-content > .content-inner > .category > .field--name-f"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".accept-all",
+          ".reject-all",
+          ".preferences"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".cloned.owl-item:nth-child(2) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr",
+          ".cloned.owl-item:nth-child(3) > .item > div > div > .field--name-field-media-oembed-video.field--type-string.field > ifr"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 4,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "CNAS Acasă | CASA NAȚIONALĂ DE ASIGURĂRI SOCIALE",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 3,
+    "nodes": 1307,
+    "links": 186,
+    "badLinkText": 0,
+    "images": 26,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 162,
+    "transferBytes": 1316815,
+    "domContentLoaded": 1669,
+    "mobileOverflowPx": 15,
+    "consoleErrors": [
+      "Refused to apply style from 'https://cnas.gov.md/themes/custom/daudo_subtheme/css/skins/template.css?todv9w' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIM",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "many-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 26,
+    "security": 70,
+    "performance": 86,
+    "mobile": 55,
+    "overall": 47
+  },
+  "durationMs": 8993
+}

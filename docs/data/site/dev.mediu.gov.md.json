@@ -1,10 +1,11 @@
 {
   "host": "dev.mediu.gov.md",
-  "auditedAt": "2026-11-13T20:16:06.471Z",
+  "auditedAt": "2026-11-13T20:30:33.151Z",
   "url": "https://dev.mediu.gov.md/",
   "finalHost": "dev.mediu.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -130,7 +131,7 @@
     "forms": 2,
     "requests": 166,
     "transferBytes": 3903533,
-    "domContentLoaded": 1638,
+    "domContentLoaded": 1468,
     "mobileOverflowPx": 830,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -159,5 +160,5 @@
     "mobile": 55,
     "overall": 51
   },
-  "durationMs": 10672
+  "durationMs": 6196
 }

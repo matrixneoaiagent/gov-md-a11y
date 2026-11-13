@@ -1,10 +1,11 @@
 {
   "host": "compensatii.gov.md",
-  "auditedAt": "2026-11-13T20:16:36.209Z",
+  "auditedAt": "2026-11-13T20:30:26.580Z",
   "url": "https://compensatii.gov.md/ro/home",
   "finalHost": "compensatii.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -45,20 +46,17 @@
     "images": 9,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 72,
+    "requests": 71,
     "transferBytes": 1034337,
-    "domContentLoaded": 3673,
+    "domContentLoaded": 3915,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
-      "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep",
       "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
       "Failed to load resource: net::ERR_FAILED",
       "Failed to load resource: net::ERR_FAILED"
     ],
-    "failedRequests": [
-      "https://www.googletagmanager.com/a?v=3&t=l&pid=1664257222&rv=6bb1&tag_exp=115616986~115938465~115938469~118897920~118897 (net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep)"
-    ]
+    "failedRequests": []
   },
   "flags": [],
   "scores": {
@@ -68,5 +66,5 @@
     "mobile": 100,
     "overall": 94
   },
-  "durationMs": 7331
+  "durationMs": 7222
 }

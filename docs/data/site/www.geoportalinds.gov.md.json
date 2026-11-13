@@ -1,0 +1,88 @@
+{
+  "host": "www.geoportalinds.gov.md",
+  "auditedAt": "2026-11-13T20:30:46.917Z",
+  "url": "https://geoportalinds.gov.md/ro/landing-page-ro/",
+  "finalHost": "geoportalinds.gov.md",
+  "status": 200,
+  "ok": true,
+  "stub": false,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 30 07:31:33 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": "upgrade-insecure-requests",
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 21,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".elementor-icon-wrapper > .elementor-icon"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "Pagina de start Geoportal INDS - NSDI Geoportal",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 478,
+    "links": 13,
+    "badLinkText": 0,
+    "images": 3,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 99,
+    "transferBytes": 676469,
+    "domContentLoaded": 1723,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 94,
+    "security": 75,
+    "performance": 97,
+    "mobile": 100,
+    "overall": 90
+  },
+  "durationMs": 5644
+}

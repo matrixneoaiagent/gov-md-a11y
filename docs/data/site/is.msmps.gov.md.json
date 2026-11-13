@@ -1,10 +1,11 @@
 {
   "host": "is.msmps.gov.md",
-  "auditedAt": "2026-11-13T20:16:43.226Z",
+  "auditedAt": "2026-11-13T20:30:40.018Z",
   "url": "https://iss.gov.md/",
   "finalHost": "iss.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -85,7 +86,7 @@
     "forms": 0,
     "requests": 71,
     "transferBytes": 1287626,
-    "domContentLoaded": 2324,
+    "domContentLoaded": 2130,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
@@ -111,5 +112,5 @@
     "mobile": 100,
     "overall": 70
   },
-  "durationMs": 7010
+  "durationMs": 6898
 }

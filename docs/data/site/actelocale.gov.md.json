@@ -1,10 +1,11 @@
 {
   "host": "actelocale.gov.md",
-  "auditedAt": "2026-11-13T20:15:45.860Z",
+  "auditedAt": "2026-11-13T20:30:04.862Z",
   "url": "https://actelocale.gov.md/",
   "finalHost": "actelocale.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "http 403",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 2882
+  "durationMs": 7414
 }

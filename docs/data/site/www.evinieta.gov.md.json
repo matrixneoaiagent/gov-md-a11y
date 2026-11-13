@@ -1,10 +1,11 @@
 {
   "host": "www.evinieta.gov.md",
-  "auditedAt": "2026-11-13T20:18:30.077Z",
+  "auditedAt": "2026-11-13T20:30:34.877Z",
   "url": "https://www.evinieta.gov.md/#step-1",
   "finalHost": "www.evinieta.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -73,8 +74,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 40,
-    "transferBytes": 1431740,
-    "domContentLoaded": 7717,
+    "transferBytes": 1431736,
+    "domContentLoaded": 7535,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -93,5 +94,5 @@
     "mobile": 100,
     "overall": 67
   },
-  "durationMs": 12722
+  "durationMs": 12196
 }

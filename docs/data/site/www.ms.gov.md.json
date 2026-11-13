@@ -1,10 +1,11 @@
 {
   "host": "www.ms.gov.md",
-  "auditedAt": "2026-11-13T20:21:17.149Z",
+  "auditedAt": "2026-11-13T20:31:33.036Z",
   "url": "https://www.ms.gov.md/",
   "finalHost": "www.ms.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -182,7 +183,7 @@
     "forms": 2,
     "requests": 90,
     "transferBytes": 18138,
-    "domContentLoaded": 3327,
+    "domContentLoaded": 2838,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -198,14 +199,14 @@
     ],
     "failedRequests": [
       "https://ms.gov.md/wp-includes/css/dist/block-library/style.min.css?ver=5.4.1 (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/styl (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/plugins/maxslider/assets/css/maxslider.css?ver=1.2.4 (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/plugins/maxslider/assets/vendor/slick/slick.css?ver=1.6.0 (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.10 (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/themes/ms/css/nav.css?ver=1 (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/themes/ms/css/all.css?ver=1 (net::ERR_FAILED)",
-      "https://ms.gov.md/wp-content/plugins/sassy-social-share/admin/css/sassy-social-share-svg.css?ver=3.3.10 (net::ERR_FAILED)",
       "https://ms.gov.md/wp-content/plugins/embed-any-document/css/embed-public.min.css?ver=2.7.1 (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.2 (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/styl (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-content/plugins/maxslider/assets/vendor/slick/slick.css?ver=1.6.0 (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-content/plugins/maxslider/assets/css/maxslider.css?ver=1.2.4 (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-content/themes/ms/css/all.css?ver=1 (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-content/themes/ms/css/nav.css?ver=1 (net::ERR_FAILED)",
+      "https://ms.gov.md/wp-includes/css/dashicons.min.css?ver=5.4.1 (net::ERR_FAILED)",
       "https://ms.gov.md/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.8 (net::ERR_FAILED)"
     ]
   },
@@ -221,5 +222,5 @@
     "mobile": 100,
     "overall": 27
   },
-  "durationMs": 8099
+  "durationMs": 7526
 }

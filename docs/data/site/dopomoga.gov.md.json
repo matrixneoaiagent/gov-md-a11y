@@ -1,10 +1,11 @@
 {
   "host": "dopomoga.gov.md",
-  "auditedAt": "2026-11-13T20:17:43.259Z",
+  "auditedAt": "2026-11-13T20:30:33.803Z",
   "url": "https://dopomoga.gov.md/",
   "finalHost": "dopomoga.gov.md",
   "status": 503,
   "ok": false,
+  "stub": false,
   "error": "http 503",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 561
+  "durationMs": 540
 }

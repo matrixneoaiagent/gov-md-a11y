@@ -1,10 +1,11 @@
 {
   "host": "www.siadr-mdrc.gov.md",
-  "auditedAt": "2026-11-13T20:19:35.510Z",
+  "auditedAt": "2026-11-13T20:32:36.568Z",
   "url": "https://www.siadr-mdrc.gov.md/",
   "finalHost": "www.siadr-mdrc.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66123
+  "durationMs": 66109
 }

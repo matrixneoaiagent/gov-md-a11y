@@ -1,10 +1,11 @@
 {
   "host": "arfc.gov.md",
-  "auditedAt": "2026-11-13T20:16:35.299Z",
+  "auditedAt": "2026-11-13T20:30:02.398Z",
   "url": "https://www.agcc.gov.md/",
   "finalHost": "www.agcc.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -83,7 +84,7 @@
     "forms": 1,
     "requests": 59,
     "transferBytes": 3396192,
-    "domContentLoaded": 1838,
+    "domContentLoaded": 1503,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Mixed Content: The page at 'https://www.agcc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700ita",
@@ -110,5 +111,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 7062
+  "durationMs": 7181
 }

@@ -1,10 +1,11 @@
 {
   "host": "ansa.gov.md",
-  "auditedAt": "2026-11-13T20:15:48.752Z",
+  "auditedAt": "2026-11-13T20:30:12.306Z",
   "url": "https://ansa.gov.md/",
   "finalHost": "ansa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -150,7 +151,7 @@
     "forms": 3,
     "requests": 100,
     "transferBytes": 5418353,
-    "domContentLoaded": 1535,
+    "domContentLoaded": 2001,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -176,5 +177,5 @@
     "mobile": 100,
     "overall": 53
   },
-  "durationMs": 5410
+  "durationMs": 6819
 }

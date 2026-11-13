@@ -1,10 +1,11 @@
 {
   "host": "iplatforms.gov.md",
-  "auditedAt": "2026-11-13T20:20:31.644Z",
+  "auditedAt": "2026-11-13T20:30:26.829Z",
   "url": "https://invest.gov.md/en/why-invest/",
   "finalHost": "invest.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -58,8 +59,8 @@
     "imagesNoAlt": 0,
     "forms": 1,
     "requests": 57,
-    "transferBytes": 1437301,
-    "domContentLoaded": 2336,
+    "transferBytes": 1437299,
+    "domContentLoaded": 2577,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -78,5 +79,5 @@
     "mobile": 100,
     "overall": 87
   },
-  "durationMs": 7605
+  "durationMs": 8047
 }

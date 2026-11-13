@@ -1,10 +1,11 @@
 {
   "host": "www.ondrl.gov.md",
-  "auditedAt": "2026-11-13T20:22:03.495Z",
+  "auditedAt": "2026-11-13T20:31:23.431Z",
   "url": "https://ondrl.gov.md/",
   "finalHost": "www.ondrl.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -75,8 +76,8 @@
     "imagesNoAlt": 0,
     "forms": 3,
     "requests": 115,
-    "transferBytes": 1810032,
-    "domContentLoaded": 4794,
+    "transferBytes": 1810031,
+    "domContentLoaded": 4710,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -102,5 +103,5 @@
     "mobile": 100,
     "overall": 56
   },
-  "durationMs": 9234
+  "durationMs": 9360
 }

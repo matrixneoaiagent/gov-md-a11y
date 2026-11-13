@@ -1,10 +1,11 @@
 {
   "host": "www.devecazier.gov.md",
-  "auditedAt": "2026-11-13T20:18:05.640Z",
+  "auditedAt": "2026-11-13T20:30:39.350Z",
   "url": "https://www.devecazier.gov.md/",
   "finalHost": "www.devecazier.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66109
+  "durationMs": 66092
 }

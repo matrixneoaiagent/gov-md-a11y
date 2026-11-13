@@ -1,10 +1,11 @@
 {
   "host": "www.statistica.gov.md",
-  "auditedAt": "2026-11-13T20:20:31.553Z",
+  "auditedAt": "2026-11-13T20:31:03.478Z",
   "url": "https://statistica.gov.md/ro",
   "finalHost": "statistica.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -99,8 +100,8 @@
     "imagesNoAlt": 90,
     "forms": 1,
     "requests": 151,
-    "transferBytes": 4455270,
-    "domContentLoaded": 7083,
+    "transferBytes": 4455274,
+    "domContentLoaded": 6744,
     "mobileOverflowPx": 14,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -126,5 +127,5 @@
     "mobile": 55,
     "overall": 45
   },
-  "durationMs": 15374
+  "durationMs": 15001
 }

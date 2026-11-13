@@ -1,10 +1,11 @@
 {
   "host": "ccp.anta.gov.md",
-  "auditedAt": "2026-11-13T20:16:32.197Z",
+  "auditedAt": "2026-11-13T20:30:49.191Z",
   "url": "https://ccp.anta.gov.md/",
   "finalHost": "ccp.anta.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -59,7 +60,7 @@
     "forms": 1,
     "requests": 26,
     "transferBytes": 213659,
-    "domContentLoaded": 1355,
+    "domContentLoaded": 1435,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -78,5 +79,5 @@
     "mobile": 100,
     "overall": 87
   },
-  "durationMs": 4950
+  "durationMs": 5542
 }

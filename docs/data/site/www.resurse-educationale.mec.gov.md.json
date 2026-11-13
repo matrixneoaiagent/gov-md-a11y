@@ -1,10 +1,11 @@
 {
   "host": "www.resurse-educationale.mec.gov.md",
-  "auditedAt": "2026-11-13T20:21:25.248Z",
+  "auditedAt": "2026-11-13T20:31:40.562Z",
   "url": "https://resurse-educationale.mec.gov.md/login",
   "finalHost": "www.resurse-educationale.mec.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -38,7 +39,7 @@
     "forms": 0,
     "requests": 10,
     "transferBytes": 2634029,
-    "domContentLoaded": 419,
+    "domContentLoaded": 401,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -61,5 +62,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 7535
+  "durationMs": 7329
 }

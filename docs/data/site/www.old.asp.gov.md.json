@@ -1,10 +1,11 @@
 {
   "host": "www.old.asp.gov.md",
-  "auditedAt": "2026-11-13T20:18:49.780Z",
+  "auditedAt": "2026-11-13T20:31:50.781Z",
   "url": "https://www.old.asp.gov.md/",
   "finalHost": "www.old.asp.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.old.asp.gov.md/\", waiting until \"domcontentloaded\"\n",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 45729
+  "durationMs": 45786
 }

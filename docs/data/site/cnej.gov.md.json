@@ -1,10 +1,11 @@
 {
   "host": "cnej.gov.md",
-  "auditedAt": "2026-11-13T20:16:00.445Z",
+  "auditedAt": "2026-11-13T20:30:13.761Z",
   "url": "https://cnej.gov.md/",
   "finalHost": "cnej.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -23,7 +24,7 @@
   "redirects": 0,
   "axe": {
     "version": "4.14.0",
-    "passes": 24,
+    "passes": 18,
     "incomplete": 1,
     "violations": [
       {
@@ -83,9 +84,9 @@
     "images": 28,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 151,
+    "requests": 152,
     "transferBytes": 2488837,
-    "domContentLoaded": 1312,
+    "domContentLoaded": 1667,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -109,5 +110,5 @@
     "mobile": 100,
     "overall": 66
   },
-  "durationMs": 5131
+  "durationMs": 5480
 }

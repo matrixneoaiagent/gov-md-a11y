@@ -1,10 +1,11 @@
 {
   "host": "apostila.gov.md",
-  "auditedAt": "2026-11-13T20:15:58.203Z",
+  "auditedAt": "2026-11-13T20:29:53.955Z",
   "url": "https://apostila.gov.md/",
   "finalHost": "apostila.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -111,7 +112,7 @@
     "forms": 0,
     "requests": 18,
     "transferBytes": 215761,
-    "domContentLoaded": 2291,
+    "domContentLoaded": 2395,
     "mobileOverflowPx": 321,
     "consoleErrors": [],
     "failedRequests": []
@@ -130,5 +131,5 @@
     "mobile": 55,
     "overall": 39
   },
-  "durationMs": 9263
+  "durationMs": 7844
 }

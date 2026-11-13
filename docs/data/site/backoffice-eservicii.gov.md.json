@@ -1,10 +1,11 @@
 {
   "host": "backoffice-eservicii.gov.md",
-  "auditedAt": "2026-11-13T20:16:00.721Z",
+  "auditedAt": "2026-11-13T20:30:19.140Z",
   "url": "https://backoffice-eservicii.gov.md/",
   "finalHost": "backoffice-eservicii.gov.md",
   "status": 404,
   "ok": false,
+  "stub": false,
   "error": "http 404",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 806
+  "durationMs": 803
 }

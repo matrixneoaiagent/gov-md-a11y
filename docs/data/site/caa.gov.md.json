@@ -1,10 +1,11 @@
 {
   "host": "caa.gov.md",
-  "auditedAt": "2026-11-13T20:16:26.980Z",
+  "auditedAt": "2026-11-13T20:30:18.617Z",
   "url": "https://caa.md/",
   "finalHost": "caa.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -84,9 +85,9 @@
     "images": 39,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 69,
-    "transferBytes": 2888229,
-    "domContentLoaded": 3994,
+    "requests": 68,
+    "transferBytes": 2888437,
+    "domContentLoaded": 3058,
     "mobileOverflowPx": 3,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -112,5 +113,5 @@
     "mobile": 100,
     "overall": 71
   },
-  "durationMs": 9228
+  "durationMs": 7963
 }

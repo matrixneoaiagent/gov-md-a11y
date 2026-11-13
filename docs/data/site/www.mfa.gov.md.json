@@ -1,10 +1,11 @@
 {
   "host": "www.mfa.gov.md",
-  "auditedAt": "2026-11-13T20:19:39.035Z",
+  "auditedAt": "2026-11-13T20:30:28.764Z",
   "url": "https://www.mfa.gov.md/",
   "finalHost": "www.mfa.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -23,7 +24,7 @@
   "redirects": 0,
   "axe": {
     "version": "4.14.0",
-    "passes": 18,
+    "passes": 20,
     "incomplete": 2,
     "violations": [
       {
@@ -105,9 +106,9 @@
     "images": 25,
     "imagesNoAlt": 9,
     "forms": 1,
-    "requests": 66,
-    "transferBytes": 28319428,
-    "domContentLoaded": 2827,
+    "requests": 68,
+    "transferBytes": 28491768,
+    "domContentLoaded": 2061,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -131,5 +132,5 @@
     "mobile": 100,
     "overall": 55
   },
-  "durationMs": 7307
+  "durationMs": 6522
 }

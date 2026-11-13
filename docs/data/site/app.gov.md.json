@@ -1,10 +1,11 @@
 {
   "host": "app.gov.md",
-  "auditedAt": "2026-11-13T20:16:16.093Z",
+  "auditedAt": "2026-11-13T20:30:04.340Z",
   "url": "https://app.gov.md/",
   "finalHost": "app.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -86,7 +87,7 @@
     "forms": 1,
     "requests": 65,
     "transferBytes": 2844557,
-    "domContentLoaded": 3441,
+    "domContentLoaded": 2809,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -104,5 +105,5 @@
     "mobile": 100,
     "overall": 65
   },
-  "durationMs": 8693
+  "durationMs": 8024
 }

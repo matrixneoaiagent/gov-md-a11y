@@ -1,10 +1,11 @@
 {
   "host": "app.transplant.gov.md",
-  "auditedAt": "2026-11-13T20:16:20.971Z",
+  "auditedAt": "2026-11-13T20:30:13.281Z",
   "url": "https://app.transplant.gov.md/Account/Login?ReturnUrl=%2f",
   "finalHost": "app.transplant.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -115,7 +116,7 @@
     "forms": 1,
     "requests": 23,
     "transferBytes": 349231,
-    "domContentLoaded": 1489,
+    "domContentLoaded": 1220,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Refused to apply style from 'https://app.transplant.gov.md/styles/' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
@@ -135,5 +136,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 6009
+  "durationMs": 5336
 }

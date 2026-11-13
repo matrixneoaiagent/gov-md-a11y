@@ -1,10 +1,11 @@
 {
   "host": "www.mmuncii.gov.md",
-  "auditedAt": "2026-11-13T20:19:15.210Z",
+  "auditedAt": "2026-11-13T20:31:27.725Z",
   "url": "https://ms.gov.md/",
   "finalHost": "www.mmuncii.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": false,
@@ -174,15 +175,15 @@
     "hasViewport": true,
     "hasDescription": true,
     "h1": 0,
-    "nodes": 1346,
+    "nodes": 1350,
     "links": 320,
     "badLinkText": 0,
     "images": 59,
     "imagesNoAlt": 19,
     "forms": 2,
-    "requests": 85,
+    "requests": 87,
     "transferBytes": 1563211,
-    "domContentLoaded": 3156,
+    "domContentLoaded": 2859,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -209,5 +210,5 @@
     "mobile": 100,
     "overall": 27
   },
-  "durationMs": 7523
+  "durationMs": 7374
 }

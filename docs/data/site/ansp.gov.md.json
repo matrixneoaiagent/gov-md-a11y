@@ -1,10 +1,11 @@
 {
   "host": "ansp.gov.md",
-  "auditedAt": "2026-11-13T20:15:54.094Z",
+  "auditedAt": "2026-11-13T20:30:04.369Z",
   "url": "https://ansp.gov.md/",
   "finalHost": "ansp.gov.md",
   "status": 403,
   "ok": false,
+  "stub": false,
   "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://ansp.gov.md/\", waiting until \"domcontentloaded\"\n",
   "tls": {
     "ok": true,
@@ -25,5 +26,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 45908
+  "durationMs": 45839
 }

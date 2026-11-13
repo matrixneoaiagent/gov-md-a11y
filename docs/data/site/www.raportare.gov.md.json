@@ -1,10 +1,11 @@
 {
   "host": "www.raportare.gov.md",
-  "auditedAt": "2026-11-13T20:20:18.434Z",
+  "auditedAt": "2026-11-13T20:31:43.341Z",
   "url": "https://www.raportare.gov.md/",
   "finalHost": "www.raportare.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: ECONNRESET",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 1492
+  "durationMs": 1085
 }

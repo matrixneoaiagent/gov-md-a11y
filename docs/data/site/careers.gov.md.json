@@ -1,10 +1,11 @@
 {
   "host": "careers.gov.md",
-  "auditedAt": "2026-11-13T20:16:03.310Z",
+  "auditedAt": "2026-11-13T20:30:37.372Z",
   "url": "https://cariere.gov.md/ro",
   "finalHost": "cariere.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -72,9 +73,9 @@
     "images": 6,
     "imagesNoAlt": 0,
     "forms": 0,
-    "requests": 60,
-    "transferBytes": 946376,
-    "domContentLoaded": 2575,
+    "requests": 59,
+    "transferBytes": 946374,
+    "domContentLoaded": 2483,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -100,5 +101,5 @@
     "mobile": 100,
     "overall": 70
   },
-  "durationMs": 7910
+  "durationMs": 7630
 }

@@ -1,10 +1,11 @@
 {
   "host": "consumator.gov.md",
-  "auditedAt": "2026-11-13T20:16:11.221Z",
+  "auditedAt": "2026-11-13T20:30:45.002Z",
   "url": "https://consumator.gov.md/ro",
   "finalHost": "consumator.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -64,15 +65,15 @@
     "hasViewport": true,
     "hasDescription": false,
     "h1": 0,
-    "nodes": 969,
+    "nodes": 968,
     "links": 185,
     "badLinkText": 0,
     "images": 29,
     "imagesNoAlt": 0,
     "forms": 1,
-    "requests": 63,
-    "transferBytes": 2639135,
-    "domContentLoaded": 1994,
+    "requests": 57,
+    "transferBytes": 2617178,
+    "domContentLoaded": 2378,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -87,7 +88,7 @@
       "Failed to load resource: net::ERR_FAILED"
     ],
     "failedRequests": [
-      "https://va.tawk.to/v1/session/start (net::ERR_FAILED)"
+      "https://embed.tawk.to/680a1dc9f9c7d719108b75a9/1ipjo8n4b (net::ERR_FAILED)"
     ]
   },
   "flags": [
@@ -100,5 +101,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 6610
+  "durationMs": 6475
 }

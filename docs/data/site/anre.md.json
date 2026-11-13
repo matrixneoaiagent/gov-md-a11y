@@ -1,10 +1,11 @@
 {
   "host": "anre.md",
-  "auditedAt": "2026-11-13T20:15:53.986Z",
+  "auditedAt": "2026-11-13T20:30:11.325Z",
   "url": "https://anre.md/",
   "finalHost": "anre.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -32,7 +33,7 @@
         "help": "Elements must meet minimum color contrast ratio thresholds",
         "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
         "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
-        "nodes": 10,
+        "nodes": 19,
         "sample": [
           ".a-infoline__num",
           ".a-promo__item--featured > .a-promo__body > .a-promo__desc",
@@ -71,8 +72,8 @@
     "imagesNoAlt": 0,
     "forms": 2,
     "requests": 39,
-    "transferBytes": 2741512,
-    "domContentLoaded": 1629,
+    "transferBytes": 2741511,
+    "domContentLoaded": 2517,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -92,11 +93,11 @@
     "no-h1"
   ],
   "scores": {
-    "a11y": 73,
+    "a11y": 69,
     "security": 60,
     "performance": 96,
     "mobile": 100,
-    "overall": 76
+    "overall": 74
   },
-  "durationMs": 6735
+  "durationMs": 7814
 }

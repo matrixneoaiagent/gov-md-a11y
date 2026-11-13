@@ -1,10 +1,11 @@
 {
   "host": "arme.igp.gov.md",
-  "auditedAt": "2026-11-13T20:16:31.835Z",
+  "auditedAt": "2026-11-13T20:30:24.356Z",
   "url": "https://arme.igp.gov.md/",
   "finalHost": "arme.igp.gov.md",
   "status": null,
   "ok": false,
+  "stub": false,
   "error": "probe: UND_ERR_CONNECT_TIMEOUT",
   "tls": {
     "ok": false,
@@ -16,5 +17,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 66075
+  "durationMs": 66110
 }

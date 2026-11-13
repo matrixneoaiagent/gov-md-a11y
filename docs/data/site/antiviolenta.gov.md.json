@@ -1,10 +1,11 @@
 {
   "host": "antiviolenta.gov.md",
-  "auditedAt": "2026-11-13T20:15:50.018Z",
+  "auditedAt": "2026-11-13T20:30:14.818Z",
   "url": "https://antiviolenta.gov.md/",
   "finalHost": "antiviolenta.gov.md",
   "status": 200,
   "ok": true,
+  "stub": false,
   "error": null,
   "tls": {
     "ok": true,
@@ -119,8 +120,8 @@
     "imagesNoAlt": 0,
     "forms": 2,
     "requests": 37,
-    "transferBytes": 2108421,
-    "domContentLoaded": 1956,
+    "transferBytes": 2112380,
+    "domContentLoaded": 2220,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
@@ -133,8 +134,8 @@
     ],
     "failedRequests": [
       "https://http///antiviolenta.gov.md/wp-content/uploads/2021/07/logosite.png (net::ERR_NAME_NOT_RESOLVED)",
-      "https://weblucas.info/wp-content/plugins/icomply-cookie-notice/public/images/closer.png (net::ERR_BLOCKED_BY_ORB)",
-      "https://weblucas.info/wp-content/plugins/icomply-cookie-notice/public/images/cookie.png (net::ERR_BLOCKED_BY_ORB)"
+      "https://weblucas.info/wp-content/plugins/icomply-cookie-notice/public/images/cookie.png (net::ERR_BLOCKED_BY_ORB)",
+      "https://weblucas.info/wp-content/plugins/icomply-cookie-notice/public/images/closer.png (net::ERR_BLOCKED_BY_ORB)"
     ]
   },
   "flags": [
@@ -147,5 +148,5 @@
     "mobile": 100,
     "overall": 61
   },
-  "durationMs": 5792
+  "durationMs": 6870
 }
