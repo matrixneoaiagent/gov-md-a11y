@@ -1,0 +1,29 @@
+{
+  "host": "s.cloud.gov.md",
+  "auditedAt": "2026-11-13T20:17:07.696Z",
+  "url": "https://s.cloud.gov.md/",
+  "finalHost": "s.cloud.gov.md",
+  "status": 502,
+  "ok": false,
+  "error": "http 502",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Apr 24 13:25:12 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": "max-age=31536000",
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3940
+}

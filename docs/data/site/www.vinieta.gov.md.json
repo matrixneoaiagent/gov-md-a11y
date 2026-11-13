@@ -1,0 +1,97 @@
+{
+  "host": "www.vinieta.gov.md",
+  "auditedAt": "2026-11-13T20:22:12.733Z",
+  "url": "https://www.vinieta.gov.md/#step-1",
+  "finalHost": "www.vinieta.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  6 10:28:11 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "#vehicleDescription",
+          "#\\32 ",
+          "#\\33 "
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "b:nth-child(1)",
+          "b:nth-child(3)",
+          ".sw-btn-prev"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Cumpără vinieta - e-Vinieta",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 982,
+    "links": 23,
+    "badLinkText": 0,
+    "images": 16,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 40,
+    "transferBytes": 1431738,
+    "domContentLoaded": 9556,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 52,
+    "security": 65,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 67
+  },
+  "durationMs": 13669
+}

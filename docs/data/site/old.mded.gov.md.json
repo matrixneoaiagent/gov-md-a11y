@@ -1,0 +1,121 @@
+{
+  "host": "old.mded.gov.md",
+  "auditedAt": "2026-11-13T20:19:25.291Z",
+  "url": "https://old.mded.gov.md/",
+  "finalHost": "old.mded.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  9 22:52:55 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".pane-block-28 > .pane-content > p > a > img",
+          "a[href$=\"anunturi\"] > img",
+          ".pane-block-30 > .pane-content > p > a > img"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 24,
+        "sample": [
+          ".facebook",
+          ".twitter",
+          ".youtube"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".menu-mlid-9032 > a",
+          "a[href$=\"www.thegef.org\"]",
+          "a[href$=\"www.servicii.gov.md\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Ministerul Dezvoltării Economice și Digitalizării | Guvernul Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 739,
+    "links": 162,
+    "badLinkText": 0,
+    "images": 28,
+    "imagesNoAlt": 3,
+    "forms": 1,
+    "requests": 152,
+    "transferBytes": 1631530,
+    "domContentLoaded": 1771,
+    "mobileOverflowPx": 27,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 42,
+    "security": 65,
+    "performance": 88,
+    "mobile": 55,
+    "overall": 54
+  },
+  "durationMs": 5889
+}

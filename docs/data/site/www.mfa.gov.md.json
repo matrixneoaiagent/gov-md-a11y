@@ -1,0 +1,135 @@
+{
+  "host": "www.mfa.gov.md",
+  "auditedAt": "2026-11-13T20:19:39.035Z",
+  "url": "https://www.mfa.gov.md/",
+  "finalHost": "www.mfa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Nov 26 12:57:56 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=31536000;includeSubDomains, max-age=63072000",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 18,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "img[height=\"77\"]",
+          ".pane-content > .ban-sep:nth-child(2) > a[target=\"_blank\"] > img",
+          ".ban-sep:nth-child(3) > a[target=\"_blank\"] > img"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 20,
+        "sample": [
+          ".ban-sep:nth-child(1) > a[href$=\"centrul-de-apel\"]",
+          ".pane-content > .ban-sep:nth-child(2) > a[target=\"_blank\"]",
+          ".ban-sep:nth-child(3) > a[target=\"_blank\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".btn"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Ministerul Afacerilor Externe al Republicii Moldova | Guvernul Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 1047,
+    "links": 350,
+    "badLinkText": 0,
+    "images": 25,
+    "imagesNoAlt": 9,
+    "forms": 1,
+    "requests": 66,
+    "transferBytes": 28319428,
+    "domContentLoaded": 2827,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 429 ()",
+      "Failed to load resource: the server responded with a status of 400 ()",
+      "Refused to display 'https://www.facebook.com/' in a frame because it set 'X-Frame-Options' to 'deny'."
+    ],
+    "failedRequests": [
+      "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fv19.0%2Fplugins%2Fpage.php%3Fadapt_container_width (net::ERR_BLOCKED_BY_RESPONSE)"
+    ]
+  },
+  "flags": [
+    "no-lang"
+  ],
+  "scores": {
+    "a11y": 39,
+    "security": 80,
+    "performance": 0,
+    "mobile": 100,
+    "overall": 55
+  },
+  "durationMs": 7307
+}

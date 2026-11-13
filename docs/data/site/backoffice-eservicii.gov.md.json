@@ -1,0 +1,29 @@
+{
+  "host": "backoffice-eservicii.gov.md",
+  "auditedAt": "2026-11-13T20:16:00.721Z",
+  "url": "https://backoffice-eservicii.gov.md/",
+  "finalHost": "backoffice-eservicii.gov.md",
+  "status": 404,
+  "ok": false,
+  "error": "http 404",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": "max-age=31536000",
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 806
+}

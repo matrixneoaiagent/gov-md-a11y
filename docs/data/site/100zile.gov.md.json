@@ -1,11 +1,11 @@
 {
   "host": "100zile.gov.md",
-  "auditedAt": "2026-11-13T20:11:33.639Z",
-  "url": "https://100zile.gov.md/",
+  "auditedAt": "2026-11-13T20:15:47.407Z",
+  "url": "http://100zile.gov.md/",
   "finalHost": "100zile.gov.md",
-  "status": 503,
+  "status": 301,
   "ok": false,
-  "error": "http 503",
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"http://100zile.gov.md/\", waiting until \"domcontentloaded\"\n",
   "tls": {
     "ok": false,
     "error": "CERT_HAS_EXPIRED"
@@ -16,5 +16,5 @@
   "meta": null,
   "flags": [],
   "scores": null,
-  "durationMs": 23069
+  "durationMs": 46634
 }

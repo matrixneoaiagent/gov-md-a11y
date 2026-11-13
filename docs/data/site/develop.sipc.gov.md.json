@@ -1,0 +1,29 @@
+{
+  "host": "develop.sipc.gov.md",
+  "auditedAt": "2026-11-13T20:16:22.250Z",
+  "url": "https://develop.sipc.gov.md/",
+  "finalHost": "develop.sipc.gov.md",
+  "status": 502,
+  "ok": false,
+  "error": "http 502",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  1 04:23:44 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3936
+}

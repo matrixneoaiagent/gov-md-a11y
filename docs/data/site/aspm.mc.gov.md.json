@@ -1,0 +1,109 @@
+{
+  "host": "aspm.mc.gov.md",
+  "auditedAt": "2026-11-13T20:16:27.265Z",
+  "url": "https://aspm.mc.gov.md/",
+  "finalHost": "aspm.mc.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 14 09:32:45 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 19,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 16,
+        "sample": [
+          ".views-row-1.views-row-first.views-row-odd > .views-field-field-event-dates.views-field > .field-content > a",
+          ".views-row-2.views-row-last.views-row-even > .views-field-field-event-dates.views-field > .field-content > a",
+          ".menu-block-2 > .menu > .menu-mlid-700.first.item-menu-footer-links > a"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          ".views-row-1.views-row-first.views-row-odd > .views-field-field-cover-image > .field-content > a",
+          ".views-row-2.views-row-last.views-row-even > .views-field-field-cover-image > .field-content > a",
+          ".view-agenda-listing > .view-content > .unformatted-list > .views-row-1.views-row-first.views-row-odd > .views-field-bod"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Agenţia de Stat pentru Protecţia Moralităţii | GUVERNUL REPUBLICII MOLDOVA",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 503,
+    "links": 89,
+    "badLinkText": 6,
+    "images": 17,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 50,
+    "transferBytes": 805517,
+    "domContentLoaded": 1189,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "vague-link-text"
+  ],
+  "scores": {
+    "a11y": 57,
+    "security": 70,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 71
+  },
+  "durationMs": 4931
+}

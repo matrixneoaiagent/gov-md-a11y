@@ -1,0 +1,139 @@
+{
+  "host": "app.transplant.gov.md",
+  "auditedAt": "2026-11-13T20:16:20.971Z",
+  "url": "https://app.transplant.gov.md/Account/Login?ReturnUrl=%2f",
+  "finalHost": "app.transplant.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 24 06:04:26 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=31536000",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "referrer-policy": "no-referrer-when-downgrade",
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 4,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#Login",
+          "#Password"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#doLoginButton > div"
+        ]
+      },
+      {
+        "id": "document-title",
+        "impact": "serious",
+        "help": "Documents must have <title> element to aid in navigation",
+        "description": "Ensure each HTML document contains a non-empty <title> element",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/document-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".login-logo"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 4,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 61,
+    "links": 3,
+    "badLinkText": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 23,
+    "transferBytes": 349231,
+    "domContentLoaded": 1489,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Refused to apply style from 'https://app.transplant.gov.md/styles/' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.",
+      "Failed to load resource: the server responded with a status of 403 ()"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-title",
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 60,
+    "security": 85,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 76
+  },
+  "durationMs": 6009
+}

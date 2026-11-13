@@ -1,0 +1,110 @@
+{
+  "host": "ipm.gov.md",
+  "auditedAt": "2026-11-13T20:18:04.459Z",
+  "url": "https://ipm.gov.md/",
+  "finalHost": "ipm.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 16 04:35:45 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "button[type=\"submit\"]"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".swiper-pagination-bullet-active",
+          "span[aria-label=\"Go to slide 2\"]",
+          "span[aria-label=\"Go to slide 3\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".main-header-top > .main-header-socials > ul > li > a[target=\"_blank\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Inspectoratul pentru protecţia mediului",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 1285,
+    "links": 403,
+    "badLinkText": 0,
+    "images": 40,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 51,
+    "transferBytes": 2610156,
+    "domContentLoaded": 1410,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 68,
+    "security": 60,
+    "performance": 97,
+    "mobile": 100,
+    "overall": 74
+  },
+  "durationMs": 4935
+}

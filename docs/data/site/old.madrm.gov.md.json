@@ -1,0 +1,175 @@
+{
+  "host": "old.madrm.gov.md",
+  "auditedAt": "2026-11-13T20:17:33.351Z",
+  "url": "https://old.madrm.gov.md/",
+  "finalHost": "old.madrm.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  3 13:35:38 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": "interest-cohort=()"
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 36,
+    "incomplete": 4,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 6,
+        "sample": [
+          "img[width=\"11\"][height=\"10\"][align=\"baseline\"]:nth-child(1)",
+          "img[width=\"11\"][height=\"10\"][align=\"baseline\"]:nth-child(3)",
+          "img[width=\"11\"][height=\"10\"][align=\"baseline\"]:nth-child(5)"
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".media-youtube-1 > .media-youtube-player[frameborder=\"0\"][allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".media-youtube-1 > .media-youtube-player[frameborder=\"0\"][allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 37,
+        "sample": [
+          "#views_slideshow_cycle_div_nodequeue_3-panel_pane_2_1_0 > .views-row-first.views-slideshow-cycle-main-frame-row-item.vie",
+          "#views_slideshow_cycle_div_nodequeue_3-panel_pane_3_1_0 > .views-row-first.views-slideshow-cycle-main-frame-row-item.vie",
+          "#views_slideshow_cycle_div_nodequeue_3-panel_pane_4_1_0 > .views-row-first.views-slideshow-cycle-main-frame-row-item.vie"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "#views_slideshow_pager_field_item_bottom_media_gallery-panel_pane_2_1_0 > .views-field-counter > .views-content-counter ",
+          "#views_slideshow_pager_field_item_bottom_media_gallery-panel_pane_2_1_1 > .views-field-counter > .views-content-counter ",
+          "#views_slideshow_pager_field_item_bottom_media_gallery-panel_pane_2_1_2 > .views-field-counter > .views-content-counter "
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "a[href=\"/en\"]",
+          "a[href=\"/ru\"]"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".media-youtube-1 > .media-youtube-player[frameborder=\"0\"][allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 3,
+      "serious": 4,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Ministerul Agriculturii, Dezvoltării Regionale și Mediului | Guvernul Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 1610,
+    "links": 350,
+    "badLinkText": 0,
+    "images": 99,
+    "imagesNoAlt": 6,
+    "forms": 2,
+    "requests": 197,
+    "transferBytes": 1400883,
+    "domContentLoaded": 1346,
+    "mobileOverflowPx": 10,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://code.jivosite.com/css/7c17ad9/widget.css (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 22,
+    "security": 70,
+    "performance": 79,
+    "mobile": 55,
+    "overall": 45
+  },
+  "durationMs": 6193
+}

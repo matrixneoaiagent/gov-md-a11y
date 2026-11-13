@@ -1,0 +1,29 @@
+{
+  "host": "old.arfc.gov.md",
+  "auditedAt": "2026-11-13T20:16:34.662Z",
+  "url": "https://old.arfc.gov.md/",
+  "finalHost": "old.arfc.gov.md",
+  "status": 401,
+  "ok": false,
+  "error": "http 401",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 30 12:49:39 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 633
+}

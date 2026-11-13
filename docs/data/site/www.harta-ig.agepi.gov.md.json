@@ -1,0 +1,20 @@
+{
+  "host": "www.harta-ig.agepi.gov.md",
+  "auditedAt": "2026-11-13T20:19:11.750Z",
+  "url": "https://www.harta-ig.agepi.gov.md/",
+  "finalHost": "www.harta-ig.agepi.gov.md",
+  "status": 404,
+  "ok": false,
+  "error": "http 404",
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3732
+}

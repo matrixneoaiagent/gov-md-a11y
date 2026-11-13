@@ -1,0 +1,180 @@
+{
+  "host": "www.social.gov.md",
+  "auditedAt": "2026-11-13T20:17:04.106Z",
+  "url": "https://www.social.gov.md/",
+  "finalHost": "www.social.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 12,
+        "sample": [
+          ".slick-current[data-slick-index=\"0\"][aria-describedby=\"slick-slide00\"] > a[href=\"\"] > img",
+          "div[aria-describedby=\"slick-slide10\"] > .media__photo-img-overlay[href$=\"siguronline.md/\"] > .video_overlay.media__photo",
+          "div[aria-describedby=\"slick-slide11\"] > .media__photo-img-overlay[href$=\"telefonulcopilului.md/\"] > .video_overlay.media"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 26,
+        "sample": [
+          ".header__logo-link",
+          ".container > .header__social.ms-grayscale > .header__social-logo[target=\"_blank\"]:nth-child(1)",
+          ".container > .header__social.ms-grayscale > .header__social-logo[target=\"_blank\"]:nth-child(2)"
+        ]
+      },
+      {
+        "id": "aria-toggle-field-name",
+        "impact": "serious",
+        "help": "ARIA toggle fields must have an accessible name",
+        "description": "Ensure every ARIA toggle field has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-toggle-field-name?application=playwright",
+        "nodes": 12,
+        "sample": [
+          ".slick-current[data-slick-index=\"0\"][aria-describedby=\"slick-slide00\"]",
+          "div[aria-describedby=\"slick-slide10\"]",
+          "div[aria-describedby=\"slick-slide11\"]"
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "help": "Interactive controls must not be nested",
+        "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+        "nodes": 12,
+        "sample": [
+          ".slick-current[data-slick-index=\"0\"][aria-describedby=\"slick-slide00\"]",
+          "div[aria-describedby=\"slick-slide10\"]",
+          "div[aria-describedby=\"slick-slide11\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".container > .header__social.ms-grayscale > .dropdown > .dropbtn",
+          ".press__news-secondary-item:nth-child(1) > .press__news-secondary-desc > .press__news-secondary-desc-date.font_gray-to-b",
+          ".press__news-secondary-item:nth-child(2) > .press__news-secondary-desc > .press__news-secondary-desc-date.font_gray-to-b"
+        ]
+      },
+      {
+        "id": "aria-input-field-name",
+        "impact": "serious",
+        "help": "ARIA input fields must have an accessible name",
+        "description": "Ensure every ARIA input field has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-input-field-name?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".main_slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          ".banner_slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]",
+          ".gov_slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]"
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "help": "Frames must have an accessible name",
+        "description": "Ensure <iframe> and <frame> elements have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".facebook-widget-sidebar"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".banner_slider > .slick-next.slick-arrow[aria-label=\"Next\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 7,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "Ministerul Muncii și Protecţiei Sociale",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 599,
+    "links": 130,
+    "badLinkText": 0,
+    "images": 70,
+    "imagesNoAlt": 46,
+    "forms": 1,
+    "requests": 68,
+    "transferBytes": 19351,
+    "domContentLoaded": 3661,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fhref%3Dhttps%253A%252F%252Fww (net::ERR_BLOCKED_BY_RESPONSE)",
+      "https://social.gov.md/wp-includes/css/dist/block-library/style.min.css?ver=6.0.1 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/ (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/sassy-social-share/admin/css/sassy-social-share-svg.css?ver=3.3.10 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/themes/ms/css/all.css?ver=1 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.10 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/wpfront-scroll-top/css/wpfront-scroll-top.min.css?ver=2.0.2 (net::ERR_FAILED)",
+      "https://social.gov.md/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.8 (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "no-h1",
+    "tls-error",
+    "broken-requests"
+  ],
+  "scores": {
+    "a11y": 15,
+    "security": 0,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 33
+  },
+  "durationMs": 8422
+}

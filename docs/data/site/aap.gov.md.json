@@ -1,6 +1,6 @@
 {
   "host": "aap.gov.md",
-  "auditedAt": "2026-11-13T20:12:02.478Z",
+  "auditedAt": "2026-11-13T20:15:46.497Z",
   "url": "https://inamp.gov.md/",
   "finalHost": "inamp.gov.md",
   "status": 200,
@@ -72,7 +72,7 @@
     "forms": 1,
     "requests": 61,
     "transferBytes": 1758567,
-    "domContentLoaded": 1372,
+    "domContentLoaded": 1590,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -97,5 +97,5 @@
     "mobile": 100,
     "overall": 77
   },
-  "durationMs": 6435
+  "durationMs": 7488
 }

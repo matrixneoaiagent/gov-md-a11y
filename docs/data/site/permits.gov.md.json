@@ -1,0 +1,81 @@
+{
+  "host": "permits.gov.md",
+  "auditedAt": "2026-11-13T20:16:54.329Z",
+  "url": "https://permits.gov.md/",
+  "finalHost": "permits.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 11 07:07:03 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=31536000; includeSubdomains, max-age=0; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 10,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "e-Permis (Back Office)",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 55,
+    "links": 4,
+    "badLinkText": 0,
+    "images": 1,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 23,
+    "transferBytes": 502187,
+    "domContentLoaded": 1841,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 400 ()"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport"
+  ],
+  "scores": {
+    "a11y": 94,
+    "security": 85,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 93
+  },
+  "durationMs": 5161
+}

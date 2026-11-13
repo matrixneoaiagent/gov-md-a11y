@@ -1,0 +1,173 @@
+{
+  "host": "if.gov.md",
+  "auditedAt": "2026-11-13T20:16:33.832Z",
+  "url": "https://icfs.gov.md/ro",
+  "finalHost": "icfs.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 24 09:35:57 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 3,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "img[width=\"278\"]",
+          "img[width=\"457\"]",
+          "img[width=\"38\"]"
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".video1 > iframe[allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".video1 > iframe[allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 25,
+        "sample": [
+          ".nav-link-search",
+          ".pb-2.pt-2.post-meta > .post-date:nth-child(1) > span > time[datetime=\"2026-09-30T16:13:29+03:00\"]",
+          "div[aria-label=\"1 / 5\"] > .swiper-slide-inner > .swiper-slide-body-content > .card-footer > .pb-2.pt-2.post-meta > .post"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".intro-wrapper:nth-child(1) > a",
+          "p:nth-child(8) > a"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".video1 > iframe[allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "help": "Frames must have an accessible name",
+        "description": "Ensure <iframe> and <frame> elements have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".video1 > iframe[allowfullscreen=\"\"]"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "div[aria-label=\"1 / 5\"] > .swiper-slide-inner > .swiper-slide-body-content > .swiper-slide-body-content-body > .views-mo"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 3,
+      "serious": 5,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Inspectoratul Control Financiar de Stat",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 1025,
+    "links": 186,
+    "badLinkText": 0,
+    "images": 36,
+    "imagesNoAlt": 3,
+    "forms": 1,
+    "requests": 64,
+    "transferBytes": 1575177,
+    "domContentLoaded": 2047,
+    "mobileOverflowPx": 5,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://www.googletagmanager.com/gtag/js?id=G-7KQH2XNFSQ (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 30,
+    "security": 70,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 58
+  },
+  "durationMs": 8122
+}

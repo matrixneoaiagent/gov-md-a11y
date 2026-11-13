@@ -1,0 +1,96 @@
+{
+  "host": "harta-ig.agepi.gov.md",
+  "auditedAt": "2026-11-13T20:17:52.810Z",
+  "url": "https://harta-ig.agepi.gov.md/",
+  "finalHost": "harta-ig.agepi.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 10 08:21:19 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 17,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 10,
+        "sample": [
+          "img[src$=\"logo81_60_1.png\"]",
+          "a[data=\"1\"] > .tp-gencat-img",
+          "a[data=\"2\"] > .tp-gencat-img"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "label:nth-child(1)",
+          ".map-subtitle > label:nth-child(2)",
+          "p"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Produse tradiționale din Republica Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 191,
+    "links": 80,
+    "badLinkText": 0,
+    "images": 10,
+    "imagesNoAlt": 10,
+    "forms": 0,
+    "requests": 24,
+    "transferBytes": 397987,
+    "domContentLoaded": 1539,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 52,
+    "security": 60,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 66
+  },
+  "durationMs": 4955
+}

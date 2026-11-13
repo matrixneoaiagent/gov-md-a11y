@@ -1,0 +1,82 @@
+{
+  "host": "iplatforms.gov.md",
+  "auditedAt": "2026-11-13T20:20:31.644Z",
+  "url": "https://invest.gov.md/en/why-invest/",
+  "finalHost": "invest.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  7 05:40:29 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#link-280-7388"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en-GB",
+    "title": "Why invest - Invest Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 886,
+    "links": 53,
+    "badLinkText": 3,
+    "images": 26,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 57,
+    "transferBytes": 1437301,
+    "domContentLoaded": 2336,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "vague-link-text"
+  ],
+  "scores": {
+    "a11y": 94,
+    "security": 60,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 87
+  },
+  "durationMs": 7605
+}

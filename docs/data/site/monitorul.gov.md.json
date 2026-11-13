@@ -1,0 +1,126 @@
+{
+  "host": "monitorul.gov.md",
+  "auditedAt": "2026-11-13T20:19:09.566Z",
+  "url": "https://monitorul.gov.md/",
+  "finalHost": "monitorul.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  1 06:19:39 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+    "content-security-policy": "upgrade-insecure-requests",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".owl-prev",
+          ".owl-next"
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".owl-prev > img",
+          ".owl-next > .svg"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 17,
+        "sample": [
+          "li:nth-child(2) > .nav-link",
+          "li:nth-child(3) > .nav-link",
+          "li:nth-child(4) > .nav-link"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#numb-searchResults"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Monitorul oficial al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 779,
+    "links": 64,
+    "badLinkText": 0,
+    "images": 19,
+    "imagesNoAlt": 3,
+    "forms": 2,
+    "requests": 61,
+    "transferBytes": 1141130,
+    "domContentLoaded": 1820,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 42,
+    "security": 90,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 69
+  },
+  "durationMs": 5297
+}

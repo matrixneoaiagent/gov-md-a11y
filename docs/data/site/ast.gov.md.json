@@ -1,0 +1,138 @@
+{
+  "host": "ast.gov.md",
+  "auditedAt": "2026-11-13T20:16:08.545Z",
+  "url": "https://inst.gov.md/",
+  "finalHost": "inst.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 15 09:35:44 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 25,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 31,
+        "sample": [
+          "img[src$=\"btn_search_ro.png\"]",
+          "li:nth-child(1) > div > div:nth-child(1) > a > img[width=\"250\"][border=\"0\"]",
+          "li:nth-child(2) > div > div:nth-child(1) > a > img[width=\"250\"][border=\"0\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 20,
+        "sample": [
+          "li:nth-child(1) > div > div:nth-child(2) > .homedateslider",
+          "li:nth-child(2) > div > div:nth-child(2) > .homedateslider",
+          "li:nth-child(3) > div > div:nth-child(2) > .homedateslider"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 12,
+        "sample": [
+          "a[href=\"index.php?l=ro\"]",
+          "div:nth-child(2) > a[onmouseout=\"MM_swapImgRestore()\"][href=\"#\"]",
+          ".selected[href=\"#\"]"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Inspectoratul Național pentru Supraveghere Tehnică",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 4,
+    "nodes": 858,
+    "links": 161,
+    "badLinkText": 0,
+    "images": 64,
+    "imagesNoAlt": 37,
+    "forms": 1,
+    "requests": 133,
+    "transferBytes": 4335029,
+    "domContentLoaded": 2805,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 403 ()",
+      "Failed to load resource: the server responded with a status of 403 ()"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "many-h1"
+  ],
+  "scores": {
+    "a11y": 31,
+    "security": 70,
+    "performance": 78,
+    "mobile": 100,
+    "overall": 56
+  },
+  "durationMs": 8872
+}

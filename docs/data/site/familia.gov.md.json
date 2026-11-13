@@ -1,0 +1,102 @@
+{
+  "host": "familia.gov.md",
+  "auditedAt": "2026-11-13T20:16:22.658Z",
+  "url": "https://familia.gov.md/",
+  "finalHost": "familia.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 11:52:53 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 12,
+        "sample": [
+          "#elementor-tab-title-1391",
+          "#elementor-tab-title-2291",
+          "#elementor-tab-title-6001"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 51,
+        "sample": [
+          "#elementor-tab-title-1391 > .elementor-accordion-title",
+          "#elementor-tab-content-1391 > p",
+          "#elementor-tab-title-1392 > .elementor-accordion-title"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "Despre Program - Programul Familia - Ministerul Muncii și Protecției Sociale",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 745,
+    "links": 47,
+    "badLinkText": 4,
+    "images": 26,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 35,
+    "transferBytes": 1655603,
+    "domContentLoaded": 2068,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "vague-link-text"
+  ],
+  "scores": {
+    "a11y": 41,
+    "security": 60,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 61
+  },
+  "durationMs": 5572
+}

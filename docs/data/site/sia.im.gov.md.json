@@ -1,0 +1,118 @@
+{
+  "host": "sia.im.gov.md",
+  "auditedAt": "2026-11-13T20:19:18.369Z",
+  "url": "https://sia.im.gov.md/login",
+  "finalHost": "sia.im.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 19 07:16:46 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 18,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "help": "Certain ARIA roles must contain particular children",
+        "description": "Ensure elements with an ARIA role that require child roles contain them",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "ul"
+        ]
+      },
+      {
+        "id": "aria-required-parent",
+        "impact": "critical",
+        "help": "Certain ARIA roles must be contained by particular parents",
+        "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-parent?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".nav-link"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".btn-secondary",
+          "span"
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "description": "Ensure <li> elements are used semantically",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "li"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "INSPECTORATUL DE STAT AL MUNCII",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 62,
+    "links": 4,
+    "badLinkText": 0,
+    "images": 1,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 17,
+    "transferBytes": 1250537,
+    "domContentLoaded": 2002,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 66,
+    "security": 65,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 74
+  },
+  "durationMs": 5983
+}

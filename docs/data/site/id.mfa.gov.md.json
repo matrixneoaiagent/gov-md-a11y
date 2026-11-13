@@ -1,0 +1,85 @@
+{
+  "host": "id.mfa.gov.md",
+  "auditedAt": "2026-11-13T20:18:49.899Z",
+  "url": "https://id.mfa.gov.md/",
+  "finalHost": "id.mfa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 20 06:50:32 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 18,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Institul Diplomatic | Ministerul Afacerilor Externe și Integrării Europene al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 2,
+    "nodes": 277,
+    "links": 40,
+    "badLinkText": 0,
+    "images": 8,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 130,
+    "transferBytes": 420624,
+    "domContentLoaded": 1358,
+    "mobileOverflowPx": 547,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://id.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700itali",
+      "Mixed Content: The page at 'https://id.mfa.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600it"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
+    ]
+  },
+  "flags": [
+    "many-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 97,
+    "security": 70,
+    "performance": 92,
+    "mobile": 55,
+    "overall": 83
+  },
+  "durationMs": 5557
+}

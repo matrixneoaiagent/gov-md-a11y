@@ -1,0 +1,123 @@
+{
+  "host": "ctif.gov.md",
+  "auditedAt": "2026-11-13T20:17:07.349Z",
+  "url": "https://ctif.gov.md/",
+  "finalHost": "ctif.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 10,
+        "sample": [
+          "a[href$=\"servicii.gov.md/\"]",
+          "a[href$=\"raportare.gov.md/\"]",
+          "#block-portaluriguvernamentale > .content > .text-formatted.field--name-body.field--type-text-with-summary > p > a[href="
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "a[href$=\"servicii.gov.md/\"]",
+          "a[href$=\"raportare.gov.md/\"]",
+          "#block-parteneri > .content > .text-formatted.field--name-body.field--type-text-with-summary > p > a[href=\"http://mf.gov"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".facebook",
+          ".google-plus",
+          ".rss"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "a[href$=\"ctif.gov.md\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 4,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Acasă | Centrul de Tehnologii Informaționale în Finanțe",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 2,
+    "nodes": 512,
+    "links": 46,
+    "badLinkText": 0,
+    "images": 10,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 108,
+    "transferBytes": 786963,
+    "domContentLoaded": 5595,
+    "mobileOverflowPx": 15,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://sfs.md/moldova-europeana.min.js (net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin)"
+    ]
+  },
+  "flags": [
+    "many-h1",
+    "mobile-overflow",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 52,
+    "security": 0,
+    "performance": 95,
+    "mobile": 55,
+    "overall": 44
+  },
+  "durationMs": 9840
+}

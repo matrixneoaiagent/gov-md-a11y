@@ -1,0 +1,210 @@
+{
+  "host": "bnm.md",
+  "auditedAt": "2026-11-13T20:16:13.079Z",
+  "url": "https://bnm.md/",
+  "finalHost": "bnm.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Apr 30 23:59:59 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": "default-src 'self' www.google-analytics.com analytics.google.com www.google.md stats.g.doubleclick.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google.com www.gstatic.com www.google-analytics.com www.googletagmanager.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com cdn.jsdelivr.net; frame-src 'self' www.google.com www.youtube.com www.facebook.com yc.bnm.md",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 31,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".social-item:nth-child(1) > a > img",
+          ".social-item:nth-child(2) > a > img",
+          ".social-item:nth-child(3) > a > img"
+        ]
+      },
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#exchange-form-ajax-input",
+          "#metal-form-ajax-input"
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "help": "Certain ARIA roles must contain particular children",
+        "description": "Ensure elements with an ARIA role that require child roles contain them",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".calendar-teaser-accordion"
+        ]
+      },
+      {
+        "id": "aria-required-parent",
+        "impact": "critical",
+        "help": "Certain ARIA roles must be contained by particular parents",
+        "description": "Ensure elements with an ARIA role that require parent roles are contained by them",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-parent?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#ui-accordion-1-header-0"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".submit-wrapper > .form-submit[name=\"op\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 62,
+        "sample": [
+          ".text > p > a",
+          ".currency[title=\"Euro\"]",
+          ".currency[title=\"Dolar S.U.A.\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 24,
+        "sample": [
+          ".phone-button",
+          ".contact-form-button",
+          ".filter-button"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "help": "Interactive controls must not be nested",
+        "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#ui-accordion-1-header-0"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".inline"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 5,
+      "serious": 5,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Banca Națională a Moldovei |",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 3643,
+    "links": 680,
+    "badLinkText": 0,
+    "images": 92,
+    "imagesNoAlt": 45,
+    "forms": 6,
+    "requests": 180,
+    "transferBytes": 3052927,
+    "domContentLoaded": 3003,
+    "mobileOverflowPx": 41,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic (csp)",
+      "https://fonts.googleapis.com/css?family=PT+Serif:400,700&subset=latin,cyrillic-ext (csp)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 14,
+    "security": 80,
+    "performance": 42,
+    "mobile": 55,
+    "overall": 39
+  },
+  "durationMs": 8775
+}

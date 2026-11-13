@@ -1,0 +1,72 @@
+{
+  "host": "e-pescuit.mediu.gov.md",
+  "auditedAt": "2026-11-13T20:16:31.871Z",
+  "url": "https://e-pescuit.mediu.gov.md/",
+  "finalHost": "e-pescuit.mediu.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  7 02:53:10 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 25,
+    "incomplete": 1,
+    "violations": [],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "ePescuit.md Agenția de mediu",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 274,
+    "links": 11,
+    "badLinkText": 0,
+    "images": 9,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 49,
+    "transferBytes": 2328987,
+    "domContentLoaded": 2243,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 100,
+    "security": 60,
+    "performance": 99,
+    "mobile": 100,
+    "overall": 90
+  },
+  "durationMs": 5657
+}

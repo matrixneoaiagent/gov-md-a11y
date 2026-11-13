@@ -1,0 +1,29 @@
+{
+  "host": "www.mpass.gov.md",
+  "auditedAt": "2026-11-13T20:20:56.832Z",
+  "url": "https://www.mpass.gov.md/",
+  "finalHost": "www.mpass.gov.md",
+  "status": 404,
+  "ok": false,
+  "error": "http 404",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:09:25 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 743
+}

@@ -1,0 +1,29 @@
+{
+  "host": "pcs.gov.md",
+  "auditedAt": "2026-11-13T20:16:35.296Z",
+  "url": "https://pcs.gov.md/",
+  "finalHost": "pcs.gov.md",
+  "status": 200,
+  "ok": false,
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 17 08:58:17 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=15768000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3317
+}

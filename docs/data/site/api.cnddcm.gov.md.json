@@ -1,0 +1,29 @@
+{
+  "host": "api.cnddcm.gov.md",
+  "auditedAt": "2026-11-13T20:15:53.645Z",
+  "url": "https://api.cnddcm.gov.md/",
+  "finalHost": "api.cnddcm.gov.md",
+  "status": 404,
+  "ok": false,
+  "error": "http 404",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  2 09:09:16 2027 GMT"
+  },
+  "headers": {
+    "content-type": null,
+    "strict-transport-security": "max-age=2592000",
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 791
+}

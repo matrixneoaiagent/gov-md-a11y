@@ -1,0 +1,213 @@
+{
+  "host": "www.mmuncii.gov.md",
+  "auditedAt": "2026-11-13T20:19:15.210Z",
+  "url": "https://ms.gov.md/",
+  "finalHost": "www.mmuncii.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 32,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "div[aria-describedby=\"slick-slide20\"] > .media__photo-img-overlay > .video_overlay.media__photo-img-wrapper > .media__ph",
+          "div[aria-describedby=\"slick-slide21\"] > .media__photo-img-overlay[href$=\"cumtesimtiazi.md/\"] > .video_overlay.media__pho",
+          "div[aria-describedby=\"slick-slide22\"] > .media__photo-img-overlay > .video_overlay.media__photo-img-wrapper > .media__ph"
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#slick-slide00",
+          "#slick-slide10",
+          "#slick-slide20"
+        ]
+      },
+      {
+        "id": "aria-required-children",
+        "impact": "critical",
+        "help": "Certain ARIA roles must contain particular children",
+        "description": "Ensure elements with an ARIA role that require child roles contain them",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-required-children?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".container:nth-child(4) > .services.media[role=\"toolbar\"] > .services_slider.slider.slick-initialized > .slick-dots[role",
+          ".container:nth-child(5) > .services.media[role=\"toolbar\"] > .services_slider.slider.slick-initialized > .slick-dots[role",
+          ".banner_slider > .slick-dots[role=\"tablist\"]"
+        ]
+      },
+      {
+        "id": "aria-valid-attr-value",
+        "impact": "critical",
+        "help": "ARIA attributes must conform to valid values",
+        "description": "Ensure all ARIA attributes have valid values",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-valid-attr-value?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#slick-slide00",
+          "#slick-slide10",
+          "#slick-slide20"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 22,
+        "sample": [
+          ".header__logo-link",
+          "a[href$=\"tel:\"]",
+          ".container > .header__social.ms-grayscale > .header__social-logo[target=\"_blank\"]:nth-child(1)"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 10,
+        "sample": [
+          ".font_green.regular.h5",
+          "a[href=\"tel:022 721 010\"]",
+          ".container > .header__social.ms-grayscale > .dropdown > .dropbtn"
+        ]
+      },
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "help": "ARIA hidden element must not be focusable or contain focusable elements",
+        "description": "Ensure aria-hidden elements are not focusable nor contain focusable elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-hidden-focus?application=playwright",
+        "nodes": 9,
+        "sample": [
+          "#slick-slide01",
+          "#slick-slide02",
+          "#slick-slide11"
+        ]
+      },
+      {
+        "id": "aria-toggle-field-name",
+        "impact": "serious",
+        "help": "ARIA toggle fields must have an accessible name",
+        "description": "Ensure every ARIA toggle field has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-toggle-field-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "div[aria-describedby=\"slick-slide00\"]",
+          "div[aria-describedby=\"slick-slide01\"]",
+          "div[aria-describedby=\"slick-slide10\"]"
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "help": "Interactive controls must not be nested",
+        "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "div[aria-describedby=\"slick-slide00\"]",
+          "div[aria-describedby=\"slick-slide01\"]",
+          "div[aria-describedby=\"slick-slide10\"]"
+        ]
+      },
+      {
+        "id": "aria-input-field-name",
+        "impact": "serious",
+        "help": "ARIA input fields must have an accessible name",
+        "description": "Ensure every ARIA input field has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-input-field-name?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".container:nth-child(4) > .services.media[role=\"toolbar\"] > .services_slider.slider.slick-initialized > .slick-list.drag",
+          ".container:nth-child(5) > .services.media[role=\"toolbar\"] > .services_slider.slider.slick-initialized > .slick-list.drag",
+          ".banner_slider > .slick-list.draggable[aria-live=\"polite\"] > .slick-track[role=\"listbox\"]"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#slick-slide00 > button[type=\"button\"][data-role=\"none\"][role=\"button\"]",
+          "#slick-slide10 > button[type=\"button\"][data-role=\"none\"][role=\"button\"]",
+          "#slick-slide20 > button[type=\"button\"][data-role=\"none\"][role=\"button\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 4,
+      "serious": 7,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "Ministerul Sănătății al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 1346,
+    "links": 320,
+    "badLinkText": 0,
+    "images": 59,
+    "imagesNoAlt": 19,
+    "forms": 2,
+    "requests": 85,
+    "transferBytes": 1563211,
+    "domContentLoaded": 3156,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 404 ()"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 5,
+    "security": 0,
+    "performance": 99,
+    "mobile": 100,
+    "overall": 27
+  },
+  "durationMs": 7523
+}

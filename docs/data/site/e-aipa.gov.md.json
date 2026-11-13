@@ -1,0 +1,73 @@
+{
+  "host": "e-aipa.gov.md",
+  "auditedAt": "2026-11-13T20:17:17.190Z",
+  "url": "https://e-aipa.gov.md/home",
+  "finalHost": "e-aipa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "CERT_HAS_EXPIRED"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 14,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "img"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "e-AIPA",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 30,
+    "links": 1,
+    "badLinkText": 0,
+    "images": 1,
+    "imagesNoAlt": 1,
+    "forms": 0,
+    "requests": 10,
+    "transferBytes": 1093553,
+    "domContentLoaded": 2544,
+    "mobileOverflowPx": 70,
+    "consoleErrors": [
+      "ERROR e"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "mobile-overflow",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 89,
+    "security": 0,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 63
+  },
+  "durationMs": 6627
+}

@@ -1,0 +1,125 @@
+{
+  "host": "www.e-servicii.agepi.gov.md",
+  "auditedAt": "2026-11-13T20:20:02.655Z",
+  "url": "https://www.e-servicii.agepi.gov.md/",
+  "finalHost": "www.e-servicii.agepi.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": "frame-ancestors 'self'",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 16,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 7,
+        "sample": [
+          "img[height=\"208\"]",
+          "a[href=\"/ro/document/add?doc_type=10\"] > .cloudcarousel[width=\"172\"][height=\"188\"]",
+          "a[href=\"/ro/document/add?doc_type=14\"] > .cloudcarousel[width=\"131\"][height=\"144\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 7,
+        "sample": [
+          "a[href=\"/ro/document/add?doc_type=6\"]",
+          "a[href=\"/ro/document/add?doc_type=10\"]",
+          "a[href=\"/ro/document/add?doc_type=14\"]"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".arrows",
+          ".e-mail",
+          ".print-version"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "AGEPI | e-AGEPI",
+    "hasViewport": false,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 191,
+    "links": 30,
+    "badLinkText": 0,
+    "images": 9,
+    "imagesNoAlt": 7,
+    "forms": 1,
+    "requests": 43,
+    "transferBytes": 510147,
+    "domContentLoaded": 2658,
+    "mobileOverflowPx": 850,
+    "consoleErrors": [
+      "Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://www.e-servicii.agepi.gov.md' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the re",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://va.tawk.to/v1/session/start (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport",
+    "no-h1",
+    "mobile-overflow",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 41,
+    "security": 10,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 41
+  },
+  "durationMs": 6252
+}

@@ -1,0 +1,29 @@
+{
+  "host": "ordine.mediu.gov.md",
+  "auditedAt": "2026-11-13T20:17:57.985Z",
+  "url": "https://ordine.mediu.gov.md/",
+  "finalHost": "ordine.mediu.gov.md",
+  "status": 403,
+  "ok": false,
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://ordine.mediu.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 11:53:46 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 45908
+}

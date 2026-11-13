@@ -1,0 +1,139 @@
+{
+  "host": "porumbeni.gov.md",
+  "auditedAt": "2026-11-13T20:19:11.849Z",
+  "url": "https://cncps.maia.gov.md/",
+  "finalHost": "cncps.maia.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  3 10:35:50 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 23,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "a[rel=\"noopener\"][target=\"_blank\"] > img"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 39,
+        "sample": [
+          "a[href=\"tel:068865888\"] > strong",
+          ".wd-header-text.whb-text-element.set-cont-mb-s:nth-child(2) > p > strong > a",
+          "a[rel=\"noopener\"][target=\"_blank\"] > strong"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 31,
+        "sample": [
+          ".icons-size- > .social-facebook.wd-social-icon[aria-label=\"Facebook social link\"]",
+          ".icons-size- > .social-instagram.wd-social-icon[aria-label=\"Instagram social link\"]",
+          ".vc_col-sm-6.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .wpb_gallery.vc_clearfix.wp"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 30,
+        "sample": [
+          ".flex-active-slide[data-thumb-alt=\"\"] > .prettyphoto[rel=\"prettyPhoto[rel-428092843]\"]",
+          "li[data-thumb-alt=\"\"]:nth-child(2) > .prettyphoto[rel=\"prettyPhoto[rel-428092843]\"]",
+          "li[data-thumb-alt=\"\"]:nth-child(3) > .prettyphoto[rel=\"prettyPhoto[rel-428092843]\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]:nth-child(59)"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "IP Centrul Național de Cercetare și Producere a Semințelor – Porumbeni, Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 1042,
+    "links": 247,
+    "badLinkText": 0,
+    "images": 40,
+    "imagesNoAlt": 3,
+    "forms": 0,
+    "requests": 84,
+    "transferBytes": 2372726,
+    "domContentLoaded": 2033,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 29,
+    "security": 60,
+    "performance": 98,
+    "mobile": 100,
+    "overall": 54
+  },
+  "durationMs": 6520
+}

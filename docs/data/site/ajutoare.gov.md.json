@@ -1,0 +1,126 @@
+{
+  "host": "ajutoare.gov.md",
+  "auditedAt": "2026-11-13T20:16:18.881Z",
+  "url": "https://ajutoare.gov.md/",
+  "finalHost": "ajutoare.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb 10 03:52:41 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 12,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 90,
+        "sample": [
+          ".ajutoareContainer > .sectionAjutoareMain.container > .sectionAjutoareItems.postRow > .sectionAjutoareItemsItem.postRow:",
+          ".sectionAjutoareItemsItem.postRow:nth-child(1) > .sectionSingleAjutorMainHeaderData.postRow > .sectionSingleAjutorMainHe",
+          ".sectionAjutoareItemsItem.postRow:nth-child(1) > .sectionSingleAjutorMainHeaderData.postRow > .sectionSingleAjutorMainHe"
+        ]
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "description": "Ensure <li> elements are used semantically",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/listitem?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#media_image-3",
+          "#media_image-4",
+          "#text-3"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#media_image-3 > a[href=\"/\"]",
+          "#media_image-4 > a[href=\"/\"]"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 4,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Registrul ajutoarelor umanitare - Ajutoare umanitare pentru refugiați Ajutoare umanitare pentru refugiați",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 382,
+    "links": 29,
+    "badLinkText": 0,
+    "images": 18,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 43,
+    "transferBytes": 2301752,
+    "domContentLoaded": 3363,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: the server responded with a status of 500 ()"
+    ],
+    "failedRequests": [
+      "https://ajutoare.noxx.website/wp-content/uploads/2022/03/Vector-1.png (net::ERR_NAME_NOT_RESOLVED)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 46,
+    "security": 60,
+    "performance": 99,
+    "mobile": 100,
+    "overall": 63
+  },
+  "durationMs": 16417
+}

@@ -1,0 +1,125 @@
+{
+  "host": "antitrafic.gov.md",
+  "auditedAt": "2026-11-13T20:16:03.068Z",
+  "url": "https://antitrafic.gov.md/",
+  "finalHost": "antitrafic.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 16 12:35:45 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 195,
+        "sample": [
+          "img[height=\"30\"]",
+          "img[src$=\"btn_search_ro.png\"]",
+          "img[height=\"89\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 43,
+        "sample": [
+          "a[oldtitle=\"Prima\"]",
+          "a[href=\"sitemap.php?l=ro\"]",
+          "a[href=\"feedbacktxt.php?l=ro&idc=65\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 20,
+        "sample": [
+          ".bg35 > a[onmouseout=\"MM_swapImgRestore()\"][href=\"#\"]",
+          ".logo1_ro > a[href=\"index.php?l=ro\"]",
+          ".logo_ro > a[href=\"index.php?l=ro\"]"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Comitetul Naţional pentru Combaterea Traficului de Fiinţe Umane",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 2,
+    "nodes": 1982,
+    "links": 138,
+    "badLinkText": 0,
+    "images": 238,
+    "imagesNoAlt": 231,
+    "forms": 2,
+    "requests": 148,
+    "transferBytes": 1792675,
+    "domContentLoaded": 3996,
+    "mobileOverflowPx": 904,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://antitrafic.gov.md/' was loaded over HTTPS, but requested an insecure script 'http://www.youtube.com/iframe_api'. This request has been blocked; the content must be "
+    ],
+    "failedRequests": [
+      "http://www.youtube.com/iframe_api (mixed-content)",
+      "https://www.antitrafic.gov.md/ (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport",
+    "many-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 28,
+    "security": 60,
+    "performance": 81,
+    "mobile": 55,
+    "overall": 45
+  },
+  "durationMs": 10011
+}

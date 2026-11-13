@@ -1,0 +1,205 @@
+{
+  "host": "old.aap.gov.md",
+  "auditedAt": "2026-11-13T20:16:54.068Z",
+  "url": "https://old.aap.gov.md/",
+  "finalHost": "old.aap.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 28 16:35:41 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": "interest-cohort=()"
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "p:nth-child(5) > iframe[width=\"500\"][height=\"280\"]",
+          "p:nth-child(7) > iframe[width=\"500\"][height=\"280\"]",
+          "iframe[width=\"250\"][height=\"170\"]:nth-child(1)"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "p:nth-child(5) > iframe[width=\"500\"][height=\"280\"]",
+          "p:nth-child(7) > iframe[width=\"500\"][height=\"280\"]",
+          "iframe[width=\"250\"][height=\"170\"]:nth-child(1)"
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#block-block-21 > .block-inner > .content > p:nth-child(1) > img",
+          "a[href=\"http://aap.gov.md/node/3494\"] > img"
+        ]
+      },
+      {
+        "id": "select-name",
+        "impact": "critical",
+        "help": "Select element must have an accessible name",
+        "description": "Ensure select element has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/select-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#lang-dropdown-select-language"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 32,
+        "sample": [
+          ".flex-active-slide > .views-field-field-slideshow-image.views-field > .field-content > a",
+          "li[data-thumb-alt=\"\"]:nth-child(2) > .views-field-field-slideshow-image.views-field > .field-content > a",
+          "a[href$=\"absolven%C8%9Bi\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 20,
+        "sample": [
+          "#quicktabs-tab-quicktabs-1",
+          "#quicktabs-tab-quicktabs-2",
+          ".view-news-events > .view-content > .views-row-1.views-row-first.views-row-odd > .views-field-title.views-field > .field"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".flex-active",
+          "ol > li:nth-child(2) > a[href=\"#\"]",
+          "li:nth-child(3) > a[href=\"#\"]"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 4,
+        "sample": [
+          "p:nth-child(5) > iframe[width=\"500\"][height=\"280\"]",
+          "p:nth-child(7) > iframe[width=\"500\"][height=\"280\"]",
+          "iframe[width=\"250\"][height=\"170\"]:nth-child(1)"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "p > a[href$=\"aap.gov.md\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 4,
+      "serious": 6,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Academia de Administrare Publică | Alma Mater a funcționarilor publici",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 1228,
+    "links": 260,
+    "badLinkText": 0,
+    "images": 55,
+    "imagesNoAlt": 2,
+    "forms": 2,
+    "requests": 98,
+    "transferBytes": 11241427,
+    "domContentLoaded": 1775,
+    "mobileOverflowPx": 151,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://inamp.gov.md/sites/default/files/anunt2.jpg (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "no-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 10,
+    "security": 70,
+    "performance": 45,
+    "mobile": 55,
+    "overall": 35
+  },
+  "durationMs": 6366
+}

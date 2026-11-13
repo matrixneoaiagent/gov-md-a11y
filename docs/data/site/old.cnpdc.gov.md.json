@@ -1,0 +1,125 @@
+{
+  "host": "old.cnpdc.gov.md",
+  "auditedAt": "2026-11-13T20:16:51.905Z",
+  "url": "https://old.cnpdc.gov.md/",
+  "finalHost": "old.cnpdc.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  7 10:49:43 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 18,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 15,
+        "sample": [
+          ".selected > .views-field-field-feature-image.views-field > .field-content > a > img[width=\"980\"][height=\"350\"][typeof=\"f",
+          ".next > .views-field-field-feature-image.views-field > .field-content > a > img[width=\"980\"][height=\"350\"][typeof=\"foaf:",
+          ".prev > .views-field-field-feature-image.views-field > .field-content > a > img[width=\"980\"][height=\"350\"][typeof=\"foaf:"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 29,
+        "sample": [
+          "#facebook",
+          "#instagram",
+          "#youtube"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".pane-advpoll-advpoll-block-99 > .pane-content",
+          ".statistics_counter > span",
+          ".poll-bar:nth-child(1) > .text"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Consiliul Național pentru Protecția Drepturilor Copilului | Guvernul Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 835,
+    "links": 98,
+    "badLinkText": 0,
+    "images": 25,
+    "imagesNoAlt": 15,
+    "forms": 1,
+    "requests": 149,
+    "transferBytes": 1713616,
+    "domContentLoaded": 1841,
+    "mobileOverflowPx": 171,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://old.cnpdc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700it",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Mixed Content: The page at 'https://old.cnpdc.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,60"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
+    ]
+  },
+  "flags": [
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 33,
+    "security": 65,
+    "performance": 89,
+    "mobile": 55,
+    "overall": 50
+  },
+  "durationMs": 6535
+}

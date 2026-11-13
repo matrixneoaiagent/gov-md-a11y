@@ -1,0 +1,21 @@
+{
+  "host": "mai.gov.md",
+  "auditedAt": "2026-11-13T20:18:55.457Z",
+  "url": "http://mai.gov.md/",
+  "finalHost": "mai.gov.md",
+  "status": 301,
+  "ok": false,
+  "error": "Error: page.goto: net::ERR_CONNECTION_RESET at http://mai.gov.md/\nCall log:\n  - navigating to \"http://mai.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 2604
+}

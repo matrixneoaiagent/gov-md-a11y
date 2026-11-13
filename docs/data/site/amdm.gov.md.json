@@ -1,0 +1,163 @@
+{
+  "host": "amdm.gov.md",
+  "auditedAt": "2026-11-13T20:16:21.827Z",
+  "url": "https://amdm.gov.md/ro",
+  "finalHost": "amdm.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  9 11:49:40 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 31,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 10,
+        "sample": [
+          "#mobile-nav > .sidr-class-mobile-searchform > form > .sidr-class-searchform-submit[type=\"submit\"]",
+          ".active.owl-dot[role=\"button\"]",
+          ".owl-dot[role=\"button\"]:nth-child(2)"
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "img[width=\"90\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 20,
+        "sample": [
+          ".custom-menu-btn",
+          ".text-success:nth-child(1)",
+          "p > span:nth-child(3)"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".language-item:nth-child(1) > a[target=\"_blank\"]",
+          ".language-item:nth-child(2) > a[target=\"_blank\"]",
+          "li:nth-child(4) > a[href$=\"gov.md\"]"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "a[href$=\"mailto:office@amdm.gov.md\"]",
+          "div > p > a:nth-child(5)",
+          "a[href=\"mailto:e-ghiseu@amdm.gov.md\"]"
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "help": "Frames must have an accessible name",
+        "description": "Ensure <iframe> and <frame> elements have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "iframe[width=\"100%\"]"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".rts"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 5,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Acasă | AMDM",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 1249,
+    "links": 273,
+    "badLinkText": 0,
+    "images": 23,
+    "imagesNoAlt": 1,
+    "forms": 2,
+    "requests": 108,
+    "transferBytes": 6518541,
+    "domContentLoaded": 2270,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 24,
+    "security": 60,
+    "performance": 70,
+    "mobile": 100,
+    "overall": 49
+  },
+  "durationMs": 10007
+}

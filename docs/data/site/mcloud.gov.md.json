@@ -1,0 +1,21 @@
+{
+  "host": "mcloud.gov.md",
+  "auditedAt": "2026-11-13T20:17:24.203Z",
+  "url": "http://mcloud.gov.md/",
+  "finalHost": "mcloud.gov.md",
+  "status": 301,
+  "ok": false,
+  "error": "Error: page.goto: net::ERR_CONNECTION_RESET at http://mcloud.gov.md/\nCall log:\n  - navigating to \"http://mcloud.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {},
+  "redirects": 2,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3049
+}

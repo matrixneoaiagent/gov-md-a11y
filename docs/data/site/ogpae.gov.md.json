@@ -1,0 +1,98 @@
+{
+  "host": "ogpae.gov.md",
+  "auditedAt": "2026-11-13T20:17:34.702Z",
+  "url": "https://ogpae.gov.md/",
+  "finalHost": "ogpae.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".col-xxs-12.col-xs-6.col-sm-6:nth-child(1) > .news-item > .news-content > .news-data",
+          ".col-xxs-12.col-xs-6.col-sm-6:nth-child(2) > .news-item > .news-content > .news-data",
+          ".col-xxs-12.col-xs-6.col-sm-6:nth-child(3) > .news-item > .news-content > .news-data"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".swiper-slide:nth-child(16) > .partner-item-container[target=\"_blank\"]",
+          "a[href$=\"tel:\"]",
+          "a[href$=\"facebook.com\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "Principală - OGPAE",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 6,
+    "nodes": 748,
+    "links": 213,
+    "badLinkText": 0,
+    "images": 40,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 62,
+    "transferBytes": 6913850,
+    "domContentLoaded": 1201,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://www.gstatic.com/recaptcha/releases/4i3aN5wAweL7i3ADI7BSX4B-/styles__ltr.css (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "many-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 66,
+    "security": 0,
+    "performance": 72,
+    "mobile": 100,
+    "overall": 55
+  },
+  "durationMs": 6427
+}

@@ -1,0 +1,20 @@
+{
+  "host": "www.elearning.agepi.gov.md",
+  "auditedAt": "2026-11-13T20:18:31.760Z",
+  "url": "https://www.elearning.agepi.gov.md/",
+  "finalHost": "www.elearning.agepi.gov.md",
+  "status": null,
+  "ok": false,
+  "error": "probe: ECONNREFUSED",
+  "tls": {
+    "ok": false,
+    "error": "ECONNREFUSED"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 706
+}

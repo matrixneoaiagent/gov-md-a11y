@@ -1,6 +1,6 @@
 {
   "host": "aee.gov.md",
-  "auditedAt": "2026-11-13T20:12:42.888Z",
+  "auditedAt": "2026-11-13T20:15:46.290Z",
   "url": "https://cned.gov.md/ro",
   "finalHost": "cned.gov.md",
   "status": 200,
@@ -96,7 +96,7 @@
     "forms": 1,
     "requests": 197,
     "transferBytes": 1230947,
-    "domContentLoaded": 1422,
+    "domContentLoaded": 1288,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -122,5 +122,5 @@
     "mobile": 100,
     "overall": 67
   },
-  "durationMs": 6281
+  "durationMs": 7354
 }

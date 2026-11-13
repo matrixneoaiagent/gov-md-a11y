@@ -1,0 +1,89 @@
+{
+  "host": "www.nisa.mfa.gov.md",
+  "auditedAt": "2026-11-13T20:17:07.466Z",
+  "url": "https://www.nisa.mfa.gov.md/",
+  "finalHost": "www.nisa.mfa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 18,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          "a[target=\"_blank\"]",
+          ".views-row-1.views-row-first.views-row-odd > .views-field-field-cover-image.views-field > .field-content > a",
+          ".views-row-2.views-row-even.views-row > .views-field-field-cover-image.views-field > .field-content > a"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Consulatul General al Republicii Moldova la Nisa | Ministerul Afacerilor Externe al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 605,
+    "links": 164,
+    "badLinkText": 7,
+    "images": 17,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 128,
+    "transferBytes": 552774,
+    "domContentLoaded": 1640,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://www.nisa.mfa.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,70",
+      "Mixed Content: The page at 'https://www.nisa.mfa.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
+    ]
+  },
+  "flags": [
+    "vague-link-text",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 76,
+    "security": 0,
+    "performance": 92,
+    "mobile": 100,
+    "overall": 62
+  },
+  "durationMs": 6134
+}

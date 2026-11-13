@@ -1,6 +1,6 @@
 {
   "host": "actpermisiv.gov.md",
-  "auditedAt": "2026-11-13T20:12:13.705Z",
+  "auditedAt": "2026-11-13T20:15:46.746Z",
   "url": "https://actpermisiv.gov.md/#/home",
   "finalHost": "actpermisiv.gov.md",
   "status": 200,
@@ -47,7 +47,7 @@
         "sample": [
           ".navbar-brand",
           ".text-decoration-none",
-          ".col-sm-3.col-md-3[_ngcontent-qcw-c203=\"\"]:nth-child(1) > .footer-block[_ngcontent-qcw-c203=\"\"] > h4"
+          ".col-sm-3.col-md-3[_ngcontent-qqk-c203=\"\"]:nth-child(1) > .footer-block[_ngcontent-qqk-c203=\"\"] > h4"
         ]
       },
       {
@@ -83,7 +83,7 @@
     "forms": 1,
     "requests": 28,
     "transferBytes": 4684922,
-    "domContentLoaded": 3313,
+    "domContentLoaded": 3114,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -109,5 +109,5 @@
     "mobile": 100,
     "overall": 76
   },
-  "durationMs": 7358
+  "durationMs": 7346
 }

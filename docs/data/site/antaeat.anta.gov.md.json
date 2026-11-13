@@ -1,0 +1,108 @@
+{
+  "host": "antaeat.anta.gov.md",
+  "auditedAt": "2026-11-13T20:16:19.937Z",
+  "url": "https://antaeat.anta.gov.md/",
+  "finalHost": "antaeat.anta.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 16 08:04:23 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff, nosniff",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "referrer-policy": "strict-origin, origin-when-cross-origin",
+    "permissions-policy": "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 10,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "label",
+        "impact": "critical",
+        "help": "Form elements must have labels",
+        "description": "Ensure every form element has a label",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#UserName",
+          "#Password",
+          "#Persistance"
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".login-logo"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "Sistemul Informațional Automatizat",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 117,
+    "links": 9,
+    "badLinkText": 0,
+    "images": 2,
+    "imagesNoAlt": 1,
+    "forms": 0,
+    "requests": 27,
+    "transferBytes": 194696,
+    "domContentLoaded": 1069,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport",
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 61,
+    "security": 90,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 78
+  },
+  "durationMs": 4480
+}

@@ -1,0 +1,93 @@
+{
+  "host": "bridge.invest.gov.md",
+  "auditedAt": "2026-11-13T20:16:24.787Z",
+  "url": "https://bridge.invest.gov.md/",
+  "finalHost": "bridge.invest.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 29 02:32:50 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 23,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 11,
+        "sample": [
+          "#text_block-416-10",
+          "#text_block-439-10",
+          "#text_block-442-10"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#div_block-9-40"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "BRIDGE Missions: până la 1500€ pentru târguri internaționale",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 474,
+    "links": 33,
+    "badLinkText": 0,
+    "images": 40,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 54,
+    "transferBytes": 990187,
+    "domContentLoaded": 1773,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 72,
+    "security": 60,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 76
+  },
+  "durationMs": 5584
+}

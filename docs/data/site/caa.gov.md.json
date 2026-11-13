@@ -1,0 +1,116 @@
+{
+  "host": "caa.gov.md",
+  "auditedAt": "2026-11-13T20:16:26.980Z",
+  "url": "https://caa.md/",
+  "finalHost": "caa.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb 10 04:53:42 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=15768000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 25,
+        "sample": [
+          ".nav-link-search",
+          ".pb-2.pt-2.post-meta > .post-date:nth-child(1) > span > time[datetime=\"2026-11-11T11:24:21+02:00\"]",
+          "div[aria-label=\"1 / 5\"] > .swiper-slide-inner > .swiper-slide-body-content > .card-footer > .pb-2.pt-2.post-meta > .post"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".Ceremonii > .video-gallery > .rounded > .btn-circle.btn-link.btn-play",
+          ".Protecțiaconsumatorilor > .video-gallery > .rounded > .btn-circle.btn-link.btn-play",
+          ".Drone > .video-gallery > .rounded > .btn-circle.btn-link.btn-play"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "a[href=\"tel:+37322823824\"]",
+          "div[aria-label=\"1 / 5\"] > .swiper-slide-inner > .swiper-slide-body-content > .swiper-slide-body-content-body > .views-mo"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "AUTORITATEA AERONAUTICĂ CIVILĂ",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 1654,
+    "links": 439,
+    "badLinkText": 0,
+    "images": 39,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 69,
+    "transferBytes": 2888229,
+    "domContentLoaded": 3994,
+    "mobileOverflowPx": 3,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 54,
+    "security": 80,
+    "performance": 93,
+    "mobile": 100,
+    "overall": 71
+  },
+  "durationMs": 9228
+}

@@ -1,0 +1,104 @@
+{
+  "host": "consumator.gov.md",
+  "auditedAt": "2026-11-13T20:16:11.221Z",
+  "url": "https://consumator.gov.md/ro",
+  "finalHost": "consumator.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 22 22:49:44 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 21,
+        "sample": [
+          ".nav-link-search",
+          ".pb-2.pt-2.post-meta > .post-date:nth-child(1) > span > time[datetime=\"2026-11-12T16:11:17+02:00\"]",
+          ".card > .card-footer > .post-meta.mb-0.d-flex > .post-date:nth-child(1) > span > time[datetime=\"2026-11-06T13:45:39+02:0"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".swiper-slide-active.swiper-slide[aria-label=\"1 / 5\"] > .swiper-slide-inner > .swiper-slide-body-content > .swiper-slide"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Inspectoratul de Stat pentru Supravegherea Produselor Nealimentare și Protecția Consumatorilor",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 969,
+    "links": 185,
+    "badLinkText": 0,
+    "images": 29,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 63,
+    "transferBytes": 2639135,
+    "domContentLoaded": 1994,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://va.tawk.to/v1/session/start (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 68,
+    "security": 70,
+    "performance": 97,
+    "mobile": 100,
+    "overall": 76
+  },
+  "durationMs": 6610
+}

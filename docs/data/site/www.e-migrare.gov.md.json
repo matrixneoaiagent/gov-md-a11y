@@ -1,0 +1,28 @@
+{
+  "host": "www.e-migrare.gov.md",
+  "auditedAt": "2026-11-13T20:17:51.268Z",
+  "url": "http://www.e-migrare.gov.md/",
+  "finalHost": "www.e-migrare.gov.md",
+  "status": 404,
+  "ok": false,
+  "error": "http 404",
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 1163
+}

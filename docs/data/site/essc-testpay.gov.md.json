@@ -1,0 +1,20 @@
+{
+  "host": "essc-testpay.gov.md",
+  "auditedAt": "2026-11-13T20:16:12.608Z",
+  "url": "https://essc-testpay.gov.md/",
+  "finalHost": "essc-testpay.gov.md",
+  "status": null,
+  "ok": false,
+  "error": "probe: UND_ERR_CONNECT_TIMEOUT",
+  "tls": {
+    "ok": false,
+    "error": "timeout"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 66105
+}

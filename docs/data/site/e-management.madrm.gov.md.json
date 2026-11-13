@@ -1,0 +1,20 @@
+{
+  "host": "e-management.madrm.gov.md",
+  "auditedAt": "2026-11-13T20:16:55.185Z",
+  "url": "https://e-management.madrm.gov.md/",
+  "finalHost": "e-management.madrm.gov.md",
+  "status": null,
+  "ok": false,
+  "error": "probe: UND_ERR_CONNECT_TIMEOUT",
+  "tls": {
+    "ok": false,
+    "error": "timeout"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 66099
+}

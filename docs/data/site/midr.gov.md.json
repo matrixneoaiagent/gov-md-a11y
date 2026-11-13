@@ -1,0 +1,29 @@
+{
+  "host": "midr.gov.md",
+  "auditedAt": "2026-11-13T20:17:06.324Z",
+  "url": "https://midr.gov.md/",
+  "finalHost": "midr.gov.md",
+  "status": 200,
+  "ok": false,
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://midr.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 14 07:35:45 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 45890
+}

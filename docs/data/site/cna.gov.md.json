@@ -1,0 +1,90 @@
+{
+  "host": "cna.gov.md",
+  "auditedAt": "2026-11-13T20:15:59.351Z",
+  "url": "https://cna.md/ro",
+  "finalHost": "cna.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 23 10:36:04 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 26,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 16,
+        "sample": [
+          ".nav-link-search",
+          "time[datetime=\"2026-11-13T16:58:39+02:00\"]",
+          "time[datetime=\"2026-11-10T11:06:51+02:00\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "CENTRUL NAȚIONAL ANTICORUPȚIE",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 962,
+    "links": 245,
+    "badLinkText": 0,
+    "images": 17,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 44,
+    "transferBytes": 834663,
+    "domContentLoaded": 1621,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 74,
+    "security": 70,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 80
+  },
+  "durationMs": 8733
+}

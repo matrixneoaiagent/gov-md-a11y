@@ -1,0 +1,140 @@
+{
+  "host": "mf.gov.md",
+  "auditedAt": "2026-11-13T20:16:40.535Z",
+  "url": "https://mf.gov.md/ro",
+  "finalHost": "mf.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Nov 21 14:06:22 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "content-security-policy": "frame-ancestors 'self';",
+    "x-content-type-options": "nosniff, nosniff",
+    "x-frame-options": "SAMEORIGIN, SAMEORIGIN",
+    "referrer-policy": "no-referrer",
+    "permissions-policy": "microphone=(), camera=(), fullscreen=(self)"
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 27,
+        "sample": [
+          "button[onclick=\"javascript:mYtoggleBut()\"] > img",
+          ".views-row-1.views-row-first.views-row-odd > .views-field-field-cover-image.views-field > .imagine_noutate.field-content",
+          ".views-row-2.views-row-even.views-row > .views-field-field-cover-image.views-field > .imagine_noutate.field-content > a "
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "button[onclick=\"javascript:mYtoggleBut()\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 39,
+        "sample": [
+          "h6 > a[href$=\"gov.md/\"]",
+          "#block-block-39 > .block-inner.clearfix > .content.clearfix > p > a[target=\"_blank\"]",
+          ".facebook"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 9,
+        "sample": [
+          ".email",
+          ".menu-block-23 > .menu > .menu-mlid-11115.first.depth-2 > a",
+          ".menu-block-23 > .menu > .menu-mlid-11116.depth-2.leaf > a[href$=\"imf.md/\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 2,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Ministerul Finanțelor |",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 1151,
+    "links": 200,
+    "badLinkText": 0,
+    "images": 54,
+    "imagesNoAlt": 27,
+    "forms": 1,
+    "requests": 251,
+    "transferBytes": 1507713,
+    "domContentLoaded": 6167,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://mf.gov.md/ro' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
+    ]
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 28,
+    "security": 100,
+    "performance": 72,
+    "mobile": 100,
+    "overall": 61
+  },
+  "durationMs": 13532
+}

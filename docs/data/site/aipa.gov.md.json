@@ -1,0 +1,130 @@
+{
+  "host": "aipa.gov.md",
+  "auditedAt": "2026-11-13T20:16:05.680Z",
+  "url": "https://aipa.gov.md/",
+  "finalHost": "aipa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 18 07:35:45 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "geolocation=(), microphone=(), camera=()"
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 30,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 22,
+        "sample": [
+          "#menu-item-6276 > a[href$=\"aipa.gov.md/\"]",
+          ".elementor-repeater-item-ef73c75 > .penci-custom-slide > .penci-ctslide-inner.btn-twoline > .penci-ctslider-content.penc",
+          "#e-n-tab-title-1084980311 > .e-n-tab-title-text"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 18,
+        "sample": [
+          "#penci_info_box_29434 > .penci-ibox-inner > .penci-iboxwrap-overlay",
+          "#penci_info_box_29434 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa-fix",
+          "#penci_info_box_29434 > .penci-ibox-inner > .penci-ibox-icon.penci-ibox-icon--icon.penci-icon > .penci-ibox-icon-fa"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".penci-bgitem:nth-child(1) > .penci-bgitin > .penci-bgmain > .pcbg-content > .pcbg-content-flex > .pcbg-content-inner.bg",
+          ".penci-bgitem:nth-child(2) > .penci-bgitin > .penci-bgmain > .pcbg-content > .pcbg-content-flex > .pcbg-content-inner.bg",
+          ".penci-bgitem:nth-child(3) > .penci-bgitin > .penci-bgmain > .pcbg-content > .pcbg-content-flex > .pcbg-content-inner.bg"
+        ]
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "impact": "serious",
+        "help": "Elements must have their visible text as part of their accessible name",
+        "description": "Ensure that elements labelled through their content must have their visible text as part of their accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/label-content-name-mismatch?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".penci-gprd-accept"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 4,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "AIPA - Agenția de Intervenție și Plăți pentru Agricultură",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 2066,
+    "links": 428,
+    "badLinkText": 0,
+    "images": 24,
+    "imagesNoAlt": 0,
+    "forms": 3,
+    "requests": 126,
+    "transferBytes": 3090531,
+    "domContentLoaded": 5190,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/styles__ltr.css (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 40,
+    "security": 90,
+    "performance": 77,
+    "mobile": 100,
+    "overall": 65
+  },
+  "durationMs": 15289
+}

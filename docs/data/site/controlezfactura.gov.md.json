@@ -1,0 +1,29 @@
+{
+  "host": "controlezfactura.gov.md",
+  "auditedAt": "2026-11-13T20:17:44.850Z",
+  "url": "https://controlezfactura.gov.md/",
+  "finalHost": "controlezfactura.gov.md",
+  "status": 404,
+  "ok": false,
+  "error": "http 404",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb 10 23:59:59 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 369
+}

@@ -1,0 +1,29 @@
+{
+  "host": "chisinau.md",
+  "auditedAt": "2026-11-13T20:15:57.850Z",
+  "url": "https://www.chisinau.md/",
+  "finalHost": "www.chisinau.md",
+  "status": 403,
+  "ok": false,
+  "error": "not html (application/octet-stream)",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  8 22:57:41 2027 GMT"
+  },
+  "headers": {
+    "content-type": "application/octet-stream",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 1925
+}

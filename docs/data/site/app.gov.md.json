@@ -1,0 +1,108 @@
+{
+  "host": "app.gov.md",
+  "auditedAt": "2026-11-13T20:16:16.093Z",
+  "url": "https://app.gov.md/",
+  "finalHost": "app.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 12 02:33:14 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 25,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 26,
+        "sample": [
+          ".label.text-uppercase.list-inline-item",
+          ".col-lg-6:nth-child(1) > .home-communication__items > .home-communication__item-list.d-flex:nth-child(1) > .flex-grow-1.",
+          ".col-lg-6:nth-child(1) > .home-communication__items > .home-communication__item-list.d-flex:nth-child(2) > .flex-grow-1."
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          ".navbar__social-menu.mb-md-0.list-inline > .list-inline-item:nth-child(2) > .icon[target=\"_blank\"]",
+          ".navbar__social-menu.mb-md-0.list-inline > .list-inline-item:nth-child(3) > .icon[target=\"_blank\"]",
+          ".phone"
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".home-privatizations__description.col-md-6 > p > a",
+          ".dividends-info > .col-md-6:nth-child(1) > p > a"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "Prima pagină - Agenția Proprietăți Publice",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 1502,
+    "links": 183,
+    "badLinkText": 0,
+    "images": 18,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 65,
+    "transferBytes": 2844557,
+    "domContentLoaded": 3441,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 50,
+    "security": 60,
+    "performance": 96,
+    "mobile": 100,
+    "overall": 65
+  },
+  "durationMs": 8693
+}

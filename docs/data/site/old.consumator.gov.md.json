@@ -1,0 +1,154 @@
+{
+  "host": "old.consumator.gov.md",
+  "auditedAt": "2026-11-13T20:19:14.865Z",
+  "url": "https://old.consumator.gov.md/rom",
+  "finalHost": "old.consumator.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 22 18:49:41 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 29,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 14,
+        "sample": [
+          ".swiper-slide-duplicate-next[aria-label=\"2 / 5\"][data-swiper-slide-index=\"1\"]:nth-child(2)",
+          "iframe[aria-label=\"3 / 5\"][data-swiper-slide-index=\"2\"]:nth-child(3)",
+          "iframe[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4)"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 14,
+        "sample": [
+          ".swiper-slide-duplicate-next[aria-label=\"2 / 5\"][data-swiper-slide-index=\"1\"]:nth-child(2)",
+          "iframe[aria-label=\"3 / 5\"][data-swiper-slide-index=\"2\"]:nth-child(3)",
+          "iframe[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4)"
+        ]
+      },
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".index-big-banner-wrapper > img"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 14,
+        "sample": [
+          ".swiper-slide-duplicate-next[aria-label=\"2 / 5\"][data-swiper-slide-index=\"1\"]:nth-child(2)",
+          "iframe[aria-label=\"3 / 5\"][data-swiper-slide-index=\"2\"]:nth-child(3)",
+          "iframe[aria-label=\"4 / 5\"][data-swiper-slide-index=\"3\"]:nth-child(4)"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 5,
+        "sample": [
+          ".swiper-pagination-video > .swiper-pagination-bullet-active[aria-label=\"Go to slide 1\"][aria-current=\"true\"]",
+          ".swiper-pagination-video > .swiper-pagination-bullet[aria-label=\"Go to slide 2\"][role=\"button\"]",
+          ".swiper-pagination-video > .swiper-pagination-bullet[aria-label=\"Go to slide 3\"][role=\"button\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".video-read-more"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 3,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ru-RU",
+    "title": "Inspectoratul de Stat pentru Supravegherea Produselor Nealimentare și Protecția Consumatorilor",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 688,
+    "links": 157,
+    "badLinkText": 0,
+    "images": 35,
+    "imagesNoAlt": 1,
+    "forms": 2,
+    "requests": 71,
+    "transferBytes": 2487807,
+    "domContentLoaded": 1729,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://va.tawk.to/v1/session/start (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 19,
+    "security": 60,
+    "performance": 98,
+    "mobile": 100,
+    "overall": 49
+  },
+  "durationMs": 9907
+}

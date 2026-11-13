@@ -1,0 +1,92 @@
+{
+  "host": "doc.social.gov.md",
+  "auditedAt": "2026-11-13T20:16:56.323Z",
+  "url": "https://doc.social.gov.md/",
+  "finalHost": "doc.social.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Feb  8 18:31:31 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 10,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "img[src$=\"gov.gif\"]",
+          "a[href=\"d\"] > .card > img[src$=\"app.png\"]",
+          "a[href=\"p\"] > .card > img[src$=\"app.png\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "a[href$=\"social.gov.md\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 1,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "E-MMPS",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 26,
+    "links": 3,
+    "badLinkText": 0,
+    "images": 3,
+    "imagesNoAlt": 3,
+    "forms": 0,
+    "requests": 4,
+    "transferBytes": 12638,
+    "domContentLoaded": 559,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-viewport",
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 69,
+    "security": 60,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 75
+  },
+  "durationMs": 3980
+}

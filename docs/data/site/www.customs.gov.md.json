@@ -1,0 +1,29 @@
+{
+  "host": "www.customs.gov.md",
+  "auditedAt": "2026-11-13T20:16:41.459Z",
+  "url": "https://www.customs.gov.md/",
+  "finalHost": "www.customs.gov.md",
+  "status": 403,
+  "ok": false,
+  "error": "http 403",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Mar  6 06:37:18 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3446
+}

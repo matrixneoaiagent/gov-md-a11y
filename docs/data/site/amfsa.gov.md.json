@@ -1,0 +1,104 @@
+{
+  "host": "amfsa.gov.md",
+  "auditedAt": "2026-11-13T20:15:52.194Z",
+  "url": "https://amfsa.gov.md/AMFSA/signin.jsp",
+  "finalHost": "amfsa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html;charset=UTF-8",
+    "strict-transport-security": "max-age=31536000; includeSubdomains",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin",
+    "permissions-policy": null
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 20,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "role-img-alt",
+        "impact": "serious",
+        "help": "[role=\"img\"] and [role=\"image\"] elements must have alternative text",
+        "description": "Ensure [role=\"img\"] and [role=\"image\"] elements have alternative text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/role-img-alt?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "#signin-btn-btnIconEl",
+          "#mpass-signin-btn-btnIconEl"
+        ]
+      },
+      {
+        "id": "aria-command-name",
+        "impact": "serious",
+        "help": "ARIA commands must have an accessible name",
+        "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-command-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "#ext-gen1036"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "AMFSA",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 78,
+    "links": 2,
+    "badLinkText": 0,
+    "images": 0,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 21,
+    "transferBytes": 574660,
+    "domContentLoaded": 1368,
+    "mobileOverflowPx": 70,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-lang",
+    "no-viewport",
+    "no-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 79,
+    "security": 95,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 82
+  },
+  "durationMs": 9003
+}

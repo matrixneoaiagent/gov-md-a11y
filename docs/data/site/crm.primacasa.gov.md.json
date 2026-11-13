@@ -1,0 +1,99 @@
+{
+  "host": "crm.primacasa.gov.md",
+  "auditedAt": "2026-11-13T20:16:22.431Z",
+  "url": "https://crm.primacasa.gov.md/login",
+  "finalHost": "crm.primacasa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 27,
+    "incomplete": 3,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".btn-primary",
+          ".btn-info",
+          ".text-primary > b"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "a[href$=\"primacasa.gov.md/\"]",
+          ".mPas.text-center:nth-child(4) > a"
+        ]
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "help": "Scrollable region must have keyboard access",
+        "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/scrollable-region-focusable?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "tbody"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "CrmPrimaCasa",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 313,
+    "links": 11,
+    "badLinkText": 0,
+    "images": 4,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 16,
+    "transferBytes": 641007,
+    "domContentLoaded": 3235,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 67,
+    "security": 0,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 59
+  },
+  "durationMs": 7511
+}

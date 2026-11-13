@@ -1,0 +1,29 @@
+{
+  "host": "autorizatiimediu.gov.md",
+  "auditedAt": "2026-11-13T20:15:55.210Z",
+  "url": "https://autorizatiimediu.gov.md/",
+  "finalHost": "autorizatiimediu.gov.md",
+  "status": 403,
+  "ok": false,
+  "error": "http 403",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 2634
+}

@@ -1,0 +1,133 @@
+{
+  "host": "old.mf.gov.md",
+  "auditedAt": "2026-11-13T20:18:18.834Z",
+  "url": "https://old.mf.gov.md/",
+  "finalHost": "old.mf.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 11 04:49:39 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 28,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 25,
+        "sample": [
+          "#edit-submit",
+          "a[href$=\"write\"]",
+          "a[href$=\"writesp\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 10,
+        "sample": [
+          "a[href$=\"fisc.md/\"][target=\"_blank\"]",
+          "a[href$=\"customs.gov.md/\"]",
+          "a[href=\"http://tender.gov.md/ro\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".tableHeader-processed > tr > th:nth-child(1)",
+          ".tableHeader-processed > tr > th:nth-child(2)",
+          ".tableHeader-processed > tr > th:nth-child(3)"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "iframe"
+        ]
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "help": "Frames must have an accessible name",
+        "description": "Ensure <iframe> and <frame> elements have an accessible name",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/frame-title?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "iframe"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 5,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Ministerul Finanţelor al Republicii Moldova",
+    "hasViewport": false,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 674,
+    "links": 105,
+    "badLinkText": 0,
+    "images": 16,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 57,
+    "transferBytes": 1568740,
+    "domContentLoaded": 1133,
+    "mobileOverflowPx": 810,
+    "consoleErrors": [],
+    "failedRequests": [
+      "https://chart.apis.google.com/chart?cht=lc&chtt=Rata+medie+ponderat%C4%83+a+dob%C3%AEnzii%2C+%25&chs=330x230&chxt=x,y&ch (net::ERR_BLOCKED_BY_ORB)",
+      "https://chart.apis.google.com/chart?cht=lc&chtt=Rata+medie+ponderat%C4%83+a+dob%C3%AEnzii%2C+%25&chs=330x230&chxt=x,y&ch (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "no-viewport",
+    "no-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 39,
+    "security": 60,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 53
+  },
+  "durationMs": 4619
+}

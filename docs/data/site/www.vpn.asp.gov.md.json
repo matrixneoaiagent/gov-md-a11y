@@ -1,0 +1,99 @@
+{
+  "host": "www.vpn.asp.gov.md",
+  "auditedAt": "2026-11-13T20:18:15.552Z",
+  "url": "https://www.vpn.asp.gov.md/+CSCOE+/logon.html?a0=86&a1=&a2=&a3=1&reason=1#form_title_text",
+  "finalHost": "www.vpn.asp.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": "probe: UND_ERR_CONNECT_TIMEOUT",
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 8,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 2,
+        "sample": [
+          "img[src$=\"login-header-icon.jpg\"]",
+          "img[src$=\"login-header-end.jpg\"]"
+        ]
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 1,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "ASP VPN Service",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 76,
+    "links": 1,
+    "badLinkText": 0,
+    "images": 3,
+    "imagesNoAlt": 2,
+    "forms": 0,
+    "requests": 13,
+    "transferBytes": 31740,
+    "domContentLoaded": 2519,
+    "mobileOverflowPx": 114,
+    "consoleErrors": [
+      "Loading the script 'https://2139071794shutdown.relay.webvpn./nonexistent.js' violates the following Content Security Policy directive: \"default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob:\". N"
+    ],
+    "failedRequests": [
+      "https://2139071794shutdown.relay.webvpn./nonexistent.js (csp)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "no-h1",
+    "mobile-overflow",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 72,
+    "security": 0,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 54
+  },
+  "durationMs": 17217
+}

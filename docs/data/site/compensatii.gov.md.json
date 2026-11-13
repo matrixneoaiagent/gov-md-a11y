@@ -1,0 +1,72 @@
+{
+  "host": "compensatii.gov.md",
+  "auditedAt": "2026-11-13T20:16:36.209Z",
+  "url": "https://compensatii.gov.md/ro/home",
+  "finalHost": "compensatii.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin",
+    "permissions-policy": "autoplay=(), camera=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=(), interest-cohort=()"
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 15,
+    "incomplete": 1,
+    "violations": [],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "Programul “Ajutor la contor” - Guvernul Republicii Moldova.-Acasă",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 185,
+    "links": 19,
+    "badLinkText": 0,
+    "images": 9,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 72,
+    "transferBytes": 1034337,
+    "domContentLoaded": 3673,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep",
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://www.googletagmanager.com/a?v=3&t=l&pid=1664257222&rv=6bb1&tag_exp=115616986~115938465~115938469~118897920~118897 (net::ERR_BLOCKED_BY_RESPONSE.NotSameOriginAfterDefaultedToSameOriginByCoep)"
+    ]
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 100,
+    "security": 75,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 94
+  },
+  "durationMs": 7331
+}

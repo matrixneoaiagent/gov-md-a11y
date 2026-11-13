@@ -1,0 +1,29 @@
+{
+  "host": "doc.anta.gov.md",
+  "auditedAt": "2026-11-13T20:16:43.541Z",
+  "url": "https://doc.anta.gov.md/",
+  "finalHost": "doc.anta.gov.md",
+  "status": 403,
+  "ok": false,
+  "error": "http 403",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan  3 17:07:05 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3345
+}

@@ -1,0 +1,95 @@
+{
+  "host": "geodata.gov.md",
+  "auditedAt": "2026-11-13T20:17:48.723Z",
+  "url": "https://geodata.gov.md/_v/2026111320/unsupportedBrowser.html",
+  "finalHost": "geodata.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 30 07:28:21 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 5,
+    "incomplete": 0,
+    "violations": [
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "description": "Ensure every HTML document has a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/html-has-lang?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "html"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 1,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "",
+    "title": "MapStore",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 16,
+    "links": 0,
+    "badLinkText": 0,
+    "images": 2,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 6,
+    "transferBytes": 44677,
+    "domContentLoaded": 867,
+    "mobileOverflowPx": 32,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://feed.surfing-waves.com/js/rss-feed.js (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "no-lang",
+    "no-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 91,
+    "security": 60,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 79
+  },
+  "durationMs": 6240
+}

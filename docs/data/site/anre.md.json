@@ -1,0 +1,102 @@
+{
+  "host": "anre.md",
+  "auditedAt": "2026-11-13T20:15:53.986Z",
+  "url": "https://anre.md/",
+  "finalHost": "anre.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 10:52:51 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 32,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 10,
+        "sample": [
+          ".a-infoline__num",
+          ".a-promo__item--featured > .a-promo__body > .a-promo__desc",
+          ".table__row:nth-child(2) > .table__body-cell:nth-child(3) > .a-delta.a-delta--down"
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "help": "Interactive controls must not be nested",
+        "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/nested-interactive?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".a-sector.has-photo[type=\"button\"]:nth-child(1)"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Agenţia Naţională pentru Reglementare în Energetică a Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 884,
+    "links": 115,
+    "badLinkText": 0,
+    "images": 4,
+    "imagesNoAlt": 0,
+    "forms": 2,
+    "requests": 39,
+    "transferBytes": 2741512,
+    "domContentLoaded": 1629,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 73,
+    "security": 60,
+    "performance": 96,
+    "mobile": 100,
+    "overall": 76
+  },
+  "durationMs": 6735
+}

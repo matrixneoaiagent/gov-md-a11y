@@ -1,0 +1,111 @@
+{
+  "host": "old.mcloud.gov.md",
+  "auditedAt": "2026-11-13T20:19:41.796Z",
+  "url": "https://old.mcloud.gov.md/",
+  "finalHost": "old.mcloud.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 09:49:47 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 19,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".views-row-0.views-slideshow-cycle-main-frame-row-item.views-row-first > .views-field-field-feature-image.views-field > ",
+          ".views-row-1.views-row-first.views-row-odd > .views-field-field-page-icon.views-field > .field-content > img[width=\"24\"]",
+          ".views-row-2.views-row-even.views-row > .views-field-field-page-icon.views-field > .field-content > img[width=\"24\"][heig"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 8,
+        "sample": [
+          ".views-row-0.views-slideshow-cycle-main-frame-row-item.views-row-first > .views-field-field-feature-image.views-field > ",
+          ".views-row-1.views-slideshow-cycle-main-frame-row-item.views-row-first > .views-field-field-cover-image.views-field > a[",
+          "#views_slideshow_cycle_div_press_releases-panel_pane_5_1_0 > a[href$=\"ro/\"][target=\"_blank\"]"
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 1,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Platforma Tehnologică Guvernamentală Comună | Guvernul Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 456,
+    "links": 78,
+    "badLinkText": 0,
+    "images": 16,
+    "imagesNoAlt": 9,
+    "forms": 1,
+    "requests": 50,
+    "transferBytes": 501253,
+    "domContentLoaded": 1532,
+    "mobileOverflowPx": 976,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://old.mcloud.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700i",
+      "Mixed Content: The page at 'https://old.mcloud.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,6"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "https://stisc.gov.md/ro (net::ERR_BLOCKED_BY_ORB)"
+    ]
+  },
+  "flags": [
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 48,
+    "security": 70,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 60
+  },
+  "durationMs": 8075
+}

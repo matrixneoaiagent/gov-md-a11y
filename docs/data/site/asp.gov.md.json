@@ -1,0 +1,75 @@
+{
+  "host": "asp.gov.md",
+  "auditedAt": "2026-11-13T20:16:01.200Z",
+  "url": "https://www.asp.gov.md/ro",
+  "finalHost": "www.asp.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 21 09:36:37 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 2,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 32,
+    "incomplete": 2,
+    "violations": [],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Agenția Servicii Publice",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 1,
+    "nodes": 2018,
+    "links": 263,
+    "badLinkText": 0,
+    "images": 22,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 40,
+    "transferBytes": 656920,
+    "domContentLoaded": 1330,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 100,
+    "security": 70,
+    "performance": 91,
+    "mobile": 100,
+    "overall": 92
+  },
+  "durationMs": 6796
+}

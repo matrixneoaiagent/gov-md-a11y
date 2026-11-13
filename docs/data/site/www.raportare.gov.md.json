@@ -1,0 +1,20 @@
+{
+  "host": "www.raportare.gov.md",
+  "auditedAt": "2026-11-13T20:20:18.434Z",
+  "url": "https://www.raportare.gov.md/",
+  "finalHost": "www.raportare.gov.md",
+  "status": null,
+  "ok": false,
+  "error": "probe: ECONNRESET",
+  "tls": {
+    "ok": false,
+    "error": "ERR_SSL_TLSV1_UNRECOGNIZED_NAME"
+  },
+  "headers": {},
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 1492
+}

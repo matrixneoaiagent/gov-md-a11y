@@ -1,0 +1,29 @@
+{
+  "host": "finantare.gov.md",
+  "auditedAt": "2026-11-13T20:17:16.240Z",
+  "url": "https://consecon.gov.md/",
+  "finalHost": "consecon.gov.md",
+  "status": 403,
+  "ok": false,
+  "error": "http 403",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 18:35:39 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 3302
+}

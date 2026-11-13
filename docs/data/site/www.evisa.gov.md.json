@@ -1,0 +1,97 @@
+{
+  "host": "www.evisa.gov.md",
+  "auditedAt": "2026-11-13T20:18:51.538Z",
+  "url": "https://www.evisa.gov.md/",
+  "finalHost": "www.evisa.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "UNABLE_TO_VERIFY_LEAF_SIGNATURE"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 13,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "img"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".sidebar-item > a:nth-child(1)",
+          ".sidebar-item > a:nth-child(2)"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".langRO",
+          ".langEN-passive"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 2,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "en",
+    "title": "Home",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 79,
+    "links": 17,
+    "badLinkText": 0,
+    "images": 1,
+    "imagesNoAlt": 1,
+    "forms": 1,
+    "requests": 23,
+    "transferBytes": 170908,
+    "domContentLoaded": 2092,
+    "mobileOverflowPx": 570,
+    "consoleErrors": [
+      "Unrecognized Content-Security-Policy directive 'SELF'."
+    ],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "mobile-overflow",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 70,
+    "security": 0,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 53
+  },
+  "durationMs": 6355
+}

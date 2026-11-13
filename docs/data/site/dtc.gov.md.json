@@ -1,0 +1,111 @@
+{
+  "host": "dtc.gov.md",
+  "auditedAt": "2026-11-13T20:16:05.928Z",
+  "url": "https://dtc.gov.md/",
+  "finalHost": "dtc.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 23 10:53:11 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 30,
+    "incomplete": 1,
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 84,
+        "sample": [
+          ".view-media-gallery > .view-content > .unformatted-list > .views-row-1.views-row-first.views-row-odd > .views-field-fiel",
+          ".view-media-gallery > .view-content > .unformatted-list > .views-row-2.views-row-even.views-row > .views-field-field-cov",
+          ".view-media-gallery > .view-content > .unformatted-list > .views-row-3.views-row-odd.views-row > .views-field-field-cove"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".menu-block-2 > .menu > .menu-mlid-704.last.item-menu-footer-links > a",
+          ".menu-block-3 > .menu > .menu-mlid-705.first.item-menu-footer-links > a[href$=\"servicii.gov.md/\"]",
+          ".menu-block-3 > .menu > .menu-mlid-1576.item-menu-footer-links.active > .active[title=\"Portalul datelor deschise\"][href="
+        ]
+      },
+      {
+        "id": "meta-viewport",
+        "impact": "moderate",
+        "help": "Zooming and scaling must not be disabled",
+        "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/meta-viewport?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "meta[name=\"viewport\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 2,
+      "moderate": 1,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Inspectoratul General de Carabinieri | Republica Moldova | Ministerul Afacerilor Interne",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 1235,
+    "links": 278,
+    "badLinkText": 6,
+    "images": 108,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 229,
+    "transferBytes": 4542960,
+    "domContentLoaded": 2005,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Mixed Content: The page at 'https://dtc.gov.md/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,8",
+      "Failed to load resource: the server responded with a status of 404 ()",
+      "Mixed Content: The page at 'https://dtc.gov.md/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600itali"
+    ],
+    "failedRequests": [
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)",
+      "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300 (mixed-content)"
+    ]
+  },
+  "flags": [
+    "vague-link-text"
+  ],
+  "scores": {
+    "a11y": 53,
+    "security": 65,
+    "performance": 61,
+    "mobile": 100,
+    "overall": 64
+  },
+  "durationMs": 6678
+}

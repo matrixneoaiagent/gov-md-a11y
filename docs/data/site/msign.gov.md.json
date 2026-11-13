@@ -1,0 +1,69 @@
+{
+  "host": "msign.gov.md",
+  "auditedAt": "2026-11-13T20:18:38.208Z",
+  "url": "https://msign.gov.md/#/",
+  "finalHost": "msign.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec 20 05:07:49 2026 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 25,
+    "incomplete": 1,
+    "violations": [],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "MSign - Serviciul guvernamental de semnătură electronică",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 1,
+    "nodes": 274,
+    "links": 21,
+    "badLinkText": 0,
+    "images": 1,
+    "imagesNoAlt": 0,
+    "forms": 0,
+    "requests": 102,
+    "transferBytes": 574298,
+    "domContentLoaded": 1895,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": []
+  },
+  "flags": [],
+  "scores": {
+    "a11y": 100,
+    "security": 60,
+    "performance": 96,
+    "mobile": 100,
+    "overall": 90
+  },
+  "durationMs": 5344
+}

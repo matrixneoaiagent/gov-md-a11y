@@ -1,0 +1,154 @@
+{
+  "host": "ancd.gov.md",
+  "auditedAt": "2026-11-13T20:15:57.117Z",
+  "url": "https://ancd.gov.md/ro",
+  "finalHost": "ancd.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 26 11:49:46 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 34,
+    "incomplete": 4,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 3,
+        "sample": [
+          "#slick-slide00 > div > .slide--0.slick__slide.slide > .node--type-slide[data-history-node-id=\"1710\"] > .node__content > ",
+          ".slick-current.slick-active[data-slick-index=\"0\"] > div > .slide--0.slick__slide.slide > .node--type-useful-link[data-hi",
+          ".slick-active[data-slick-index=\"5\"][aria-hidden=\"false\"] > div > .slide--5.slick__slide.slide > .node--type-useful-link["
+        ]
+      },
+      {
+        "id": "aria-allowed-attr",
+        "impact": "critical",
+        "help": "Elements must only use supported ARIA attributes",
+        "description": "Ensure an element's role supports its ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-allowed-attr?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".field--name-field-media-video > .media--type-remote-video.media.media--view-mode-default > .field--name-field-media-oem",
+          "iframe[title=\"Depunerea proiectului\"]"
+        ]
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "description": "Ensure buttons have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".field--name-field-media-video > .media--type-remote-video.media.media--view-mode-default > .field--name-field-media-oem",
+          "iframe[title=\"Depunerea proiectului\"]"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 5,
+        "sample": [
+          "time[datetime=\"2026-11-13T16:28:56+02:00\"]",
+          "time[datetime=\"2026-11-12T13:52:40+02:00\"]",
+          "time[datetime=\"2026-11-12T10:38:30+02:00\"]"
+        ]
+      },
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "help": "Elements must only use permitted ARIA attributes",
+        "description": "Ensure ARIA attributes are not prohibited for an element's role",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/aria-prohibited-attr?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".field--name-field-media-video > .media--type-remote-video.media.media--view-mode-default > .field--name-field-media-oem",
+          "iframe[title=\"Depunerea proiectului\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 2,
+        "sample": [
+          ".slick-current.slick-active[data-slick-index=\"0\"] > div > .slide--0.slick__slide.slide > .node--type-useful-link[data-hi",
+          ".slick-active[data-slick-index=\"5\"][aria-hidden=\"false\"] > div > .slide--5.slick__slide.slide > .node--type-useful-link["
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 3,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Agenția Națională pentru Cercetare și Dezvoltare",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 1606,
+    "links": 304,
+    "badLinkText": 0,
+    "images": 91,
+    "imagesNoAlt": 44,
+    "forms": 2,
+    "requests": 139,
+    "transferBytes": 5585588,
+    "domContentLoaded": 2119,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/styles__ltr.css (net::ERR_FAILED)"
+    ]
+  },
+  "flags": [
+    "no-h1"
+  ],
+  "scores": {
+    "a11y": 29,
+    "security": 70,
+    "performance": 68,
+    "mobile": 100,
+    "overall": 54
+  },
+  "durationMs": 11425
+}

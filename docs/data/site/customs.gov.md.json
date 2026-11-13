@@ -1,0 +1,140 @@
+{
+  "host": "customs.gov.md",
+  "auditedAt": "2026-11-13T20:16:49.682Z",
+  "url": "https://customs.gov.md/ro",
+  "finalHost": "customs.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Mar  6 06:37:18 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 24,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "image-alt",
+        "impact": "critical",
+        "help": "Images must have alternative text",
+        "description": "Ensure <img> elements have alternative text or a role of none or presentation",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/image-alt?application=playwright",
+        "nodes": 6,
+        "sample": [
+          ".jsx-ab8c7ce28efa94cc[rel=\"noopener\"][target=\"_blank\"]:nth-child(2) > .jsx-ab8c7ce28efa94cc",
+          ".jsx-ab8c7ce28efa94cc[rel=\"noopener\"][target=\"_blank\"]:nth-child(3) > .jsx-ab8c7ce28efa94cc",
+          ".slick-current > div > .jsx-2edb15c65ade5bd8[target=\"_blank\"] > .shortcut.jsx-2edb15c65ade5bd8 > img"
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 22,
+        "sample": [
+          "a[href$=\"legis.md/\"]",
+          "a[href$=\"date.gov.md/\"]",
+          "a[href$=\"servicii.gov.md/\"]"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 7,
+        "sample": [
+          ".fb",
+          ".yt",
+          ".rss"
+        ]
+      },
+      {
+        "id": "svg-img-alt",
+        "impact": "serious",
+        "help": "<svg> elements with an img or image role must have alternative text",
+        "description": "Ensure <svg> elements with an img, image, graphics-document or graphics-symbol role have accessible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/svg-img-alt?application=playwright",
+        "nodes": 6,
+        "sample": [
+          "svg[aria-labelledby=\":r0:-aria\"]",
+          "svg[aria-labelledby=\":r1:-aria\"]",
+          "svg[aria-labelledby=\":r2:-aria\"]"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 1,
+        "sample": [
+          "a[href$=\"articles\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 1,
+      "serious": 4,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro",
+    "title": "Serviciul Vamal al Republicii Moldova",
+    "hasViewport": true,
+    "hasDescription": true,
+    "h1": 0,
+    "nodes": 555,
+    "links": 76,
+    "badLinkText": 0,
+    "images": 16,
+    "imagesNoAlt": 6,
+    "forms": 0,
+    "requests": 55,
+    "transferBytes": 1137515,
+    "domContentLoaded": 1965,
+    "mobileOverflowPx": 126,
+    "consoleErrors": [
+      "Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failedRequests": [
+      "https://sfs.md/moldova-europeana.min.js (net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin)"
+    ]
+  },
+  "flags": [
+    "no-h1",
+    "mobile-overflow"
+  ],
+  "scores": {
+    "a11y": 28,
+    "security": 60,
+    "performance": 100,
+    "mobile": 55,
+    "overall": 47
+  },
+  "durationMs": 5502
+}

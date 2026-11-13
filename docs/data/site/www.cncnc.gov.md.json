@@ -1,0 +1,96 @@
+{
+  "host": "www.cncnc.gov.md",
+  "auditedAt": "2026-11-13T20:21:02.096Z",
+  "url": "https://cncnc.gov.md/",
+  "finalHost": "www.cncnc.gov.md",
+  "status": 200,
+  "ok": true,
+  "error": null,
+  "tls": {
+    "ok": false,
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  "headers": {},
+  "redirects": 1,
+  "axe": {
+    "version": "4.14.0",
+    "passes": 33,
+    "incomplete": 2,
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+        "nodes": 11,
+        "sample": [
+          ".post-3827.category-evenimente.entry-card > .card-content > .entry-meta[data-id=\"j0qilM\"][data-type=\"simple:slash\"] > .m",
+          ".post-3809.category-evenimente.entry-card > .card-content > .entry-meta[data-id=\"j0qilM\"][data-type=\"simple:slash\"] > .m",
+          ".post-3809.category-evenimente.entry-card > .card-content > .entry-meta[data-id=\"j0qilM\"][data-type=\"simple:slash\"] > .m"
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "help": "All touch targets must be 24px large, or leave sufficient space",
+        "description": "Ensure touch targets have sufficient size and space",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/target-size?application=playwright",
+        "nodes": 3,
+        "sample": [
+          ".ct-trending-block-item:nth-child(3) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
+          ".ct-trending-block-item:nth-child(4) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl",
+          ".ct-trending-block-item:nth-child(5) > .ct-trending-block-item-content > .entry-meta > .meta-categories[data-type=\"simpl"
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "description": "Ensure links have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/link-name?application=playwright",
+        "nodes": 1,
+        "sample": [
+          ".alignright > a[href$=\"gov.md/\"]"
+        ]
+      }
+    ],
+    "impactCounts": {
+      "critical": 0,
+      "serious": 3,
+      "moderate": 0,
+      "minor": 0
+    }
+  },
+  "meta": {
+    "lang": "ro-RO",
+    "title": "cncnc.gov.md",
+    "hasViewport": true,
+    "hasDescription": false,
+    "h1": 0,
+    "nodes": 783,
+    "links": 128,
+    "badLinkText": 0,
+    "images": 24,
+    "imagesNoAlt": 0,
+    "forms": 1,
+    "requests": 75,
+    "transferBytes": 1218222,
+    "domContentLoaded": 4337,
+    "mobileOverflowPx": 0,
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "flags": [
+    "no-h1",
+    "tls-error"
+  ],
+  "scores": {
+    "a11y": 62,
+    "security": 0,
+    "performance": 100,
+    "mobile": 100,
+    "overall": 56
+  },
+  "durationMs": 8849
+}

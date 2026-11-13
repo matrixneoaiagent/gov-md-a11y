@@ -1,6 +1,6 @@
 {
   "host": "100.gov.md",
-  "auditedAt": "2026-11-13T20:11:28.597Z",
+  "auditedAt": "2026-11-13T20:15:45.797Z",
   "url": "https://100.gov.md/",
   "finalHost": "100.gov.md",
   "status": 200,
@@ -46,7 +46,7 @@
     "forms": 0,
     "requests": 11,
     "transferBytes": 968,
-    "domContentLoaded": 875,
+    "domContentLoaded": 906,
     "mobileOverflowPx": 0,
     "consoleErrors": [
       "Failed to load resource: net::ERR_FAILED",
@@ -64,5 +64,5 @@
     "mobile": 100,
     "overall": 75
   },
-  "durationMs": 5042
+  "durationMs": 4691
 }

@@ -1,0 +1,21 @@
+{
+  "host": "e-migrare.gov.md",
+  "auditedAt": "2026-11-13T20:18:36.832Z",
+  "url": "https://e-migrare.gov.md/",
+  "finalHost": "e-migrare.gov.md",
+  "status": 301,
+  "ok": false,
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://e-migrare.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Dec  3 07:18:51 2026 GMT"
+  },
+  "headers": {},
+  "redirects": 3,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 67767
+}

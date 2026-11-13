@@ -1,0 +1,29 @@
+{
+  "host": "www.old.asp.gov.md",
+  "auditedAt": "2026-11-13T20:18:49.780Z",
+  "url": "https://www.old.asp.gov.md/",
+  "finalHost": "www.old.asp.gov.md",
+  "status": 403,
+  "ok": false,
+  "error": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.old.asp.gov.md/\", waiting until \"domcontentloaded\"\n",
+  "tls": {
+    "ok": true,
+    "error": null,
+    "validTo": "Jan 21 03:35:44 2027 GMT"
+  },
+  "headers": {
+    "content-type": "text/html",
+    "strict-transport-security": null,
+    "content-security-policy": null,
+    "x-content-type-options": null,
+    "x-frame-options": null,
+    "referrer-policy": null,
+    "permissions-policy": null
+  },
+  "redirects": 0,
+  "axe": null,
+  "meta": null,
+  "flags": [],
+  "scores": null,
+  "durationMs": 45729
+}
