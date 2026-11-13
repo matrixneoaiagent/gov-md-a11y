@@ -71,11 +71,43 @@ function withTimeout(promise, ms) {
 
 async function resolves(host) {
   const opts = { ttl: true };
-  const results = await Promise.allSettled([
-    withTimeout(dns.resolve4(host, opts), 8000),
-    withTimeout(dns.resolve6(host, opts), 8000),
-  ]);
-  return results.some((r) => r.status === 'fulfilled' && Array.isArray(r.value) && r.value.length > 0);
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const results = await Promise.allSettled([
+      withTimeout(dns.resolve4(host, opts), 8000),
+      withTimeout(dns.resolve6(host, opts), 8000),
+    ]);
+    const ok = results.some((r) => r.status === 'fulfilled' && Array.isArray(r.value) && r.value.length > 0);
+    if (ok) return true;
+    if (attempt === 1) await new Promise((r) => setTimeout(r, 400));
+  }
+  // Runner DNS is throttled/unreliable for hundreds of lookups at once; ask DoH.
+  try {
+    const res = await fetch(
+      `https://cloudflare-dns.com/dns-query?name=${encodeURIComponent(host)}&type=A`,
+      {
+        headers: { accept: 'application/dns-json', 'user-agent': UA },
+        signal: AbortSignal.timeout(8000),
+      },
+    );
+    if (!res.ok) return false;
+    const data = await res.json();
+    return (data.Answer || []).some((a) => a.type === 1 || a.type === 28);
+  } catch {
+    return false;
+  }
+}
+
+async function mapPool(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (next < items.length) {
+      const i = next++;
+      results[i] = await fn(items[i], i);
+    }
+  });
+  await Promise.all(workers);
+  return results;
 }
 
 async function readPrevious() {
@@ -84,6 +116,15 @@ async function readPrevious() {
     return new Map((data.sites || []).map((s) => [s.host, s]));
   } catch {
     return new Map();
+  }
+}
+
+async function readKnownDead() {
+  try {
+    const data = JSON.parse(await fs.readFile(OUT, 'utf8'));
+    return Array.isArray(data.dead) ? data.dead : [];
+  } catch {
+    return [];
   }
 }
 
@@ -103,8 +144,9 @@ async function readExtra() {
 
 async function main() {
   const previous = await readPrevious();
+  const knownDead = await readKnownDead();
   const extra = await readExtra();
-  const candidates = new Set(extra);
+  const candidates = new Set([...extra, ...previous.keys(), ...knownDead]);
 
   try {
     const rows = await fetchJson(CRT_URL);
@@ -127,12 +169,10 @@ async function main() {
   const hosts = [...candidates].sort();
   log(`candidates: ${hosts.length}`);
 
-  const checks = await Promise.all(
-    hosts.map(async (host) => ({ host, alive: await resolves(host) })),
-  );
+  const checks = await mapPool(hosts, 12, async (host) => ({ host, alive: await resolves(host) }));
+  log(`dns/DoH ok: ${checks.filter((c) => c.alive).length}, unreachable: ${checks.filter((c) => !c.alive).length}`);
   const alive = checks.filter((c) => c.alive).map((c) => c.host);
   const dead = checks.filter((c) => !c.alive).map((c) => c.host);
-  log(`dns ok: ${alive.length}, dns fail: ${dead.length}`);
 
   const now = new Date().toISOString().slice(0, 10);
   const sites = checks
